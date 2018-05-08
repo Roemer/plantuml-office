@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
 
-var rootFolder = @"..\";
+var rootFolder = Path.GetFullPath(@"..\");
 var sourceFolder = Path.Combine(rootFolder, "OfficeSymbols_2014");
 var targetMaxSize = 48;
 var plantUmlPath = @"..\plantuml.jar";
@@ -18,6 +18,7 @@ public void Main()
     FixNames();
     GenerateMarkdownTable();
     ConvertToPumls();
+    Console.WriteLine("all work done");
 }
 
 public void FilterEntities()
@@ -111,8 +112,8 @@ public void ConvertToPumls()
         sbImage.Append($"skinparam folderBackgroundColor<<OFF {entityNameUpper}>> White");
 
         File.WriteAllText(pumlFileName, sbImage.ToString());
-        
-        if (count++ % 20 == 0)
+
+        if (++count % 20 == 0)
         {
             Console.WriteLine($"Processed {count} image(s)");
         }
