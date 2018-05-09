@@ -18,7 +18,7 @@ public void Main()
     FixNames();
     GenerateMarkdownTable();
     ConvertToPumls();
-    Console.WriteLine("all work done");
+    Console.WriteLine("All work done");
 }
 
 public void FilterEntities()
@@ -88,6 +88,7 @@ public void GenerateMarkdownTable()
 public void ConvertToPumls()
 {
     var count = 0;
+    var format = "16"; // 16z for compressed
     foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
     {
         var entityName = Path.GetFileNameWithoutExtension(imagePath);
@@ -97,7 +98,7 @@ public void ConvertToPumls()
         {
             WorkingDirectory = rootFolder,
             FileName = "java",
-            Arguments = $"-jar {plantUmlPath} -encodesprite 16z \"{imagePath}\"",
+            Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{imagePath}\"",
             RedirectStandardOutput = true,
             UseShellExecute = false,
             CreateNoWindow = true
