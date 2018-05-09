@@ -73,14 +73,14 @@ public void GenerateMarkdownTable()
 {
     // Create a markdown table with all entries
     var sbTable = new StringBuilder();
-    sbTable.AppendLine("Category | Name | Macro | Preview");
+    sbTable.AppendLine("Category | Macro | Image | Name");
     sbTable.AppendLine("--- | --- | --- | ---");
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
+    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png*", SearchOption.AllDirectories))
     {
         var entityName = Path.GetFileNameWithoutExtension(imagePath);
         var category = Directory.GetParent(imagePath).Name;
         var fileName = Path.GetFileName(imagePath);
-        sbTable.AppendLine($"{category} | {entityName} | OFF_{entityName.ToUpper()} | ![{entityName}](/office2014/{category}/{fileName}?raw=true)");
+        sbTable.AppendLine($"{category} | OFF_{entityName.ToUpper()} | ![{entityName}](/office2014/{category}/{fileName}?raw=true) | {entityName}");
     }
     File.WriteAllText("../table.md", sbTable.ToString());
 }
