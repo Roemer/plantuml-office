@@ -5,9 +5,9 @@ using System.Drawing;
 using System.Drawing.Imaging;
 
 var rootFolder = Path.GetFullPath(@"..\");
-var sourceFolder = Path.Combine(rootFolder, "OfficeSymbols_2014");
+var sourceFolder = Path.Combine(rootFolder, "office2014");
 var targetMaxSize = 48;
-var plantUmlPath = @"..\plantuml.jar";
+var plantUmlPath = @"plantuml.jar";
 
 Main();
 
@@ -80,7 +80,7 @@ public void GenerateMarkdownTable()
         var entityName = Path.GetFileNameWithoutExtension(imagePath);
         var category = Directory.GetParent(imagePath).Name;
         var fileName = Path.GetFileName(imagePath);
-        sbTable.AppendLine($"{category} | {entityName} | OFF_{entityName.ToUpper()} | ![{entityName}](/OfficeSymbols_2014/{category}/{fileName}?raw=true)");
+        sbTable.AppendLine($"{category} | {entityName} | OFF_{entityName.ToUpper()} | ![{entityName}](/office2014/{category}/{fileName}?raw=true)");
     }
     File.WriteAllText("../table.md", sbTable.ToString());
 }
