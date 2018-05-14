@@ -11,7 +11,7 @@ foreach (var imagePath in Directory.GetFiles(folderPath, "*.svg", SearchOption.A
     {
         //WorkingDirectory = Path.GetDirectoryName(inkScapePath),
         FileName = inkScapePath,
-        Arguments = $"\"{imagePath}\" --export-png=\"{targetFilePath}\"",
+        Arguments = $"-z --file=\"{imagePath}\" --export-png=\"{targetFilePath}\" --export-background=#FFFFFF --export-background-opacity=1.0 --export-area-drawing",
         //RedirectStandardOutput = true,
         //UseShellExecute = false,
         //CreateNoWindow = true
