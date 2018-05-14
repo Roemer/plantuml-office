@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 
 var rootFolder = Path.GetFullPath(@"..\");
-var sourceFolder = Path.Combine(rootFolder, "office2014");
+var sourceFolder = Path.Combine(rootFolder, "OfficeSymbols_2014_PNG");
 var targetMaxSize = 48;
 var plantUmlPath = @"plantuml.jar";
 
@@ -13,44 +13,12 @@ Main();
 
 public void Main()
 {
-    FilterEntities();
-    PreProcessImages();
     FixNames();
-    GenerateMarkdownTable();
+    ScaleImages();
     ConvertToPumls();
+    DuplicateAsMonchrome();
+    GenerateMarkdownTable();
     Console.WriteLine("All work done");
-}
-
-public void FilterEntities()
-{
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
-    {
-        var entityName = Path.GetFileNameWithoutExtension(imagePath);
-        // Delete certain entries
-        if (entityName.EndsWith(" - small") || entityName.EndsWith(" - blue") || entityName.EndsWith(" - green") || entityName.EndsWith(" - orange") || entityName.EndsWith(" - red"))
-        {
-            Console.WriteLine("Deleting " + imagePath);
-            File.Delete(imagePath);
-            continue;
-        }
-    }
-}
-
-public void PreProcessImages()
-{
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
-    {
-        // Scale the images and make them monchrome
-        Image grayImage = null;
-        using (var image = Image.FromFile(imagePath))
-        {
-            using (var newImage = ScaleImage(image, targetMaxSize, targetMaxSize))
-            {
-                grayImage = MakeGrayscale(newImage);
-            }
-        }
-        grayImage.Save(imagePath, ImageFormat.Png);
-    }
 }
 
 public void FixNames()
@@ -58,7 +26,6 @@ public void FixNames()
     foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
     {
         var entityName = Path.GetFileNameWithoutExtension(imagePath);
-        // Fix the entity name
         var entityNameFixed = entityName.Replace(",", " ").Replace(";", " ").Replace("-", " ").Replace(" ", "_").ToLower();
         entityNameFixed = Regex.Replace(entityNameFixed, "_+", "_");
         var tmpName = imagePath + ".tmp";
@@ -69,27 +36,40 @@ public void FixNames()
     }
 }
 
-public void GenerateMarkdownTable()
+public void ScaleImages()
 {
-    // Create a markdown table with all entries
-    var sbTable = new StringBuilder();
-    sbTable.AppendLine("Category | Macro | Image | Url");
-    sbTable.AppendLine("--- | --- | --- | ---");
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png*", SearchOption.AllDirectories))
+    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png", SearchOption.AllDirectories))
     {
-        var entityName = Path.GetFileNameWithoutExtension(imagePath);
-        var category = Directory.GetParent(imagePath).Name;
-        var fileName = Path.GetFileName(imagePath);
-        sbTable.AppendLine($"{category} | OFF_{entityName.ToUpper()} | ![{entityName}](/office2014/{category}/{fileName}?raw=true) | {category}/{entityName}.puml");
+        Image newImage = null;
+        using (var image = Image.FromFile(imagePath))
+        {
+            newImage = ScaleImage(image, targetMaxSize, targetMaxSize);
+        }
+        newImage.Save(imagePath, ImageFormat.Png);
+        newImage.Dispose();
     }
-    File.WriteAllText("../table.md", sbTable.ToString());
+}
+
+public void DuplicateAsMonchrome()
+{
+    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png", SearchOption.AllDirectories))
+    {
+        Image grayImage = null;
+        using (var image = Image.FromFile(imagePath))
+        {
+            grayImage = MakeGrayscale(image);
+        }
+        var grayImagePath = Path.Combine(Path.GetDirectoryName(imagePath), String.Concat(Path.GetFileNameWithoutExtension(imagePath), "(m)", Path.GetExtension(imagePath)));
+        grayImage.Save(grayImagePath, ImageFormat.Png);
+        grayImage.Dispose();
+    }
 }
 
 public void ConvertToPumls()
 {
     var count = 0;
     var format = "16"; // 16z for compressed
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
+    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png", SearchOption.AllDirectories))
     {
         var entityName = Path.GetFileNameWithoutExtension(imagePath);
         var entityNameUpper = entityName.ToUpper();
@@ -119,6 +99,21 @@ public void ConvertToPumls()
             Console.WriteLine($"Processed {count} image(s)");
         }
     }
+}
+
+public void GenerateMarkdownTable()
+{
+    // Create a markdown table with all entries
+    var sbTable = new StringBuilder();
+    sbTable.AppendLine("Category | Macro | Image | Url");
+    sbTable.AppendLine("--- | --- | --- | ---");
+    foreach (var filePath in Directory.GetFiles(sourceFolder, "*.puml", SearchOption.AllDirectories))
+    {
+        var entityName = Path.GetFileNameWithoutExtension(filePath);
+        var category = Directory.GetParent(filePath).Name;
+        sbTable.AppendLine($"{category} | OFF_{entityName.ToUpper()} | ![{entityName}](/office2014/{category}/{entityName}.png?raw=true) | {category}/{entityName}.puml");
+    }
+    File.WriteAllText("../table.md", sbTable.ToString());
 }
 
 private static Image ScaleImage(Image image, int maxWidth, int maxHeight)
