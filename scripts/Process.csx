@@ -5,49 +5,100 @@ using System.Drawing;
 using System.Drawing.Imaging;
 
 var rootFolder = Path.GetFullPath(@"..\");
-var sourceFolder = Path.Combine(rootFolder, "OfficeSymbols_2014_PNG");
+var sourceFolder = Path.Combine(rootFolder, "OfficeSymbols_2014_SVG_Optimized");
 var targetMaxSize = 48;
 var plantUmlPath = @"plantuml.jar";
+var inkScapePath = @"..\Inkscape-0.92.3-x64\inkscape\inkscape.exe";
 
 Main();
 
 public void Main()
 {
-    FixNames();
-    ScaleImages();
-    ConvertToPumls();
-    DuplicateAsMonchrome();
+    foreach (var svgPath in Directory.GetFiles(sourceFolder, "*.svg", SearchOption.AllDirectories))
+    {
+        Console.WriteLine($"Processing {svgPath}");
+        var filePath = FixName(svgPath);
+        var pngPath = ConvertToPng(filePath, true);
+        var pumlPath = ConvertToPuml(pngPath);
+        pngPath = ConvertToPng(filePath, false);
+    }
     GenerateMarkdownTable();
-    Console.WriteLine("All work done");
+    Console.WriteLine("Finished");
 }
 
-public void FixNames()
+public string FixName(string svgPath)
 {
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.*", SearchOption.AllDirectories))
+    var entityName = Path.GetFileNameWithoutExtension(svgPath);
+    var entityNameFixed = entityName.Replace(",", " ").Replace(";", " ").Replace("-", " ").Replace(" ", "_").ToLower();
+    entityNameFixed = Regex.Replace(entityNameFixed, "_+", "_");
+    if (entityName.Equals(entityNameFixed))
     {
-        var entityName = Path.GetFileNameWithoutExtension(imagePath);
-        var entityNameFixed = entityName.Replace(",", " ").Replace(";", " ").Replace("-", " ").Replace(" ", "_").ToLower();
-        entityNameFixed = Regex.Replace(entityNameFixed, "_+", "_");
-        var tmpName = imagePath + ".tmp";
-        var newPath = Path.Combine(Directory.GetParent(imagePath).FullName, entityNameFixed + Path.GetExtension(imagePath));
-        File.Move(imagePath, tmpName);
-        File.Move(tmpName, newPath);
-        Console.WriteLine("Fixed name: " + entityName + " to " + entityNameFixed);
+        return svgPath;
     }
+    var tmpName = svgPath + ".tmp";
+    var newPath = Path.Combine(Directory.GetParent(svgPath).FullName, entityNameFixed + Path.GetExtension(svgPath));
+    File.Move(svgPath, tmpName);
+    File.Move(tmpName, newPath);
+    return newPath;
 }
 
-public void ScaleImages()
+public string ConvertToPng(string svgPath, bool withBackground)
 {
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png", SearchOption.AllDirectories))
+    // Convert the image
+    var backgroundOpacity = withBackground ? "1.0" : "0.0";
+    var entityName = Path.GetFileNameWithoutExtension(svgPath);
+    var targetFilePath = Path.Combine(Directory.GetParent(svgPath).FullName, entityName + ".png");
+    var process = Process.Start(new ProcessStartInfo
     {
-        Image newImage = null;
-        using (var image = Image.FromFile(imagePath))
-        {
-            newImage = ScaleImage(image, targetMaxSize, targetMaxSize);
-        }
-        newImage.Save(imagePath, ImageFormat.Png);
-        newImage.Dispose();
+        FileName = inkScapePath,
+        Arguments = $"-z --file=\"{svgPath}\" --export-png=\"{targetFilePath}\" --export-background=#FFFFFF --export-background-opacity={backgroundOpacity} --export-area-drawing",
+        RedirectStandardOutput = true,
+        UseShellExecute = false,
+        CreateNoWindow = true
+    });
+    if (!process.WaitForExit(5000))
+    {
+        Console.WriteLine("Killing");
+        process.Kill();
     }
+    // Scale the image
+    Image newImage = null;
+    using (var image = Image.FromFile(targetFilePath))
+    {
+        newImage = ScaleImage(image, targetMaxSize, targetMaxSize);
+    }
+    newImage.Save(targetFilePath, ImageFormat.Png);
+    newImage.Dispose();
+    return targetFilePath;
+}
+
+public string ConvertToPuml(string pngPath)
+{
+    var format = "16"; // 16z for compressed
+
+    var entityName = Path.GetFileNameWithoutExtension(pngPath);
+    var entityNameUpper = entityName.ToUpper();
+    var pumlPath = Path.Combine(Directory.GetParent(pngPath).FullName, entityName + ".puml");
+    var process = Process.Start(new ProcessStartInfo
+    {
+        WorkingDirectory = rootFolder,
+        FileName = "java",
+        Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{pngPath}\"",
+        RedirectStandardOutput = true,
+        UseShellExecute = false,
+        CreateNoWindow = true
+    });
+    process.WaitForExit();
+    var sbImage = new StringBuilder();
+    sbImage.Append(process.StandardOutput.ReadToEnd());
+    sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias) ENTITY(rectangle,black,{entityName},_alias,OFF {entityNameUpper})");
+    sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label) ENTITY(rectangle,black,{entityName},_label,_alias,OFF {entityNameUpper})");
+    sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape) ENTITY(_shape,black,{entityName},_label,_alias,OFF {entityNameUpper})");
+    sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape,_color) ENTITY(_shape,_color,{entityName},_label,_alias,OFF {entityNameUpper})");
+    sbImage.Append($"skinparam folderBackgroundColor<<OFF {entityNameUpper}>> White");
+
+    File.WriteAllText(pumlPath, sbImage.ToString());
+    return pumlPath;
 }
 
 public void DuplicateAsMonchrome()
@@ -62,42 +113,6 @@ public void DuplicateAsMonchrome()
         var grayImagePath = Path.Combine(Path.GetDirectoryName(imagePath), String.Concat(Path.GetFileNameWithoutExtension(imagePath), "(m)", Path.GetExtension(imagePath)));
         grayImage.Save(grayImagePath, ImageFormat.Png);
         grayImage.Dispose();
-    }
-}
-
-public void ConvertToPumls()
-{
-    var count = 0;
-    var format = "16"; // 16z for compressed
-    foreach (var imagePath in Directory.GetFiles(sourceFolder, "*.png", SearchOption.AllDirectories))
-    {
-        var entityName = Path.GetFileNameWithoutExtension(imagePath);
-        var entityNameUpper = entityName.ToUpper();
-        var pumlFileName = Path.Combine(Directory.GetParent(imagePath).FullName, entityName + ".puml");
-        var process = Process.Start(new ProcessStartInfo
-        {
-            WorkingDirectory = rootFolder,
-            FileName = "java",
-            Arguments = $"-jar {plantUmlPath} -encodesprite {format} \"{imagePath}\"",
-            RedirectStandardOutput = true,
-            UseShellExecute = false,
-            CreateNoWindow = true
-        });
-        process.WaitForExit();
-        var sbImage = new StringBuilder();
-        sbImage.Append(process.StandardOutput.ReadToEnd());
-        sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias) ENTITY(rectangle,black,{entityName},_alias,OFF {entityNameUpper})");
-        sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label) ENTITY(rectangle,black,{entityName},_label,_alias,OFF {entityNameUpper})");
-        sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape) ENTITY(_shape,black,{entityName},_label,_alias,OFF {entityNameUpper})");
-        sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape,_color) ENTITY(_shape,_color,{entityName},_label,_alias,OFF {entityNameUpper})");
-        sbImage.Append($"skinparam folderBackgroundColor<<OFF {entityNameUpper}>> White");
-
-        File.WriteAllText(pumlFileName, sbImage.ToString());
-
-        if (++count % 20 == 0)
-        {
-            Console.WriteLine($"Processed {count} image(s)");
-        }
     }
 }
 
