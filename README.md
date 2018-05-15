@@ -2,7 +2,47 @@
 Office Icons for PlantUML
 
 ## Usage
-todo
+There are sprite (monchrome) and colored png icons available. See the following example on how to use one or another.
+
+Example of usage:
+```
+@startuml
+!include <font-awesome/common>
+
+!define ICONURL https://raw.githubusercontent.com/Roemer/plantuml-office/master/office2014
+!includeurl ICONURL/Servers/database_server.puml
+!includeurl ICONURL/Servers/application_server.puml
+!includeurl ICONURL/Concepts/firewall_orange.puml
+!includeurl ICONURL/Clouds/cloud_disaster_red.puml
+
+title Office Icons Example
+
+package "Sprites" {
+    OFF_DATABASE_SERVER(db,DB)
+    OFF_APPLICATION_SERVER(app,App-Server)
+    OFF_FIREWALL_ORANGE(fw,Firewall)
+    OFF_CLOUD_DISASTER_RED(cloud,Cloud)
+    db <-> app
+    app <--> fw
+    fw <.left.> cloud
+}
+
+package "Images" {
+    rectangle "<img:https://raw.githubusercontent.com/Roemer/plantuml-office/master/office2014/Servers/database_server.png>\r DB" as db2
+    rectangle "<img:https://raw.githubusercontent.com/Roemer/plantuml-office/master/office2014/Servers/application_server.png>\r App-Server" as app2
+    rectangle "<img:https://raw.githubusercontent.com/Roemer/plantuml-office/master/office2014/Concepts/firewall_orange.png>\r Firewall" as fw2
+    rectangle "<img:https://raw.githubusercontent.com/Roemer/plantuml-office/master/office2014/Clouds/cloud_disaster_red.png>\r Cloud" as cloud2
+    db2 <-> app2
+    app2 <--> fw2
+    fw2 <.left.> cloud2
+}
+
+@enduml
+```
+
+This example renders the following image:
+
+![Example](http://www.plantuml.com/plantuml/png/jLF1Yjim4BtxAxGvfP14RUXf2M6Ts2c642zsjhqKZ2AFlQAo92IvBfJ-UnMfJaeXxQNnPJoZzppleUSdOucsVSUZ1oOexsj0gqOAEoS36Da1fhBhf5X7qKCD3HE0icr-U2dswDLQPHunrcHOjCo-zgVUWAQE2y8k70qN4ZhGM74YpXlcicaO1TmHOzquTCktxzvVLlUQZv_79UYle0skYIKdOg0oVh1GGUjj0b6ACqeia-AVdAqK59Grk64Q1i9v9JKHBVo5mMLV6qpFfQgPyLug3NMWH9PP3YZttb16fJ0e_KOwnI6A5A5VI0jeKYhDB9W9-XuXz-IxNPN4ntWJbsbLfiN7j9ZMfrcoUNCvZf-VzzasFcRvOKGudxDOgNdmVONkiYBz5E_tLLx4Xm_fj1bckr_khg3jFdz9gYGhu_AO5bMH9bDlQURz1LnzGglv6hazldNLzMxG3Bvl1hHQS6ZiOeqyD_hncyMiS-NYK0ErHBJS7QnOrpx-l-pSpebervyrIZOJH8ppiho_aDlv2rgkj-KrEU3THTqEU90q9iCBQeRxwxdz-mH17k3LU4mGv6vlZA8V-9SnZ67YwXznN9xp-0IYTe9-0W00 "Example")
 
 ## Icon Index
 Category | Macro | Image | Url
