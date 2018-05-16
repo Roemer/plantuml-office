@@ -46,4 +46,3 @@ sprite $application_android [48x41/16] {
 !define OFF_APPLICATION_ANDROID(_alias,_label) ENTITY(rectangle,black,application_android,_label,_alias,OFF APPLICATION_ANDROID)
 !define OFF_APPLICATION_ANDROID(_alias,_label,_shape) ENTITY(_shape,black,application_android,_label,_alias,OFF APPLICATION_ANDROID)
 !define OFF_APPLICATION_ANDROID(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_android,_label,_alias,OFF APPLICATION_ANDROID)
-skinparam folderBackgroundColor<<OFF APPLICATION_ANDROID>> White

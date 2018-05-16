@@ -49,4 +49,3 @@ sprite $sign_up [48x44/16] {
 !define OFF_SIGN_UP(_alias,_label) ENTITY(rectangle,black,sign_up,_label,_alias,OFF SIGN_UP)
 !define OFF_SIGN_UP(_alias,_label,_shape) ENTITY(_shape,black,sign_up,_label,_alias,OFF SIGN_UP)
 !define OFF_SIGN_UP(_alias,_label,_shape,_color) ENTITY(_shape,_color,sign_up,_label,_alias,OFF SIGN_UP)
-skinparam folderBackgroundColor<<OFF SIGN_UP>> White

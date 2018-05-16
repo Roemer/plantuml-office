@@ -45,4 +45,3 @@ sprite $office_installed [48x40/16] {
 !define OFF_OFFICE_INSTALLED(_alias,_label) ENTITY(rectangle,black,office_installed,_label,_alias,OFF OFFICE_INSTALLED)
 !define OFF_OFFICE_INSTALLED(_alias,_label,_shape) ENTITY(_shape,black,office_installed,_label,_alias,OFF OFFICE_INSTALLED)
 !define OFF_OFFICE_INSTALLED(_alias,_label,_shape,_color) ENTITY(_shape,_color,office_installed,_label,_alias,OFF OFFICE_INSTALLED)
-skinparam folderBackgroundColor<<OFF OFFICE_INSTALLED>> White

@@ -53,4 +53,3 @@ sprite $skype_for_business_back_end_server [44x48/16] {
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER(_alias,_label) ENTITY(rectangle,black,skype_for_business_back_end_server,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER)
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_back_end_server,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER)
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_back_end_server,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER>> White

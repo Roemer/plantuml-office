@@ -53,4 +53,3 @@ sprite $chat_room [46x48/16] {
 !define OFF_CHAT_ROOM(_alias,_label) ENTITY(rectangle,black,chat_room,_label,_alias,OFF CHAT_ROOM)
 !define OFF_CHAT_ROOM(_alias,_label,_shape) ENTITY(_shape,black,chat_room,_label,_alias,OFF CHAT_ROOM)
 !define OFF_CHAT_ROOM(_alias,_label,_shape,_color) ENTITY(_shape,_color,chat_room,_label,_alias,OFF CHAT_ROOM)
-skinparam folderBackgroundColor<<OFF CHAT_ROOM>> White

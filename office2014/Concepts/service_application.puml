@@ -44,4 +44,3 @@ sprite $service_application [48x39/16] {
 !define OFF_SERVICE_APPLICATION(_alias,_label) ENTITY(rectangle,black,service_application,_label,_alias,OFF SERVICE_APPLICATION)
 !define OFF_SERVICE_APPLICATION(_alias,_label,_shape) ENTITY(_shape,black,service_application,_label,_alias,OFF SERVICE_APPLICATION)
 !define OFF_SERVICE_APPLICATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,service_application,_label,_alias,OFF SERVICE_APPLICATION)
-skinparam folderBackgroundColor<<OFF SERVICE_APPLICATION>> White

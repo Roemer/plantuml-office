@@ -42,4 +42,3 @@ sprite $subsite_ghosted [48x37/16] {
 !define OFF_SUBSITE_GHOSTED(_alias,_label) ENTITY(rectangle,black,subsite_ghosted,_label,_alias,OFF SUBSITE_GHOSTED)
 !define OFF_SUBSITE_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,subsite_ghosted,_label,_alias,OFF SUBSITE_GHOSTED)
 !define OFF_SUBSITE_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,subsite_ghosted,_label,_alias,OFF SUBSITE_GHOSTED)
-skinparam folderBackgroundColor<<OFF SUBSITE_GHOSTED>> White

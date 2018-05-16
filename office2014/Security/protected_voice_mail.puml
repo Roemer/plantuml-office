@@ -46,4 +46,3 @@ sprite $protected_voice_mail [48x41/16] {
 !define OFF_PROTECTED_VOICE_MAIL(_alias,_label) ENTITY(rectangle,black,protected_voice_mail,_label,_alias,OFF PROTECTED_VOICE_MAIL)
 !define OFF_PROTECTED_VOICE_MAIL(_alias,_label,_shape) ENTITY(_shape,black,protected_voice_mail,_label,_alias,OFF PROTECTED_VOICE_MAIL)
 !define OFF_PROTECTED_VOICE_MAIL(_alias,_label,_shape,_color) ENTITY(_shape,_color,protected_voice_mail,_label,_alias,OFF PROTECTED_VOICE_MAIL)
-skinparam folderBackgroundColor<<OFF PROTECTED_VOICE_MAIL>> White

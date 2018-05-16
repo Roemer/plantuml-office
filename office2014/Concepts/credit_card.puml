@@ -37,4 +37,3 @@ sprite $credit_card [48x32/16] {
 !define OFF_CREDIT_CARD(_alias,_label) ENTITY(rectangle,black,credit_card,_label,_alias,OFF CREDIT_CARD)
 !define OFF_CREDIT_CARD(_alias,_label,_shape) ENTITY(_shape,black,credit_card,_label,_alias,OFF CREDIT_CARD)
 !define OFF_CREDIT_CARD(_alias,_label,_shape,_color) ENTITY(_shape,_color,credit_card,_label,_alias,OFF CREDIT_CARD)
-skinparam folderBackgroundColor<<OFF CREDIT_CARD>> White

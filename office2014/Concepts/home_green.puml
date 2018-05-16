@@ -53,4 +53,3 @@ sprite $home_green [48x48/16] {
 !define OFF_HOME_GREEN(_alias,_label) ENTITY(rectangle,black,home_green,_label,_alias,OFF HOME_GREEN)
 !define OFF_HOME_GREEN(_alias,_label,_shape) ENTITY(_shape,black,home_green,_label,_alias,OFF HOME_GREEN)
 !define OFF_HOME_GREEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,home_green,_label,_alias,OFF HOME_GREEN)
-skinparam folderBackgroundColor<<OFF HOME_GREEN>> White

@@ -44,4 +44,3 @@ sprite $email_rejected [48x39/16] {
 !define OFF_EMAIL_REJECTED(_alias,_label) ENTITY(rectangle,black,email_rejected,_label,_alias,OFF EMAIL_REJECTED)
 !define OFF_EMAIL_REJECTED(_alias,_label,_shape) ENTITY(_shape,black,email_rejected,_label,_alias,OFF EMAIL_REJECTED)
 !define OFF_EMAIL_REJECTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,email_rejected,_label,_alias,OFF EMAIL_REJECTED)
-skinparam folderBackgroundColor<<OFF EMAIL_REJECTED>> White

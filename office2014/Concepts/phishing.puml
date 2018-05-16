@@ -43,4 +43,3 @@ sprite $phishing [48x38/16] {
 !define OFF_PHISHING(_alias,_label) ENTITY(rectangle,black,phishing,_label,_alias,OFF PHISHING)
 !define OFF_PHISHING(_alias,_label,_shape) ENTITY(_shape,black,phishing,_label,_alias,OFF PHISHING)
 !define OFF_PHISHING(_alias,_label,_shape,_color) ENTITY(_shape,_color,phishing,_label,_alias,OFF PHISHING)
-skinparam folderBackgroundColor<<OFF PHISHING>> White

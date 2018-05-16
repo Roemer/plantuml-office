@@ -46,4 +46,3 @@ sprite $meeting_workspace_site [48x41/16] {
 !define OFF_MEETING_WORKSPACE_SITE(_alias,_label) ENTITY(rectangle,black,meeting_workspace_site,_label,_alias,OFF MEETING_WORKSPACE_SITE)
 !define OFF_MEETING_WORKSPACE_SITE(_alias,_label,_shape) ENTITY(_shape,black,meeting_workspace_site,_label,_alias,OFF MEETING_WORKSPACE_SITE)
 !define OFF_MEETING_WORKSPACE_SITE(_alias,_label,_shape,_color) ENTITY(_shape,_color,meeting_workspace_site,_label,_alias,OFF MEETING_WORKSPACE_SITE)
-skinparam folderBackgroundColor<<OFF MEETING_WORKSPACE_SITE>> White

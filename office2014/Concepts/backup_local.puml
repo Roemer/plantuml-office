@@ -49,4 +49,3 @@ sprite $backup_local [48x44/16] {
 !define OFF_BACKUP_LOCAL(_alias,_label) ENTITY(rectangle,black,backup_local,_label,_alias,OFF BACKUP_LOCAL)
 !define OFF_BACKUP_LOCAL(_alias,_label,_shape) ENTITY(_shape,black,backup_local,_label,_alias,OFF BACKUP_LOCAL)
 !define OFF_BACKUP_LOCAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,backup_local,_label,_alias,OFF BACKUP_LOCAL)
-skinparam folderBackgroundColor<<OFF BACKUP_LOCAL>> White

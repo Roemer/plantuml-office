@@ -42,4 +42,3 @@ sprite $tdm_pbx [48x37/16] {
 !define OFF_TDM_PBX(_alias,_label) ENTITY(rectangle,black,tdm_pbx,_label,_alias,OFF TDM_PBX)
 !define OFF_TDM_PBX(_alias,_label,_shape) ENTITY(_shape,black,tdm_pbx,_label,_alias,OFF TDM_PBX)
 !define OFF_TDM_PBX(_alias,_label,_shape,_color) ENTITY(_shape,_color,tdm_pbx,_label,_alias,OFF TDM_PBX)
-skinparam folderBackgroundColor<<OFF TDM_PBX>> White

@@ -53,4 +53,3 @@ sprite $device_roundtable [42x48/16] {
 !define OFF_DEVICE_ROUNDTABLE(_alias,_label) ENTITY(rectangle,black,device_roundtable,_label,_alias,OFF DEVICE_ROUNDTABLE)
 !define OFF_DEVICE_ROUNDTABLE(_alias,_label,_shape) ENTITY(_shape,black,device_roundtable,_label,_alias,OFF DEVICE_ROUNDTABLE)
 !define OFF_DEVICE_ROUNDTABLE(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_roundtable,_label,_alias,OFF DEVICE_ROUNDTABLE)
-skinparam folderBackgroundColor<<OFF DEVICE_ROUNDTABLE>> White

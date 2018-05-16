@@ -42,4 +42,3 @@ sprite $ucwa_application [48x37/16] {
 !define OFF_UCWA_APPLICATION(_alias,_label) ENTITY(rectangle,black,ucwa_application,_label,_alias,OFF UCWA_APPLICATION)
 !define OFF_UCWA_APPLICATION(_alias,_label,_shape) ENTITY(_shape,black,ucwa_application,_label,_alias,OFF UCWA_APPLICATION)
 !define OFF_UCWA_APPLICATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,ucwa_application,_label,_alias,OFF UCWA_APPLICATION)
-skinparam folderBackgroundColor<<OFF UCWA_APPLICATION>> White

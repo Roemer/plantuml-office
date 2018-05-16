@@ -53,4 +53,3 @@ sprite $database_cube [42x48/16] {
 !define OFF_DATABASE_CUBE(_alias,_label) ENTITY(rectangle,black,database_cube,_label,_alias,OFF DATABASE_CUBE)
 !define OFF_DATABASE_CUBE(_alias,_label,_shape) ENTITY(_shape,black,database_cube,_label,_alias,OFF DATABASE_CUBE)
 !define OFF_DATABASE_CUBE(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_cube,_label,_alias,OFF DATABASE_CUBE)
-skinparam folderBackgroundColor<<OFF DATABASE_CUBE>> White

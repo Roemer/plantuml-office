@@ -37,4 +37,3 @@ sprite $skype_for_business_server_management_tool [48x32/16] {
 !define OFF_SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL(_alias,_label) ENTITY(rectangle,black,skype_for_business_server_management_tool,_label,_alias,OFF SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL)
 !define OFF_SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_server_management_tool,_label,_alias,OFF SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL)
 !define OFF_SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_server_management_tool,_label,_alias,OFF SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_SERVER_MANAGEMENT_TOOL>> White

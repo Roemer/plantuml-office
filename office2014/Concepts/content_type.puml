@@ -42,4 +42,3 @@ sprite $content_type [48x37/16] {
 !define OFF_CONTENT_TYPE(_alias,_label) ENTITY(rectangle,black,content_type,_label,_alias,OFF CONTENT_TYPE)
 !define OFF_CONTENT_TYPE(_alias,_label,_shape) ENTITY(_shape,black,content_type,_label,_alias,OFF CONTENT_TYPE)
 !define OFF_CONTENT_TYPE(_alias,_label,_shape,_color) ENTITY(_shape,_color,content_type,_label,_alias,OFF CONTENT_TYPE)
-skinparam folderBackgroundColor<<OFF CONTENT_TYPE>> White

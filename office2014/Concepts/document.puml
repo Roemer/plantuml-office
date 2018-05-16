@@ -53,4 +53,3 @@ sprite $document [41x48/16] {
 !define OFF_DOCUMENT(_alias,_label) ENTITY(rectangle,black,document,_label,_alias,OFF DOCUMENT)
 !define OFF_DOCUMENT(_alias,_label,_shape) ENTITY(_shape,black,document,_label,_alias,OFF DOCUMENT)
 !define OFF_DOCUMENT(_alias,_label,_shape,_color) ENTITY(_shape,_color,document,_label,_alias,OFF DOCUMENT)
-skinparam folderBackgroundColor<<OFF DOCUMENT>> White

@@ -45,4 +45,3 @@ sprite $email_service [48x40/16] {
 !define OFF_EMAIL_SERVICE(_alias,_label) ENTITY(rectangle,black,email_service,_label,_alias,OFF EMAIL_SERVICE)
 !define OFF_EMAIL_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,email_service,_label,_alias,OFF EMAIL_SERVICE)
 !define OFF_EMAIL_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,email_service,_label,_alias,OFF EMAIL_SERVICE)
-skinparam folderBackgroundColor<<OFF EMAIL_SERVICE>> White

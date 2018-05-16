@@ -53,4 +53,3 @@ sprite $device_webcam_hd [45x48/16] {
 !define OFF_DEVICE_WEBCAM_HD(_alias,_label) ENTITY(rectangle,black,device_webcam_hd,_label,_alias,OFF DEVICE_WEBCAM_HD)
 !define OFF_DEVICE_WEBCAM_HD(_alias,_label,_shape) ENTITY(_shape,black,device_webcam_hd,_label,_alias,OFF DEVICE_WEBCAM_HD)
 !define OFF_DEVICE_WEBCAM_HD(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_webcam_hd,_label,_alias,OFF DEVICE_WEBCAM_HD)
-skinparam folderBackgroundColor<<OFF DEVICE_WEBCAM_HD>> White

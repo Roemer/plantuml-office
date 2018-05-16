@@ -53,4 +53,3 @@ sprite $maintenance [34x48/16] {
 !define OFF_MAINTENANCE(_alias,_label) ENTITY(rectangle,black,maintenance,_label,_alias,OFF MAINTENANCE)
 !define OFF_MAINTENANCE(_alias,_label,_shape) ENTITY(_shape,black,maintenance,_label,_alias,OFF MAINTENANCE)
 !define OFF_MAINTENANCE(_alias,_label,_shape,_color) ENTITY(_shape,_color,maintenance,_label,_alias,OFF MAINTENANCE)
-skinparam folderBackgroundColor<<OFF MAINTENANCE>> White

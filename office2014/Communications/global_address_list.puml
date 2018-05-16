@@ -48,4 +48,3 @@ sprite $global_address_list [48x43/16] {
 !define OFF_GLOBAL_ADDRESS_LIST(_alias,_label) ENTITY(rectangle,black,global_address_list,_label,_alias,OFF GLOBAL_ADDRESS_LIST)
 !define OFF_GLOBAL_ADDRESS_LIST(_alias,_label,_shape) ENTITY(_shape,black,global_address_list,_label,_alias,OFF GLOBAL_ADDRESS_LIST)
 !define OFF_GLOBAL_ADDRESS_LIST(_alias,_label,_shape,_color) ENTITY(_shape,_color,global_address_list,_label,_alias,OFF GLOBAL_ADDRESS_LIST)
-skinparam folderBackgroundColor<<OFF GLOBAL_ADDRESS_LIST>> White

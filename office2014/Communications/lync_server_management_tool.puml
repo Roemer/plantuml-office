@@ -36,4 +36,3 @@ sprite $lync_server_management_tool [48x31/16] {
 !define OFF_LYNC_SERVER_MANAGEMENT_TOOL(_alias,_label) ENTITY(rectangle,black,lync_server_management_tool,_label,_alias,OFF LYNC_SERVER_MANAGEMENT_TOOL)
 !define OFF_LYNC_SERVER_MANAGEMENT_TOOL(_alias,_label,_shape) ENTITY(_shape,black,lync_server_management_tool,_label,_alias,OFF LYNC_SERVER_MANAGEMENT_TOOL)
 !define OFF_LYNC_SERVER_MANAGEMENT_TOOL(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_server_management_tool,_label,_alias,OFF LYNC_SERVER_MANAGEMENT_TOOL)
-skinparam folderBackgroundColor<<OFF LYNC_SERVER_MANAGEMENT_TOOL>> White

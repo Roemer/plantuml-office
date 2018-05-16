@@ -53,4 +53,3 @@ sprite $settings [48x48/16] {
 !define OFF_SETTINGS(_alias,_label) ENTITY(rectangle,black,settings,_label,_alias,OFF SETTINGS)
 !define OFF_SETTINGS(_alias,_label,_shape) ENTITY(_shape,black,settings,_label,_alias,OFF SETTINGS)
 !define OFF_SETTINGS(_alias,_label,_shape,_color) ENTITY(_shape,_color,settings,_label,_alias,OFF SETTINGS)
-skinparam folderBackgroundColor<<OFF SETTINGS>> White

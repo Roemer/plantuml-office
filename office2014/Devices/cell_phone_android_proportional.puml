@@ -52,4 +52,3 @@ sprite $cell_phone_android_proportional [29x47/16] {
 !define OFF_CELL_PHONE_ANDROID_PROPORTIONAL(_alias,_label) ENTITY(rectangle,black,cell_phone_android_proportional,_label,_alias,OFF CELL_PHONE_ANDROID_PROPORTIONAL)
 !define OFF_CELL_PHONE_ANDROID_PROPORTIONAL(_alias,_label,_shape) ENTITY(_shape,black,cell_phone_android_proportional,_label,_alias,OFF CELL_PHONE_ANDROID_PROPORTIONAL)
 !define OFF_CELL_PHONE_ANDROID_PROPORTIONAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,cell_phone_android_proportional,_label,_alias,OFF CELL_PHONE_ANDROID_PROPORTIONAL)
-skinparam folderBackgroundColor<<OFF CELL_PHONE_ANDROID_PROPORTIONAL>> White

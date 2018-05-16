@@ -45,4 +45,3 @@ sprite $website_public [48x40/16] {
 !define OFF_WEBSITE_PUBLIC(_alias,_label) ENTITY(rectangle,black,website_public,_label,_alias,OFF WEBSITE_PUBLIC)
 !define OFF_WEBSITE_PUBLIC(_alias,_label,_shape) ENTITY(_shape,black,website_public,_label,_alias,OFF WEBSITE_PUBLIC)
 !define OFF_WEBSITE_PUBLIC(_alias,_label,_shape,_color) ENTITY(_shape,_color,website_public,_label,_alias,OFF WEBSITE_PUBLIC)
-skinparam folderBackgroundColor<<OFF WEBSITE_PUBLIC>> White

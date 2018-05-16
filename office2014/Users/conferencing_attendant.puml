@@ -53,4 +53,3 @@ sprite $conferencing_attendant [44x48/16] {
 !define OFF_CONFERENCING_ATTENDANT(_alias,_label) ENTITY(rectangle,black,conferencing_attendant,_label,_alias,OFF CONFERENCING_ATTENDANT)
 !define OFF_CONFERENCING_ATTENDANT(_alias,_label,_shape) ENTITY(_shape,black,conferencing_attendant,_label,_alias,OFF CONFERENCING_ATTENDANT)
 !define OFF_CONFERENCING_ATTENDANT(_alias,_label,_shape,_color) ENTITY(_shape,_color,conferencing_attendant,_label,_alias,OFF CONFERENCING_ATTENDANT)
-skinparam folderBackgroundColor<<OFF CONFERENCING_ATTENDANT>> White

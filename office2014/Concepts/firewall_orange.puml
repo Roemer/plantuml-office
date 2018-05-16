@@ -48,4 +48,3 @@ sprite $firewall_orange [48x43/16] {
 !define OFF_FIREWALL_ORANGE(_alias,_label) ENTITY(rectangle,black,firewall_orange,_label,_alias,OFF FIREWALL_ORANGE)
 !define OFF_FIREWALL_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,firewall_orange,_label,_alias,OFF FIREWALL_ORANGE)
 !define OFF_FIREWALL_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,firewall_orange,_label,_alias,OFF FIREWALL_ORANGE)
-skinparam folderBackgroundColor<<OFF FIREWALL_ORANGE>> White

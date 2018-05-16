@@ -53,4 +53,3 @@ sprite $lock_unprotected_green [34x48/16] {
 !define OFF_LOCK_UNPROTECTED_GREEN(_alias,_label) ENTITY(rectangle,black,lock_unprotected_green,_label,_alias,OFF LOCK_UNPROTECTED_GREEN)
 !define OFF_LOCK_UNPROTECTED_GREEN(_alias,_label,_shape) ENTITY(_shape,black,lock_unprotected_green,_label,_alias,OFF LOCK_UNPROTECTED_GREEN)
 !define OFF_LOCK_UNPROTECTED_GREEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,lock_unprotected_green,_label,_alias,OFF LOCK_UNPROTECTED_GREEN)
-skinparam folderBackgroundColor<<OFF LOCK_UNPROTECTED_GREEN>> White

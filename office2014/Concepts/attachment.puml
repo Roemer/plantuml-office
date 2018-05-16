@@ -53,4 +53,3 @@ sprite $attachment [26x48/16] {
 !define OFF_ATTACHMENT(_alias,_label) ENTITY(rectangle,black,attachment,_label,_alias,OFF ATTACHMENT)
 !define OFF_ATTACHMENT(_alias,_label,_shape) ENTITY(_shape,black,attachment,_label,_alias,OFF ATTACHMENT)
 !define OFF_ATTACHMENT(_alias,_label,_shape,_color) ENTITY(_shape,_color,attachment,_label,_alias,OFF ATTACHMENT)
-skinparam folderBackgroundColor<<OFF ATTACHMENT>> White

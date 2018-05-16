@@ -53,4 +53,3 @@ sprite $video_interop_server [43x48/16] {
 !define OFF_VIDEO_INTEROP_SERVER(_alias,_label) ENTITY(rectangle,black,video_interop_server,_label,_alias,OFF VIDEO_INTEROP_SERVER)
 !define OFF_VIDEO_INTEROP_SERVER(_alias,_label,_shape) ENTITY(_shape,black,video_interop_server,_label,_alias,OFF VIDEO_INTEROP_SERVER)
 !define OFF_VIDEO_INTEROP_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,video_interop_server,_label,_alias,OFF VIDEO_INTEROP_SERVER)
-skinparam folderBackgroundColor<<OFF VIDEO_INTEROP_SERVER>> White

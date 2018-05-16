@@ -46,4 +46,3 @@ sprite $lync_control_panel [48x41/16] {
 !define OFF_LYNC_CONTROL_PANEL(_alias,_label) ENTITY(rectangle,black,lync_control_panel,_label,_alias,OFF LYNC_CONTROL_PANEL)
 !define OFF_LYNC_CONTROL_PANEL(_alias,_label,_shape) ENTITY(_shape,black,lync_control_panel,_label,_alias,OFF LYNC_CONTROL_PANEL)
 !define OFF_LYNC_CONTROL_PANEL(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_control_panel,_label,_alias,OFF LYNC_CONTROL_PANEL)
-skinparam folderBackgroundColor<<OFF LYNC_CONTROL_PANEL>> White

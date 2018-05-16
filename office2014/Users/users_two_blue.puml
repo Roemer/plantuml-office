@@ -42,4 +42,3 @@ sprite $users_two_blue [48x37/16] {
 !define OFF_USERS_TWO_BLUE(_alias,_label) ENTITY(rectangle,black,users_two_blue,_label,_alias,OFF USERS_TWO_BLUE)
 !define OFF_USERS_TWO_BLUE(_alias,_label,_shape) ENTITY(_shape,black,users_two_blue,_label,_alias,OFF USERS_TWO_BLUE)
 !define OFF_USERS_TWO_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,users_two_blue,_label,_alias,OFF USERS_TWO_BLUE)
-skinparam folderBackgroundColor<<OFF USERS_TWO_BLUE>> White

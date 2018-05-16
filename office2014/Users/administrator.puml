@@ -51,4 +51,3 @@ sprite $administrator [48x46/16] {
 !define OFF_ADMINISTRATOR(_alias,_label) ENTITY(rectangle,black,administrator,_label,_alias,OFF ADMINISTRATOR)
 !define OFF_ADMINISTRATOR(_alias,_label,_shape) ENTITY(_shape,black,administrator,_label,_alias,OFF ADMINISTRATOR)
 !define OFF_ADMINISTRATOR(_alias,_label,_shape,_color) ENTITY(_shape,_color,administrator,_label,_alias,OFF ADMINISTRATOR)
-skinparam folderBackgroundColor<<OFF ADMINISTRATOR>> White

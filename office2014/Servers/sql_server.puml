@@ -53,4 +53,3 @@ sprite $sql_server [37x48/16] {
 !define OFF_SQL_SERVER(_alias,_label) ENTITY(rectangle,black,sql_server,_label,_alias,OFF SQL_SERVER)
 !define OFF_SQL_SERVER(_alias,_label,_shape) ENTITY(_shape,black,sql_server,_label,_alias,OFF SQL_SERVER)
 !define OFF_SQL_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,sql_server,_label,_alias,OFF SQL_SERVER)
-skinparam folderBackgroundColor<<OFF SQL_SERVER>> White

@@ -53,4 +53,3 @@ sprite $device_tablet_ipad_mini [34x48/16] {
 !define OFF_DEVICE_TABLET_IPAD_MINI(_alias,_label) ENTITY(rectangle,black,device_tablet_ipad_mini,_label,_alias,OFF DEVICE_TABLET_IPAD_MINI)
 !define OFF_DEVICE_TABLET_IPAD_MINI(_alias,_label,_shape) ENTITY(_shape,black,device_tablet_ipad_mini,_label,_alias,OFF DEVICE_TABLET_IPAD_MINI)
 !define OFF_DEVICE_TABLET_IPAD_MINI(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_tablet_ipad_mini,_label,_alias,OFF DEVICE_TABLET_IPAD_MINI)
-skinparam folderBackgroundColor<<OFF DEVICE_TABLET_IPAD_MINI>> White

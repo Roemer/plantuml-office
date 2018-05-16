@@ -50,4 +50,3 @@ sprite $online_hosted_services [48x45/16] {
 !define OFF_ONLINE_HOSTED_SERVICES(_alias,_label) ENTITY(rectangle,black,online_hosted_services,_label,_alias,OFF ONLINE_HOSTED_SERVICES)
 !define OFF_ONLINE_HOSTED_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,online_hosted_services,_label,_alias,OFF ONLINE_HOSTED_SERVICES)
 !define OFF_ONLINE_HOSTED_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,online_hosted_services,_label,_alias,OFF ONLINE_HOSTED_SERVICES)
-skinparam folderBackgroundColor<<OFF ONLINE_HOSTED_SERVICES>> White

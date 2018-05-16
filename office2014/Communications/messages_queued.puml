@@ -51,4 +51,3 @@ sprite $messages_queued [48x46/16] {
 !define OFF_MESSAGES_QUEUED(_alias,_label) ENTITY(rectangle,black,messages_queued,_label,_alias,OFF MESSAGES_QUEUED)
 !define OFF_MESSAGES_QUEUED(_alias,_label,_shape) ENTITY(_shape,black,messages_queued,_label,_alias,OFF MESSAGES_QUEUED)
 !define OFF_MESSAGES_QUEUED(_alias,_label,_shape,_color) ENTITY(_shape,_color,messages_queued,_label,_alias,OFF MESSAGES_QUEUED)
-skinparam folderBackgroundColor<<OFF MESSAGES_QUEUED>> White

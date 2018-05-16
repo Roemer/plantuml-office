@@ -53,4 +53,3 @@ sprite $lock_protected [36x48/16] {
 !define OFF_LOCK_PROTECTED(_alias,_label) ENTITY(rectangle,black,lock_protected,_label,_alias,OFF LOCK_PROTECTED)
 !define OFF_LOCK_PROTECTED(_alias,_label,_shape) ENTITY(_shape,black,lock_protected,_label,_alias,OFF LOCK_PROTECTED)
 !define OFF_LOCK_PROTECTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,lock_protected,_label,_alias,OFF LOCK_PROTECTED)
-skinparam folderBackgroundColor<<OFF LOCK_PROTECTED>> White

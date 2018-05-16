@@ -53,4 +53,3 @@ sprite $book_journal [41x48/16] {
 !define OFF_BOOK_JOURNAL(_alias,_label) ENTITY(rectangle,black,book_journal,_label,_alias,OFF BOOK_JOURNAL)
 !define OFF_BOOK_JOURNAL(_alias,_label,_shape) ENTITY(_shape,black,book_journal,_label,_alias,OFF BOOK_JOURNAL)
 !define OFF_BOOK_JOURNAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,book_journal,_label,_alias,OFF BOOK_JOURNAL)
-skinparam folderBackgroundColor<<OFF BOOK_JOURNAL>> White

@@ -53,4 +53,3 @@ sprite $on_premises_directory [41x48/16] {
 !define OFF_ON_PREMISES_DIRECTORY(_alias,_label) ENTITY(rectangle,black,on_premises_directory,_label,_alias,OFF ON_PREMISES_DIRECTORY)
 !define OFF_ON_PREMISES_DIRECTORY(_alias,_label,_shape) ENTITY(_shape,black,on_premises_directory,_label,_alias,OFF ON_PREMISES_DIRECTORY)
 !define OFF_ON_PREMISES_DIRECTORY(_alias,_label,_shape,_color) ENTITY(_shape,_color,on_premises_directory,_label,_alias,OFF ON_PREMISES_DIRECTORY)
-skinparam folderBackgroundColor<<OFF ON_PREMISES_DIRECTORY>> White

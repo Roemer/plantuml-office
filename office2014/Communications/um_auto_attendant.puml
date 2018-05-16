@@ -53,4 +53,3 @@ sprite $um_auto_attendant [48x48/16] {
 !define OFF_UM_AUTO_ATTENDANT(_alias,_label) ENTITY(rectangle,black,um_auto_attendant,_label,_alias,OFF UM_AUTO_ATTENDANT)
 !define OFF_UM_AUTO_ATTENDANT(_alias,_label,_shape) ENTITY(_shape,black,um_auto_attendant,_label,_alias,OFF UM_AUTO_ATTENDANT)
 !define OFF_UM_AUTO_ATTENDANT(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_auto_attendant,_label,_alias,OFF UM_AUTO_ATTENDANT)
-skinparam folderBackgroundColor<<OFF UM_AUTO_ATTENDANT>> White

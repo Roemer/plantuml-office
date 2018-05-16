@@ -21,4 +21,3 @@ sprite $voip_gateway [48x16/16] {
 !define OFF_VOIP_GATEWAY(_alias,_label) ENTITY(rectangle,black,voip_gateway,_label,_alias,OFF VOIP_GATEWAY)
 !define OFF_VOIP_GATEWAY(_alias,_label,_shape) ENTITY(_shape,black,voip_gateway,_label,_alias,OFF VOIP_GATEWAY)
 !define OFF_VOIP_GATEWAY(_alias,_label,_shape,_color) ENTITY(_shape,_color,voip_gateway,_label,_alias,OFF VOIP_GATEWAY)
-skinparam folderBackgroundColor<<OFF VOIP_GATEWAY>> White

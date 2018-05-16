@@ -53,4 +53,3 @@ sprite $web_server [40x48/16] {
 !define OFF_WEB_SERVER(_alias,_label) ENTITY(rectangle,black,web_server,_label,_alias,OFF WEB_SERVER)
 !define OFF_WEB_SERVER(_alias,_label,_shape) ENTITY(_shape,black,web_server,_label,_alias,OFF WEB_SERVER)
 !define OFF_WEB_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,web_server,_label,_alias,OFF WEB_SERVER)
-skinparam folderBackgroundColor<<OFF WEB_SERVER>> White

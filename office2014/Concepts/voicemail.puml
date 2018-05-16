@@ -36,4 +36,3 @@ sprite $voicemail [48x31/16] {
 !define OFF_VOICEMAIL(_alias,_label) ENTITY(rectangle,black,voicemail,_label,_alias,OFF VOICEMAIL)
 !define OFF_VOICEMAIL(_alias,_label,_shape) ENTITY(_shape,black,voicemail,_label,_alias,OFF VOICEMAIL)
 !define OFF_VOICEMAIL(_alias,_label,_shape,_color) ENTITY(_shape,_color,voicemail,_label,_alias,OFF VOICEMAIL)
-skinparam folderBackgroundColor<<OFF VOICEMAIL>> White

@@ -51,4 +51,3 @@ sprite $um_mailbox_policy [48x46/16] {
 !define OFF_UM_MAILBOX_POLICY(_alias,_label) ENTITY(rectangle,black,um_mailbox_policy,_label,_alias,OFF UM_MAILBOX_POLICY)
 !define OFF_UM_MAILBOX_POLICY(_alias,_label,_shape) ENTITY(_shape,black,um_mailbox_policy,_label,_alias,OFF UM_MAILBOX_POLICY)
 !define OFF_UM_MAILBOX_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_mailbox_policy,_label,_alias,OFF UM_MAILBOX_POLICY)
-skinparam folderBackgroundColor<<OFF UM_MAILBOX_POLICY>> White

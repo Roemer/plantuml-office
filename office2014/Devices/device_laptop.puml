@@ -35,4 +35,3 @@ sprite $device_laptop [48x30/16] {
 !define OFF_DEVICE_LAPTOP(_alias,_label) ENTITY(rectangle,black,device_laptop,_label,_alias,OFF DEVICE_LAPTOP)
 !define OFF_DEVICE_LAPTOP(_alias,_label,_shape) ENTITY(_shape,black,device_laptop,_label,_alias,OFF DEVICE_LAPTOP)
 !define OFF_DEVICE_LAPTOP(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_laptop,_label,_alias,OFF DEVICE_LAPTOP)
-skinparam folderBackgroundColor<<OFF DEVICE_LAPTOP>> White

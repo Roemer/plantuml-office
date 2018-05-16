@@ -53,4 +53,3 @@ sprite $device_headset [37x48/16] {
 !define OFF_DEVICE_HEADSET(_alias,_label) ENTITY(rectangle,black,device_headset,_label,_alias,OFF DEVICE_HEADSET)
 !define OFF_DEVICE_HEADSET(_alias,_label,_shape) ENTITY(_shape,black,device_headset,_label,_alias,OFF DEVICE_HEADSET)
 !define OFF_DEVICE_HEADSET(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_headset,_label,_alias,OFF DEVICE_HEADSET)
-skinparam folderBackgroundColor<<OFF DEVICE_HEADSET>> White

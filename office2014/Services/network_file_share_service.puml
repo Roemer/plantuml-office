@@ -51,4 +51,3 @@ sprite $network_file_share_service [48x46/16] {
 !define OFF_NETWORK_FILE_SHARE_SERVICE(_alias,_label) ENTITY(rectangle,black,network_file_share_service,_label,_alias,OFF NETWORK_FILE_SHARE_SERVICE)
 !define OFF_NETWORK_FILE_SHARE_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,network_file_share_service,_label,_alias,OFF NETWORK_FILE_SHARE_SERVICE)
 !define OFF_NETWORK_FILE_SHARE_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,network_file_share_service,_label,_alias,OFF NETWORK_FILE_SHARE_SERVICE)
-skinparam folderBackgroundColor<<OFF NETWORK_FILE_SHARE_SERVICE>> White

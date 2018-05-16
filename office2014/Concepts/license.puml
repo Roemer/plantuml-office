@@ -53,4 +53,3 @@ sprite $license [42x48/16] {
 !define OFF_LICENSE(_alias,_label) ENTITY(rectangle,black,license,_label,_alias,OFF LICENSE)
 !define OFF_LICENSE(_alias,_label,_shape) ENTITY(_shape,black,license,_label,_alias,OFF LICENSE)
 !define OFF_LICENSE(_alias,_label,_shape,_color) ENTITY(_shape,_color,license,_label,_alias,OFF LICENSE)
-skinparam folderBackgroundColor<<OFF LICENSE>> White

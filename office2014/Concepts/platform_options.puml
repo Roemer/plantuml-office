@@ -48,4 +48,3 @@ sprite $platform_options [48x43/16] {
 !define OFF_PLATFORM_OPTIONS(_alias,_label) ENTITY(rectangle,black,platform_options,_label,_alias,OFF PLATFORM_OPTIONS)
 !define OFF_PLATFORM_OPTIONS(_alias,_label,_shape) ENTITY(_shape,black,platform_options,_label,_alias,OFF PLATFORM_OPTIONS)
 !define OFF_PLATFORM_OPTIONS(_alias,_label,_shape,_color) ENTITY(_shape,_color,platform_options,_label,_alias,OFF PLATFORM_OPTIONS)
-skinparam folderBackgroundColor<<OFF PLATFORM_OPTIONS>> White

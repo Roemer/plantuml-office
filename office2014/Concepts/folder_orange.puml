@@ -49,4 +49,3 @@ sprite $folder_orange [48x44/16] {
 !define OFF_FOLDER_ORANGE(_alias,_label) ENTITY(rectangle,black,folder_orange,_label,_alias,OFF FOLDER_ORANGE)
 !define OFF_FOLDER_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,folder_orange,_label,_alias,OFF FOLDER_ORANGE)
 !define OFF_FOLDER_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,folder_orange,_label,_alias,OFF FOLDER_ORANGE)
-skinparam folderBackgroundColor<<OFF FOLDER_ORANGE>> White

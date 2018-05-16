@@ -46,4 +46,3 @@ sprite $device_phone_digital [48x41/16] {
 !define OFF_DEVICE_PHONE_DIGITAL(_alias,_label) ENTITY(rectangle,black,device_phone_digital,_label,_alias,OFF DEVICE_PHONE_DIGITAL)
 !define OFF_DEVICE_PHONE_DIGITAL(_alias,_label,_shape) ENTITY(_shape,black,device_phone_digital,_label,_alias,OFF DEVICE_PHONE_DIGITAL)
 !define OFF_DEVICE_PHONE_DIGITAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_phone_digital,_label,_alias,OFF DEVICE_PHONE_DIGITAL)
-skinparam folderBackgroundColor<<OFF DEVICE_PHONE_DIGITAL>> White

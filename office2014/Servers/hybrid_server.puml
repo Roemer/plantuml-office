@@ -47,4 +47,3 @@ sprite $hybrid_server [48x42/16] {
 !define OFF_HYBRID_SERVER(_alias,_label) ENTITY(rectangle,black,hybrid_server,_label,_alias,OFF HYBRID_SERVER)
 !define OFF_HYBRID_SERVER(_alias,_label,_shape) ENTITY(_shape,black,hybrid_server,_label,_alias,OFF HYBRID_SERVER)
 !define OFF_HYBRID_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,hybrid_server,_label,_alias,OFF HYBRID_SERVER)
-skinparam folderBackgroundColor<<OFF HYBRID_SERVER>> White

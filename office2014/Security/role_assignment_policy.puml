@@ -51,4 +51,3 @@ sprite $role_assignment_policy [48x46/16] {
 !define OFF_ROLE_ASSIGNMENT_POLICY(_alias,_label) ENTITY(rectangle,black,role_assignment_policy,_label,_alias,OFF ROLE_ASSIGNMENT_POLICY)
 !define OFF_ROLE_ASSIGNMENT_POLICY(_alias,_label,_shape) ENTITY(_shape,black,role_assignment_policy,_label,_alias,OFF ROLE_ASSIGNMENT_POLICY)
 !define OFF_ROLE_ASSIGNMENT_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,role_assignment_policy,_label,_alias,OFF ROLE_ASSIGNMENT_POLICY)
-skinparam folderBackgroundColor<<OFF ROLE_ASSIGNMENT_POLICY>> White

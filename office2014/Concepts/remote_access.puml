@@ -39,4 +39,3 @@ sprite $remote_access [48x34/16] {
 !define OFF_REMOTE_ACCESS(_alias,_label) ENTITY(rectangle,black,remote_access,_label,_alias,OFF REMOTE_ACCESS)
 !define OFF_REMOTE_ACCESS(_alias,_label,_shape) ENTITY(_shape,black,remote_access,_label,_alias,OFF REMOTE_ACCESS)
 !define OFF_REMOTE_ACCESS(_alias,_label,_shape,_color) ENTITY(_shape,_color,remote_access,_label,_alias,OFF REMOTE_ACCESS)
-skinparam folderBackgroundColor<<OFF REMOTE_ACCESS>> White

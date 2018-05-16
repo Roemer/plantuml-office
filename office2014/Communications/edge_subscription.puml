@@ -53,4 +53,3 @@ sprite $edge_subscription [48x48/16] {
 !define OFF_EDGE_SUBSCRIPTION(_alias,_label) ENTITY(rectangle,black,edge_subscription,_label,_alias,OFF EDGE_SUBSCRIPTION)
 !define OFF_EDGE_SUBSCRIPTION(_alias,_label,_shape) ENTITY(_shape,black,edge_subscription,_label,_alias,OFF EDGE_SUBSCRIPTION)
 !define OFF_EDGE_SUBSCRIPTION(_alias,_label,_shape,_color) ENTITY(_shape,_color,edge_subscription,_label,_alias,OFF EDGE_SUBSCRIPTION)
-skinparam folderBackgroundColor<<OFF EDGE_SUBSCRIPTION>> White

@@ -47,4 +47,3 @@ sprite $session_border_controller [48x42/16] {
 !define OFF_SESSION_BORDER_CONTROLLER(_alias,_label) ENTITY(rectangle,black,session_border_controller,_label,_alias,OFF SESSION_BORDER_CONTROLLER)
 !define OFF_SESSION_BORDER_CONTROLLER(_alias,_label,_shape) ENTITY(_shape,black,session_border_controller,_label,_alias,OFF SESSION_BORDER_CONTROLLER)
 !define OFF_SESSION_BORDER_CONTROLLER(_alias,_label,_shape,_color) ENTITY(_shape,_color,session_border_controller,_label,_alias,OFF SESSION_BORDER_CONTROLLER)
-skinparam folderBackgroundColor<<OFF SESSION_BORDER_CONTROLLER>> White

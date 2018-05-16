@@ -41,4 +41,3 @@ sprite $upgrade_application [48x36/16] {
 !define OFF_UPGRADE_APPLICATION(_alias,_label) ENTITY(rectangle,black,upgrade_application,_label,_alias,OFF UPGRADE_APPLICATION)
 !define OFF_UPGRADE_APPLICATION(_alias,_label,_shape) ENTITY(_shape,black,upgrade_application,_label,_alias,OFF UPGRADE_APPLICATION)
 !define OFF_UPGRADE_APPLICATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,upgrade_application,_label,_alias,OFF UPGRADE_APPLICATION)
-skinparam folderBackgroundColor<<OFF UPGRADE_APPLICATION>> White

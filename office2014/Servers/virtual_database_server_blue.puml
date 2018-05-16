@@ -53,4 +53,3 @@ sprite $virtual_database_server_blue [36x48/16] {
 !define OFF_VIRTUAL_DATABASE_SERVER_BLUE(_alias,_label) ENTITY(rectangle,black,virtual_database_server_blue,_label,_alias,OFF VIRTUAL_DATABASE_SERVER_BLUE)
 !define OFF_VIRTUAL_DATABASE_SERVER_BLUE(_alias,_label,_shape) ENTITY(_shape,black,virtual_database_server_blue,_label,_alias,OFF VIRTUAL_DATABASE_SERVER_BLUE)
 !define OFF_VIRTUAL_DATABASE_SERVER_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,virtual_database_server_blue,_label,_alias,OFF VIRTUAL_DATABASE_SERVER_BLUE)
-skinparam folderBackgroundColor<<OFF VIRTUAL_DATABASE_SERVER_BLUE>> White

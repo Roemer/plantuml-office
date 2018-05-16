@@ -49,4 +49,3 @@ sprite $mailbox [48x44/16] {
 !define OFF_MAILBOX(_alias,_label) ENTITY(rectangle,black,mailbox,_label,_alias,OFF MAILBOX)
 !define OFF_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,mailbox,_label,_alias,OFF MAILBOX)
 !define OFF_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,mailbox,_label,_alias,OFF MAILBOX)
-skinparam folderBackgroundColor<<OFF MAILBOX>> White

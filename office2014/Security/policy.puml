@@ -50,4 +50,3 @@ sprite $policy [48x45/16] {
 !define OFF_POLICY(_alias,_label) ENTITY(rectangle,black,policy,_label,_alias,OFF POLICY)
 !define OFF_POLICY(_alias,_label,_shape) ENTITY(_shape,black,policy,_label,_alias,OFF POLICY)
 !define OFF_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,policy,_label,_alias,OFF POLICY)
-skinparam folderBackgroundColor<<OFF POLICY>> White

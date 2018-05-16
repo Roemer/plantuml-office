@@ -53,4 +53,3 @@ sprite $certificate_authority [38x48/16] {
 !define OFF_CERTIFICATE_AUTHORITY(_alias,_label) ENTITY(rectangle,black,certificate_authority,_label,_alias,OFF CERTIFICATE_AUTHORITY)
 !define OFF_CERTIFICATE_AUTHORITY(_alias,_label,_shape) ENTITY(_shape,black,certificate_authority,_label,_alias,OFF CERTIFICATE_AUTHORITY)
 !define OFF_CERTIFICATE_AUTHORITY(_alias,_label,_shape,_color) ENTITY(_shape,_color,certificate_authority,_label,_alias,OFF CERTIFICATE_AUTHORITY)
-skinparam folderBackgroundColor<<OFF CERTIFICATE_AUTHORITY>> White

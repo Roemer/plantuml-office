@@ -46,4 +46,3 @@ sprite $skype_for_business_front_end_pool [48x41/16] {
 !define OFF_SKYPE_FOR_BUSINESS_FRONT_END_POOL(_alias,_label) ENTITY(rectangle,black,skype_for_business_front_end_pool,_label,_alias,OFF SKYPE_FOR_BUSINESS_FRONT_END_POOL)
 !define OFF_SKYPE_FOR_BUSINESS_FRONT_END_POOL(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_front_end_pool,_label,_alias,OFF SKYPE_FOR_BUSINESS_FRONT_END_POOL)
 !define OFF_SKYPE_FOR_BUSINESS_FRONT_END_POOL(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_front_end_pool,_label,_alias,OFF SKYPE_FOR_BUSINESS_FRONT_END_POOL)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_FRONT_END_POOL>> White

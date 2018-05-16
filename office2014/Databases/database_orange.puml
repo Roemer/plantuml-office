@@ -53,4 +53,3 @@ sprite $database_orange [35x48/16] {
 !define OFF_DATABASE_ORANGE(_alias,_label) ENTITY(rectangle,black,database_orange,_label,_alias,OFF DATABASE_ORANGE)
 !define OFF_DATABASE_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,database_orange,_label,_alias,OFF DATABASE_ORANGE)
 !define OFF_DATABASE_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_orange,_label,_alias,OFF DATABASE_ORANGE)
-skinparam folderBackgroundColor<<OFF DATABASE_ORANGE>> White

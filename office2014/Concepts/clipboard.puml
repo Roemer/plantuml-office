@@ -53,4 +53,3 @@ sprite $clipboard [37x48/16] {
 !define OFF_CLIPBOARD(_alias,_label) ENTITY(rectangle,black,clipboard,_label,_alias,OFF CLIPBOARD)
 !define OFF_CLIPBOARD(_alias,_label,_shape) ENTITY(_shape,black,clipboard,_label,_alias,OFF CLIPBOARD)
 !define OFF_CLIPBOARD(_alias,_label,_shape,_color) ENTITY(_shape,_color,clipboard,_label,_alias,OFF CLIPBOARD)
-skinparam folderBackgroundColor<<OFF CLIPBOARD>> White

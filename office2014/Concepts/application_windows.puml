@@ -46,4 +46,3 @@ sprite $application_windows [48x41/16] {
 !define OFF_APPLICATION_WINDOWS(_alias,_label) ENTITY(rectangle,black,application_windows,_label,_alias,OFF APPLICATION_WINDOWS)
 !define OFF_APPLICATION_WINDOWS(_alias,_label,_shape) ENTITY(_shape,black,application_windows,_label,_alias,OFF APPLICATION_WINDOWS)
 !define OFF_APPLICATION_WINDOWS(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_windows,_label,_alias,OFF APPLICATION_WINDOWS)
-skinparam folderBackgroundColor<<OFF APPLICATION_WINDOWS>> White

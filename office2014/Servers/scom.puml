@@ -50,4 +50,3 @@ sprite $scom [48x45/16] {
 !define OFF_SCOM(_alias,_label) ENTITY(rectangle,black,scom,_label,_alias,OFF SCOM)
 !define OFF_SCOM(_alias,_label,_shape) ENTITY(_shape,black,scom,_label,_alias,OFF SCOM)
 !define OFF_SCOM(_alias,_label,_shape,_color) ENTITY(_shape,_color,scom,_label,_alias,OFF SCOM)
-skinparam folderBackgroundColor<<OFF SCOM>> White

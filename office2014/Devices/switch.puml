@@ -23,4 +23,3 @@ sprite $switch [48x18/16] {
 !define OFF_SWITCH(_alias,_label) ENTITY(rectangle,black,switch,_label,_alias,OFF SWITCH)
 !define OFF_SWITCH(_alias,_label,_shape) ENTITY(_shape,black,switch,_label,_alias,OFF SWITCH)
 !define OFF_SWITCH(_alias,_label,_shape,_color) ENTITY(_shape,_color,switch,_label,_alias,OFF SWITCH)
-skinparam folderBackgroundColor<<OFF SWITCH>> White

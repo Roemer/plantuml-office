@@ -53,4 +53,3 @@ sprite $windows_powershell [48x48/16] {
 !define OFF_WINDOWS_POWERSHELL(_alias,_label) ENTITY(rectangle,black,windows_powershell,_label,_alias,OFF WINDOWS_POWERSHELL)
 !define OFF_WINDOWS_POWERSHELL(_alias,_label,_shape) ENTITY(_shape,black,windows_powershell,_label,_alias,OFF WINDOWS_POWERSHELL)
 !define OFF_WINDOWS_POWERSHELL(_alias,_label,_shape,_color) ENTITY(_shape,_color,windows_powershell,_label,_alias,OFF WINDOWS_POWERSHELL)
-skinparam folderBackgroundColor<<OFF WINDOWS_POWERSHELL>> White

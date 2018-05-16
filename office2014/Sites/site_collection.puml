@@ -42,4 +42,3 @@ sprite $site_collection [48x37/16] {
 !define OFF_SITE_COLLECTION(_alias,_label) ENTITY(rectangle,black,site_collection,_label,_alias,OFF SITE_COLLECTION)
 !define OFF_SITE_COLLECTION(_alias,_label,_shape) ENTITY(_shape,black,site_collection,_label,_alias,OFF SITE_COLLECTION)
 !define OFF_SITE_COLLECTION(_alias,_label,_shape,_color) ENTITY(_shape,_color,site_collection,_label,_alias,OFF SITE_COLLECTION)
-skinparam folderBackgroundColor<<OFF SITE_COLLECTION>> White

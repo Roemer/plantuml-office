@@ -53,4 +53,3 @@ sprite $best_practices [48x48/16] {
 !define OFF_BEST_PRACTICES(_alias,_label) ENTITY(rectangle,black,best_practices,_label,_alias,OFF BEST_PRACTICES)
 !define OFF_BEST_PRACTICES(_alias,_label,_shape) ENTITY(_shape,black,best_practices,_label,_alias,OFF BEST_PRACTICES)
 !define OFF_BEST_PRACTICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,best_practices,_label,_alias,OFF BEST_PRACTICES)
-skinparam folderBackgroundColor<<OFF BEST_PRACTICES>> White

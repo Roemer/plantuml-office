@@ -51,4 +51,3 @@ sprite $im_workload [48x46/16] {
 !define OFF_IM_WORKLOAD(_alias,_label) ENTITY(rectangle,black,im_workload,_label,_alias,OFF IM_WORKLOAD)
 !define OFF_IM_WORKLOAD(_alias,_label,_shape) ENTITY(_shape,black,im_workload,_label,_alias,OFF IM_WORKLOAD)
 !define OFF_IM_WORKLOAD(_alias,_label,_shape,_color) ENTITY(_shape,_color,im_workload,_label,_alias,OFF IM_WORKLOAD)
-skinparam folderBackgroundColor<<OFF IM_WORKLOAD>> White

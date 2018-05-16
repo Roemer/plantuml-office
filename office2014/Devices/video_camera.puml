@@ -29,4 +29,3 @@ sprite $video_camera [48x24/16] {
 !define OFF_VIDEO_CAMERA(_alias,_label) ENTITY(rectangle,black,video_camera,_label,_alias,OFF VIDEO_CAMERA)
 !define OFF_VIDEO_CAMERA(_alias,_label,_shape) ENTITY(_shape,black,video_camera,_label,_alias,OFF VIDEO_CAMERA)
 !define OFF_VIDEO_CAMERA(_alias,_label,_shape,_color) ENTITY(_shape,_color,video_camera,_label,_alias,OFF VIDEO_CAMERA)
-skinparam folderBackgroundColor<<OFF VIDEO_CAMERA>> White

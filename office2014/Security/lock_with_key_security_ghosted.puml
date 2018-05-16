@@ -53,4 +53,3 @@ sprite $lock_with_key_security_ghosted [39x48/16] {
 !define OFF_LOCK_WITH_KEY_SECURITY_GHOSTED(_alias,_label) ENTITY(rectangle,black,lock_with_key_security_ghosted,_label,_alias,OFF LOCK_WITH_KEY_SECURITY_GHOSTED)
 !define OFF_LOCK_WITH_KEY_SECURITY_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,lock_with_key_security_ghosted,_label,_alias,OFF LOCK_WITH_KEY_SECURITY_GHOSTED)
 !define OFF_LOCK_WITH_KEY_SECURITY_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,lock_with_key_security_ghosted,_label,_alias,OFF LOCK_WITH_KEY_SECURITY_GHOSTED)
-skinparam folderBackgroundColor<<OFF LOCK_WITH_KEY_SECURITY_GHOSTED>> White

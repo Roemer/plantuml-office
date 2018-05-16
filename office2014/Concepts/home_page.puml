@@ -44,4 +44,3 @@ sprite $home_page [48x39/16] {
 !define OFF_HOME_PAGE(_alias,_label) ENTITY(rectangle,black,home_page,_label,_alias,OFF HOME_PAGE)
 !define OFF_HOME_PAGE(_alias,_label,_shape) ENTITY(_shape,black,home_page,_label,_alias,OFF HOME_PAGE)
 !define OFF_HOME_PAGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,home_page,_label,_alias,OFF HOME_PAGE)
-skinparam folderBackgroundColor<<OFF HOME_PAGE>> White

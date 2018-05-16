@@ -38,4 +38,3 @@ sprite $nic [48x33/16] {
 !define OFF_NIC(_alias,_label) ENTITY(rectangle,black,nic,_label,_alias,OFF NIC)
 !define OFF_NIC(_alias,_label,_shape) ENTITY(_shape,black,nic,_label,_alias,OFF NIC)
 !define OFF_NIC(_alias,_label,_shape,_color) ENTITY(_shape,_color,nic,_label,_alias,OFF NIC)
-skinparam folderBackgroundColor<<OFF NIC>> White

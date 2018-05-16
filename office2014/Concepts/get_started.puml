@@ -53,4 +53,3 @@ sprite $get_started [41x48/16] {
 !define OFF_GET_STARTED(_alias,_label) ENTITY(rectangle,black,get_started,_label,_alias,OFF GET_STARTED)
 !define OFF_GET_STARTED(_alias,_label,_shape) ENTITY(_shape,black,get_started,_label,_alias,OFF GET_STARTED)
 !define OFF_GET_STARTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,get_started,_label,_alias,OFF GET_STARTED)
-skinparam folderBackgroundColor<<OFF GET_STARTED>> White

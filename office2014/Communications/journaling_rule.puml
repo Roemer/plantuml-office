@@ -53,4 +53,3 @@ sprite $journaling_rule [43x48/16] {
 !define OFF_JOURNALING_RULE(_alias,_label) ENTITY(rectangle,black,journaling_rule,_label,_alias,OFF JOURNALING_RULE)
 !define OFF_JOURNALING_RULE(_alias,_label,_shape) ENTITY(_shape,black,journaling_rule,_label,_alias,OFF JOURNALING_RULE)
 !define OFF_JOURNALING_RULE(_alias,_label,_shape,_color) ENTITY(_shape,_color,journaling_rule,_label,_alias,OFF JOURNALING_RULE)
-skinparam folderBackgroundColor<<OFF JOURNALING_RULE>> White

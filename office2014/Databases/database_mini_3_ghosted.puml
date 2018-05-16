@@ -53,4 +53,3 @@ sprite $database_mini_3_ghosted [31x48/16] {
 !define OFF_DATABASE_MINI_3_GHOSTED(_alias,_label) ENTITY(rectangle,black,database_mini_3_ghosted,_label,_alias,OFF DATABASE_MINI_3_GHOSTED)
 !define OFF_DATABASE_MINI_3_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,database_mini_3_ghosted,_label,_alias,OFF DATABASE_MINI_3_GHOSTED)
 !define OFF_DATABASE_MINI_3_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_mini_3_ghosted,_label,_alias,OFF DATABASE_MINI_3_GHOSTED)
-skinparam folderBackgroundColor<<OFF DATABASE_MINI_3_GHOSTED>> White

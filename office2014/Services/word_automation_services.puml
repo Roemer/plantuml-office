@@ -44,4 +44,3 @@ sprite $word_automation_services [48x39/16] {
 !define OFF_WORD_AUTOMATION_SERVICES(_alias,_label) ENTITY(rectangle,black,word_automation_services,_label,_alias,OFF WORD_AUTOMATION_SERVICES)
 !define OFF_WORD_AUTOMATION_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,word_automation_services,_label,_alias,OFF WORD_AUTOMATION_SERVICES)
 !define OFF_WORD_AUTOMATION_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,word_automation_services,_label,_alias,OFF WORD_AUTOMATION_SERVICES)
-skinparam folderBackgroundColor<<OFF WORD_AUTOMATION_SERVICES>> White

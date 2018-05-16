@@ -53,4 +53,3 @@ sprite $hard_disk [36x48/16] {
 !define OFF_HARD_DISK(_alias,_label) ENTITY(rectangle,black,hard_disk,_label,_alias,OFF HARD_DISK)
 !define OFF_HARD_DISK(_alias,_label,_shape) ENTITY(_shape,black,hard_disk,_label,_alias,OFF HARD_DISK)
 !define OFF_HARD_DISK(_alias,_label,_shape,_color) ENTITY(_shape,_color,hard_disk,_label,_alias,OFF HARD_DISK)
-skinparam folderBackgroundColor<<OFF HARD_DISK>> White

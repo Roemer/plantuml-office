@@ -44,4 +44,3 @@ sprite $home_page_orange [48x39/16] {
 !define OFF_HOME_PAGE_ORANGE(_alias,_label) ENTITY(rectangle,black,home_page_orange,_label,_alias,OFF HOME_PAGE_ORANGE)
 !define OFF_HOME_PAGE_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,home_page_orange,_label,_alias,OFF HOME_PAGE_ORANGE)
 !define OFF_HOME_PAGE_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,home_page_orange,_label,_alias,OFF HOME_PAGE_ORANGE)
-skinparam folderBackgroundColor<<OFF HOME_PAGE_ORANGE>> White

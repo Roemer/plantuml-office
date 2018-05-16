@@ -48,4 +48,3 @@ sprite $discovery_search_mailbox [48x43/16] {
 !define OFF_DISCOVERY_SEARCH_MAILBOX(_alias,_label) ENTITY(rectangle,black,discovery_search_mailbox,_label,_alias,OFF DISCOVERY_SEARCH_MAILBOX)
 !define OFF_DISCOVERY_SEARCH_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,discovery_search_mailbox,_label,_alias,OFF DISCOVERY_SEARCH_MAILBOX)
 !define OFF_DISCOVERY_SEARCH_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,discovery_search_mailbox,_label,_alias,OFF DISCOVERY_SEARCH_MAILBOX)
-skinparam folderBackgroundColor<<OFF DISCOVERY_SEARCH_MAILBOX>> White

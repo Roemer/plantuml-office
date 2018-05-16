@@ -42,4 +42,3 @@ sprite $navigation [48x37/16] {
 !define OFF_NAVIGATION(_alias,_label) ENTITY(rectangle,black,navigation,_label,_alias,OFF NAVIGATION)
 !define OFF_NAVIGATION(_alias,_label,_shape) ENTITY(_shape,black,navigation,_label,_alias,OFF NAVIGATION)
 !define OFF_NAVIGATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,navigation,_label,_alias,OFF NAVIGATION)
-skinparam folderBackgroundColor<<OFF NAVIGATION>> White

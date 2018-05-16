@@ -52,4 +52,3 @@ sprite $database_availability_group [48x47/16] {
 !define OFF_DATABASE_AVAILABILITY_GROUP(_alias,_label) ENTITY(rectangle,black,database_availability_group,_label,_alias,OFF DATABASE_AVAILABILITY_GROUP)
 !define OFF_DATABASE_AVAILABILITY_GROUP(_alias,_label,_shape) ENTITY(_shape,black,database_availability_group,_label,_alias,OFF DATABASE_AVAILABILITY_GROUP)
 !define OFF_DATABASE_AVAILABILITY_GROUP(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_availability_group,_label,_alias,OFF DATABASE_AVAILABILITY_GROUP)
-skinparam folderBackgroundColor<<OFF DATABASE_AVAILABILITY_GROUP>> White

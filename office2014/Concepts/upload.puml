@@ -53,4 +53,3 @@ sprite $upload [42x48/16] {
 !define OFF_UPLOAD(_alias,_label) ENTITY(rectangle,black,upload,_label,_alias,OFF UPLOAD)
 !define OFF_UPLOAD(_alias,_label,_shape) ENTITY(_shape,black,upload,_label,_alias,OFF UPLOAD)
 !define OFF_UPLOAD(_alias,_label,_shape,_color) ENTITY(_shape,_color,upload,_label,_alias,OFF UPLOAD)
-skinparam folderBackgroundColor<<OFF UPLOAD>> White

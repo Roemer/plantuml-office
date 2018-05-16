@@ -37,4 +37,3 @@ sprite $meeting [48x32/16] {
 !define OFF_MEETING(_alias,_label) ENTITY(rectangle,black,meeting,_label,_alias,OFF MEETING)
 !define OFF_MEETING(_alias,_label,_shape) ENTITY(_shape,black,meeting,_label,_alias,OFF MEETING)
 !define OFF_MEETING(_alias,_label,_shape,_color) ENTITY(_shape,_color,meeting,_label,_alias,OFF MEETING)
-skinparam folderBackgroundColor<<OFF MEETING>> White

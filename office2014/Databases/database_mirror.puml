@@ -52,4 +52,3 @@ sprite $database_mirror [48x47/16] {
 !define OFF_DATABASE_MIRROR(_alias,_label) ENTITY(rectangle,black,database_mirror,_label,_alias,OFF DATABASE_MIRROR)
 !define OFF_DATABASE_MIRROR(_alias,_label,_shape) ENTITY(_shape,black,database_mirror,_label,_alias,OFF DATABASE_MIRROR)
 !define OFF_DATABASE_MIRROR(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_mirror,_label,_alias,OFF DATABASE_MIRROR)
-skinparam folderBackgroundColor<<OFF DATABASE_MIRROR>> White

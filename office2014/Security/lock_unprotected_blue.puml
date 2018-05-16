@@ -53,4 +53,3 @@ sprite $lock_unprotected_blue [34x48/16] {
 !define OFF_LOCK_UNPROTECTED_BLUE(_alias,_label) ENTITY(rectangle,black,lock_unprotected_blue,_label,_alias,OFF LOCK_UNPROTECTED_BLUE)
 !define OFF_LOCK_UNPROTECTED_BLUE(_alias,_label,_shape) ENTITY(_shape,black,lock_unprotected_blue,_label,_alias,OFF LOCK_UNPROTECTED_BLUE)
 !define OFF_LOCK_UNPROTECTED_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,lock_unprotected_blue,_label,_alias,OFF LOCK_UNPROTECTED_BLUE)
-skinparam folderBackgroundColor<<OFF LOCK_UNPROTECTED_BLUE>> White

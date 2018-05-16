@@ -45,4 +45,3 @@ sprite $device_lcd_monitor [48x40/16] {
 !define OFF_DEVICE_LCD_MONITOR(_alias,_label) ENTITY(rectangle,black,device_lcd_monitor,_label,_alias,OFF DEVICE_LCD_MONITOR)
 !define OFF_DEVICE_LCD_MONITOR(_alias,_label,_shape) ENTITY(_shape,black,device_lcd_monitor,_label,_alias,OFF DEVICE_LCD_MONITOR)
 !define OFF_DEVICE_LCD_MONITOR(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_lcd_monitor,_label,_alias,OFF DEVICE_LCD_MONITOR)
-skinparam folderBackgroundColor<<OFF DEVICE_LCD_MONITOR>> White

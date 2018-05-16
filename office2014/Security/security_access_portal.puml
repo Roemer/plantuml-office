@@ -46,4 +46,3 @@ sprite $security_access_portal [48x41/16] {
 !define OFF_SECURITY_ACCESS_PORTAL(_alias,_label) ENTITY(rectangle,black,security_access_portal,_label,_alias,OFF SECURITY_ACCESS_PORTAL)
 !define OFF_SECURITY_ACCESS_PORTAL(_alias,_label,_shape) ENTITY(_shape,black,security_access_portal,_label,_alias,OFF SECURITY_ACCESS_PORTAL)
 !define OFF_SECURITY_ACCESS_PORTAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,security_access_portal,_label,_alias,OFF SECURITY_ACCESS_PORTAL)
-skinparam folderBackgroundColor<<OFF SECURITY_ACCESS_PORTAL>> White

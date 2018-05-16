@@ -53,4 +53,3 @@ sprite $dirsync_server [40x48/16] {
 !define OFF_DIRSYNC_SERVER(_alias,_label) ENTITY(rectangle,black,dirsync_server,_label,_alias,OFF DIRSYNC_SERVER)
 !define OFF_DIRSYNC_SERVER(_alias,_label,_shape) ENTITY(_shape,black,dirsync_server,_label,_alias,OFF DIRSYNC_SERVER)
 !define OFF_DIRSYNC_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,dirsync_server,_label,_alias,OFF DIRSYNC_SERVER)
-skinparam folderBackgroundColor<<OFF DIRSYNC_SERVER>> White

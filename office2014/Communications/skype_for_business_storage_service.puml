@@ -50,4 +50,3 @@ sprite $skype_for_business_storage_service [48x45/16] {
 !define OFF_SKYPE_FOR_BUSINESS_STORAGE_SERVICE(_alias,_label) ENTITY(rectangle,black,skype_for_business_storage_service,_label,_alias,OFF SKYPE_FOR_BUSINESS_STORAGE_SERVICE)
 !define OFF_SKYPE_FOR_BUSINESS_STORAGE_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_storage_service,_label,_alias,OFF SKYPE_FOR_BUSINESS_STORAGE_SERVICE)
 !define OFF_SKYPE_FOR_BUSINESS_STORAGE_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_storage_service,_label,_alias,OFF SKYPE_FOR_BUSINESS_STORAGE_SERVICE)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_STORAGE_SERVICE>> White

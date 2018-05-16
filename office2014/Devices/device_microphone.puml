@@ -38,4 +38,3 @@ sprite $device_microphone [48x33/16] {
 !define OFF_DEVICE_MICROPHONE(_alias,_label) ENTITY(rectangle,black,device_microphone,_label,_alias,OFF DEVICE_MICROPHONE)
 !define OFF_DEVICE_MICROPHONE(_alias,_label,_shape) ENTITY(_shape,black,device_microphone,_label,_alias,OFF DEVICE_MICROPHONE)
 !define OFF_DEVICE_MICROPHONE(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_microphone,_label,_alias,OFF DEVICE_MICROPHONE)
-skinparam folderBackgroundColor<<OFF DEVICE_MICROPHONE>> White

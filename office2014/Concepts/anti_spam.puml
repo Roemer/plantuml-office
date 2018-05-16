@@ -46,4 +46,3 @@ sprite $anti_spam [48x41/16] {
 !define OFF_ANTI_SPAM(_alias,_label) ENTITY(rectangle,black,anti_spam,_label,_alias,OFF ANTI_SPAM)
 !define OFF_ANTI_SPAM(_alias,_label,_shape) ENTITY(_shape,black,anti_spam,_label,_alias,OFF ANTI_SPAM)
 !define OFF_ANTI_SPAM(_alias,_label,_shape,_color) ENTITY(_shape,_color,anti_spam,_label,_alias,OFF ANTI_SPAM)
-skinparam folderBackgroundColor<<OFF ANTI_SPAM>> White

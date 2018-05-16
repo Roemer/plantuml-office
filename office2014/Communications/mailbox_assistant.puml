@@ -51,4 +51,3 @@ sprite $mailbox_assistant [48x46/16] {
 !define OFF_MAILBOX_ASSISTANT(_alias,_label) ENTITY(rectangle,black,mailbox_assistant,_label,_alias,OFF MAILBOX_ASSISTANT)
 !define OFF_MAILBOX_ASSISTANT(_alias,_label,_shape) ENTITY(_shape,black,mailbox_assistant,_label,_alias,OFF MAILBOX_ASSISTANT)
 !define OFF_MAILBOX_ASSISTANT(_alias,_label,_shape,_color) ENTITY(_shape,_color,mailbox_assistant,_label,_alias,OFF MAILBOX_ASSISTANT)
-skinparam folderBackgroundColor<<OFF MAILBOX_ASSISTANT>> White

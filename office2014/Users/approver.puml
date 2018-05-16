@@ -49,4 +49,3 @@ sprite $approver [48x44/16] {
 !define OFF_APPROVER(_alias,_label) ENTITY(rectangle,black,approver,_label,_alias,OFF APPROVER)
 !define OFF_APPROVER(_alias,_label,_shape) ENTITY(_shape,black,approver,_label,_alias,OFF APPROVER)
 !define OFF_APPROVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,approver,_label,_alias,OFF APPROVER)
-skinparam folderBackgroundColor<<OFF APPROVER>> White

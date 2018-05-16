@@ -53,4 +53,3 @@ sprite $cd_dvd [48x48/16] {
 !define OFF_CD_DVD(_alias,_label) ENTITY(rectangle,black,cd_dvd,_label,_alias,OFF CD_DVD)
 !define OFF_CD_DVD(_alias,_label,_shape) ENTITY(_shape,black,cd_dvd,_label,_alias,OFF CD_DVD)
 !define OFF_CD_DVD(_alias,_label,_shape,_color) ENTITY(_shape,_color,cd_dvd,_label,_alias,OFF CD_DVD)
-skinparam folderBackgroundColor<<OFF CD_DVD>> White

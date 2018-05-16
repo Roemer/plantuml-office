@@ -35,4 +35,3 @@ sprite $cloud_exchange_online [48x30/16] {
 !define OFF_CLOUD_EXCHANGE_ONLINE(_alias,_label) ENTITY(rectangle,black,cloud_exchange_online,_label,_alias,OFF CLOUD_EXCHANGE_ONLINE)
 !define OFF_CLOUD_EXCHANGE_ONLINE(_alias,_label,_shape) ENTITY(_shape,black,cloud_exchange_online,_label,_alias,OFF CLOUD_EXCHANGE_ONLINE)
 !define OFF_CLOUD_EXCHANGE_ONLINE(_alias,_label,_shape,_color) ENTITY(_shape,_color,cloud_exchange_online,_label,_alias,OFF CLOUD_EXCHANGE_ONLINE)
-skinparam folderBackgroundColor<<OFF CLOUD_EXCHANGE_ONLINE>> White

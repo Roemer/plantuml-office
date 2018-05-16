@@ -46,4 +46,3 @@ sprite $my_site [48x41/16] {
 !define OFF_MY_SITE(_alias,_label) ENTITY(rectangle,black,my_site,_label,_alias,OFF MY_SITE)
 !define OFF_MY_SITE(_alias,_label,_shape) ENTITY(_shape,black,my_site,_label,_alias,OFF MY_SITE)
 !define OFF_MY_SITE(_alias,_label,_shape,_color) ENTITY(_shape,_color,my_site,_label,_alias,OFF MY_SITE)
-skinparam folderBackgroundColor<<OFF MY_SITE>> White

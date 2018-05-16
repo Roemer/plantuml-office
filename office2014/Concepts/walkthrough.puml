@@ -53,4 +53,3 @@ sprite $walkthrough [34x48/16] {
 !define OFF_WALKTHROUGH(_alias,_label) ENTITY(rectangle,black,walkthrough,_label,_alias,OFF WALKTHROUGH)
 !define OFF_WALKTHROUGH(_alias,_label,_shape) ENTITY(_shape,black,walkthrough,_label,_alias,OFF WALKTHROUGH)
 !define OFF_WALKTHROUGH(_alias,_label,_shape,_color) ENTITY(_shape,_color,walkthrough,_label,_alias,OFF WALKTHROUGH)
-skinparam folderBackgroundColor<<OFF WALKTHROUGH>> White

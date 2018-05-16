@@ -51,4 +51,3 @@ sprite $sharepoint_server [48x46/16] {
 !define OFF_SHAREPOINT_SERVER(_alias,_label) ENTITY(rectangle,black,sharepoint_server,_label,_alias,OFF SHAREPOINT_SERVER)
 !define OFF_SHAREPOINT_SERVER(_alias,_label,_shape) ENTITY(_shape,black,sharepoint_server,_label,_alias,OFF SHAREPOINT_SERVER)
 !define OFF_SHAREPOINT_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,sharepoint_server,_label,_alias,OFF SHAREPOINT_SERVER)
-skinparam folderBackgroundColor<<OFF SHAREPOINT_SERVER>> White

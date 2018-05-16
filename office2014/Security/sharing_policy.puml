@@ -50,4 +50,3 @@ sprite $sharing_policy [48x45/16] {
 !define OFF_SHARING_POLICY(_alias,_label) ENTITY(rectangle,black,sharing_policy,_label,_alias,OFF SHARING_POLICY)
 !define OFF_SHARING_POLICY(_alias,_label,_shape) ENTITY(_shape,black,sharing_policy,_label,_alias,OFF SHARING_POLICY)
 !define OFF_SHARING_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,sharing_policy,_label,_alias,OFF SHARING_POLICY)
-skinparam folderBackgroundColor<<OFF SHARING_POLICY>> White

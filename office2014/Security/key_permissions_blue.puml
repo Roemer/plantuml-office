@@ -53,4 +53,3 @@ sprite $key_permissions_blue [24x48/16] {
 !define OFF_KEY_PERMISSIONS_BLUE(_alias,_label) ENTITY(rectangle,black,key_permissions_blue,_label,_alias,OFF KEY_PERMISSIONS_BLUE)
 !define OFF_KEY_PERMISSIONS_BLUE(_alias,_label,_shape) ENTITY(_shape,black,key_permissions_blue,_label,_alias,OFF KEY_PERMISSIONS_BLUE)
 !define OFF_KEY_PERMISSIONS_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,key_permissions_blue,_label,_alias,OFF KEY_PERMISSIONS_BLUE)
-skinparam folderBackgroundColor<<OFF KEY_PERMISSIONS_BLUE>> White

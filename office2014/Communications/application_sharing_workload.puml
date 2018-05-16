@@ -47,4 +47,3 @@ sprite $application_sharing_workload [48x42/16] {
 !define OFF_APPLICATION_SHARING_WORKLOAD(_alias,_label) ENTITY(rectangle,black,application_sharing_workload,_label,_alias,OFF APPLICATION_SHARING_WORKLOAD)
 !define OFF_APPLICATION_SHARING_WORKLOAD(_alias,_label,_shape) ENTITY(_shape,black,application_sharing_workload,_label,_alias,OFF APPLICATION_SHARING_WORKLOAD)
 !define OFF_APPLICATION_SHARING_WORKLOAD(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_sharing_workload,_label,_alias,OFF APPLICATION_SHARING_WORKLOAD)
-skinparam folderBackgroundColor<<OFF APPLICATION_SHARING_WORKLOAD>> White

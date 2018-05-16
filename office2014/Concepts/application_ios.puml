@@ -45,4 +45,3 @@ sprite $application_ios [48x40/16] {
 !define OFF_APPLICATION_IOS(_alias,_label) ENTITY(rectangle,black,application_ios,_label,_alias,OFF APPLICATION_IOS)
 !define OFF_APPLICATION_IOS(_alias,_label,_shape) ENTITY(_shape,black,application_ios,_label,_alias,OFF APPLICATION_IOS)
 !define OFF_APPLICATION_IOS(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_ios,_label,_alias,OFF APPLICATION_IOS)
-skinparam folderBackgroundColor<<OFF APPLICATION_IOS>> White

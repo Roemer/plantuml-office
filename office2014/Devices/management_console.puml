@@ -45,4 +45,3 @@ sprite $management_console [48x40/16] {
 !define OFF_MANAGEMENT_CONSOLE(_alias,_label) ENTITY(rectangle,black,management_console,_label,_alias,OFF MANAGEMENT_CONSOLE)
 !define OFF_MANAGEMENT_CONSOLE(_alias,_label,_shape) ENTITY(_shape,black,management_console,_label,_alias,OFF MANAGEMENT_CONSOLE)
 !define OFF_MANAGEMENT_CONSOLE(_alias,_label,_shape,_color) ENTITY(_shape,_color,management_console,_label,_alias,OFF MANAGEMENT_CONSOLE)
-skinparam folderBackgroundColor<<OFF MANAGEMENT_CONSOLE>> White

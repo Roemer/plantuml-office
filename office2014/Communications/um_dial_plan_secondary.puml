@@ -53,4 +53,3 @@ sprite $um_dial_plan_secondary [47x48/16] {
 !define OFF_UM_DIAL_PLAN_SECONDARY(_alias,_label) ENTITY(rectangle,black,um_dial_plan_secondary,_label,_alias,OFF UM_DIAL_PLAN_SECONDARY)
 !define OFF_UM_DIAL_PLAN_SECONDARY(_alias,_label,_shape) ENTITY(_shape,black,um_dial_plan_secondary,_label,_alias,OFF UM_DIAL_PLAN_SECONDARY)
 !define OFF_UM_DIAL_PLAN_SECONDARY(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_dial_plan_secondary,_label,_alias,OFF UM_DIAL_PLAN_SECONDARY)
-skinparam folderBackgroundColor<<OFF UM_DIAL_PLAN_SECONDARY>> White

@@ -51,4 +51,3 @@ sprite $personal_archive_mailbox [48x46/16] {
 !define OFF_PERSONAL_ARCHIVE_MAILBOX(_alias,_label) ENTITY(rectangle,black,personal_archive_mailbox,_label,_alias,OFF PERSONAL_ARCHIVE_MAILBOX)
 !define OFF_PERSONAL_ARCHIVE_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,personal_archive_mailbox,_label,_alias,OFF PERSONAL_ARCHIVE_MAILBOX)
 !define OFF_PERSONAL_ARCHIVE_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,personal_archive_mailbox,_label,_alias,OFF PERSONAL_ARCHIVE_MAILBOX)
-skinparam folderBackgroundColor<<OFF PERSONAL_ARCHIVE_MAILBOX>> White

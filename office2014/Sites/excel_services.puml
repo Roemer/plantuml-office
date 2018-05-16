@@ -45,4 +45,3 @@ sprite $excel_services [48x40/16] {
 !define OFF_EXCEL_SERVICES(_alias,_label) ENTITY(rectangle,black,excel_services,_label,_alias,OFF EXCEL_SERVICES)
 !define OFF_EXCEL_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,excel_services,_label,_alias,OFF EXCEL_SERVICES)
 !define OFF_EXCEL_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,excel_services,_label,_alias,OFF EXCEL_SERVICES)
-skinparam folderBackgroundColor<<OFF EXCEL_SERVICES>> White

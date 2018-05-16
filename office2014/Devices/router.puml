@@ -53,4 +53,3 @@ sprite $router [46x48/16] {
 !define OFF_ROUTER(_alias,_label) ENTITY(rectangle,black,router,_label,_alias,OFF ROUTER)
 !define OFF_ROUTER(_alias,_label,_shape) ENTITY(_shape,black,router,_label,_alias,OFF ROUTER)
 !define OFF_ROUTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,router,_label,_alias,OFF ROUTER)
-skinparam folderBackgroundColor<<OFF ROUTER>> White

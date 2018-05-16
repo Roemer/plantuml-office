@@ -47,4 +47,3 @@ sprite $server_farm_orange [48x42/16] {
 !define OFF_SERVER_FARM_ORANGE(_alias,_label) ENTITY(rectangle,black,server_farm_orange,_label,_alias,OFF SERVER_FARM_ORANGE)
 !define OFF_SERVER_FARM_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,server_farm_orange,_label,_alias,OFF SERVER_FARM_ORANGE)
 !define OFF_SERVER_FARM_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,server_farm_orange,_label,_alias,OFF SERVER_FARM_ORANGE)
-skinparam folderBackgroundColor<<OFF SERVER_FARM_ORANGE>> White

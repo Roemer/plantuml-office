@@ -51,4 +51,3 @@ sprite $remote_mailbox [48x46/16] {
 !define OFF_REMOTE_MAILBOX(_alias,_label) ENTITY(rectangle,black,remote_mailbox,_label,_alias,OFF REMOTE_MAILBOX)
 !define OFF_REMOTE_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,remote_mailbox,_label,_alias,OFF REMOTE_MAILBOX)
 !define OFF_REMOTE_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,remote_mailbox,_label,_alias,OFF REMOTE_MAILBOX)
-skinparam folderBackgroundColor<<OFF REMOTE_MAILBOX>> White

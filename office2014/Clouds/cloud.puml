@@ -35,4 +35,3 @@ sprite $cloud [48x30/16] {
 !define OFF_CLOUD(_alias,_label) ENTITY(rectangle,black,cloud,_label,_alias,OFF CLOUD)
 !define OFF_CLOUD(_alias,_label,_shape) ENTITY(_shape,black,cloud,_label,_alias,OFF CLOUD)
 !define OFF_CLOUD(_alias,_label,_shape,_color) ENTITY(_shape,_color,cloud,_label,_alias,OFF CLOUD)
-skinparam folderBackgroundColor<<OFF CLOUD>> White

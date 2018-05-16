@@ -53,4 +53,3 @@ sprite $voice_mail_preview_partner [40x48/16] {
 !define OFF_VOICE_MAIL_PREVIEW_PARTNER(_alias,_label) ENTITY(rectangle,black,voice_mail_preview_partner,_label,_alias,OFF VOICE_MAIL_PREVIEW_PARTNER)
 !define OFF_VOICE_MAIL_PREVIEW_PARTNER(_alias,_label,_shape) ENTITY(_shape,black,voice_mail_preview_partner,_label,_alias,OFF VOICE_MAIL_PREVIEW_PARTNER)
 !define OFF_VOICE_MAIL_PREVIEW_PARTNER(_alias,_label,_shape,_color) ENTITY(_shape,_color,voice_mail_preview_partner,_label,_alias,OFF VOICE_MAIL_PREVIEW_PARTNER)
-skinparam folderBackgroundColor<<OFF VOICE_MAIL_PREVIEW_PARTNER>> White

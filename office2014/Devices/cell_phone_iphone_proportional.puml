@@ -53,4 +53,3 @@ sprite $cell_phone_iphone_proportional [30x48/16] {
 !define OFF_CELL_PHONE_IPHONE_PROPORTIONAL(_alias,_label) ENTITY(rectangle,black,cell_phone_iphone_proportional,_label,_alias,OFF CELL_PHONE_IPHONE_PROPORTIONAL)
 !define OFF_CELL_PHONE_IPHONE_PROPORTIONAL(_alias,_label,_shape) ENTITY(_shape,black,cell_phone_iphone_proportional,_label,_alias,OFF CELL_PHONE_IPHONE_PROPORTIONAL)
 !define OFF_CELL_PHONE_IPHONE_PROPORTIONAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,cell_phone_iphone_proportional,_label,_alias,OFF CELL_PHONE_IPHONE_PROPORTIONAL)
-skinparam folderBackgroundColor<<OFF CELL_PHONE_IPHONE_PROPORTIONAL>> White

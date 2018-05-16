@@ -44,4 +44,3 @@ sprite $video_play [48x39/16] {
 !define OFF_VIDEO_PLAY(_alias,_label) ENTITY(rectangle,black,video_play,_label,_alias,OFF VIDEO_PLAY)
 !define OFF_VIDEO_PLAY(_alias,_label,_shape) ENTITY(_shape,black,video_play,_label,_alias,OFF VIDEO_PLAY)
 !define OFF_VIDEO_PLAY(_alias,_label,_shape,_color) ENTITY(_shape,_color,video_play,_label,_alias,OFF VIDEO_PLAY)
-skinparam folderBackgroundColor<<OFF VIDEO_PLAY>> White

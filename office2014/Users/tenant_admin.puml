@@ -53,4 +53,3 @@ sprite $tenant_admin [46x48/16] {
 !define OFF_TENANT_ADMIN(_alias,_label) ENTITY(rectangle,black,tenant_admin,_label,_alias,OFF TENANT_ADMIN)
 !define OFF_TENANT_ADMIN(_alias,_label,_shape) ENTITY(_shape,black,tenant_admin,_label,_alias,OFF TENANT_ADMIN)
 !define OFF_TENANT_ADMIN(_alias,_label,_shape,_color) ENTITY(_shape,_color,tenant_admin,_label,_alias,OFF TENANT_ADMIN)
-skinparam folderBackgroundColor<<OFF TENANT_ADMIN>> White

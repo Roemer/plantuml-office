@@ -47,4 +47,3 @@ sprite $device_phone_usb [48x42/16] {
 !define OFF_DEVICE_PHONE_USB(_alias,_label) ENTITY(rectangle,black,device_phone_usb,_label,_alias,OFF DEVICE_PHONE_USB)
 !define OFF_DEVICE_PHONE_USB(_alias,_label,_shape) ENTITY(_shape,black,device_phone_usb,_label,_alias,OFF DEVICE_PHONE_USB)
 !define OFF_DEVICE_PHONE_USB(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_phone_usb,_label,_alias,OFF DEVICE_PHONE_USB)
-skinparam folderBackgroundColor<<OFF DEVICE_PHONE_USB>> White

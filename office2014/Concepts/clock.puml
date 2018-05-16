@@ -53,4 +53,3 @@ sprite $clock [48x48/16] {
 !define OFF_CLOCK(_alias,_label) ENTITY(rectangle,black,clock,_label,_alias,OFF CLOCK)
 !define OFF_CLOCK(_alias,_label,_shape) ENTITY(_shape,black,clock,_label,_alias,OFF CLOCK)
 !define OFF_CLOCK(_alias,_label,_shape,_color) ENTITY(_shape,_color,clock,_label,_alias,OFF CLOCK)
-skinparam folderBackgroundColor<<OFF CLOCK>> White

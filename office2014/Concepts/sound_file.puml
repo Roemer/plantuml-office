@@ -53,4 +53,3 @@ sprite $sound_file [38x48/16] {
 !define OFF_SOUND_FILE(_alias,_label) ENTITY(rectangle,black,sound_file,_label,_alias,OFF SOUND_FILE)
 !define OFF_SOUND_FILE(_alias,_label,_shape) ENTITY(_shape,black,sound_file,_label,_alias,OFF SOUND_FILE)
 !define OFF_SOUND_FILE(_alias,_label,_shape,_color) ENTITY(_shape,_color,sound_file,_label,_alias,OFF SOUND_FILE)
-skinparam folderBackgroundColor<<OFF SOUND_FILE>> White

@@ -53,4 +53,3 @@ sprite $federation_service [46x48/16] {
 !define OFF_FEDERATION_SERVICE(_alias,_label) ENTITY(rectangle,black,federation_service,_label,_alias,OFF FEDERATION_SERVICE)
 !define OFF_FEDERATION_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,federation_service,_label,_alias,OFF FEDERATION_SERVICE)
 !define OFF_FEDERATION_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,federation_service,_label,_alias,OFF FEDERATION_SERVICE)
-skinparam folderBackgroundColor<<OFF FEDERATION_SERVICE>> White

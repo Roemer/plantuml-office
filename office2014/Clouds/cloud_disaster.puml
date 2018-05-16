@@ -43,4 +43,3 @@ sprite $cloud_disaster [48x38/16] {
 !define OFF_CLOUD_DISASTER(_alias,_label) ENTITY(rectangle,black,cloud_disaster,_label,_alias,OFF CLOUD_DISASTER)
 !define OFF_CLOUD_DISASTER(_alias,_label,_shape) ENTITY(_shape,black,cloud_disaster,_label,_alias,OFF CLOUD_DISASTER)
 !define OFF_CLOUD_DISASTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,cloud_disaster,_label,_alias,OFF CLOUD_DISASTER)
-skinparam folderBackgroundColor<<OFF CLOUD_DISASTER>> White

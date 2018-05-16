@@ -53,4 +53,3 @@ sprite $communications [45x48/16] {
 !define OFF_COMMUNICATIONS(_alias,_label) ENTITY(rectangle,black,communications,_label,_alias,OFF COMMUNICATIONS)
 !define OFF_COMMUNICATIONS(_alias,_label,_shape) ENTITY(_shape,black,communications,_label,_alias,OFF COMMUNICATIONS)
 !define OFF_COMMUNICATIONS(_alias,_label,_shape,_color) ENTITY(_shape,_color,communications,_label,_alias,OFF COMMUNICATIONS)
-skinparam folderBackgroundColor<<OFF COMMUNICATIONS>> White

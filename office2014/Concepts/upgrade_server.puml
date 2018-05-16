@@ -53,4 +53,3 @@ sprite $upgrade_server [36x48/16] {
 !define OFF_UPGRADE_SERVER(_alias,_label) ENTITY(rectangle,black,upgrade_server,_label,_alias,OFF UPGRADE_SERVER)
 !define OFF_UPGRADE_SERVER(_alias,_label,_shape) ENTITY(_shape,black,upgrade_server,_label,_alias,OFF UPGRADE_SERVER)
 !define OFF_UPGRADE_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,upgrade_server,_label,_alias,OFF UPGRADE_SERVER)
-skinparam folderBackgroundColor<<OFF UPGRADE_SERVER>> White

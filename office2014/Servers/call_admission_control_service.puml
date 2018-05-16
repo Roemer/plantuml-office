@@ -53,4 +53,3 @@ sprite $call_admission_control_service [40x48/16] {
 !define OFF_CALL_ADMISSION_CONTROL_SERVICE(_alias,_label) ENTITY(rectangle,black,call_admission_control_service,_label,_alias,OFF CALL_ADMISSION_CONTROL_SERVICE)
 !define OFF_CALL_ADMISSION_CONTROL_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,call_admission_control_service,_label,_alias,OFF CALL_ADMISSION_CONTROL_SERVICE)
 !define OFF_CALL_ADMISSION_CONTROL_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,call_admission_control_service,_label,_alias,OFF CALL_ADMISSION_CONTROL_SERVICE)
-skinparam folderBackgroundColor<<OFF CALL_ADMISSION_CONTROL_SERVICE>> White

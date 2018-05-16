@@ -53,4 +53,3 @@ sprite $sip_uri_um_dial_plan [47x48/16] {
 !define OFF_SIP_URI_UM_DIAL_PLAN(_alias,_label) ENTITY(rectangle,black,sip_uri_um_dial_plan,_label,_alias,OFF SIP_URI_UM_DIAL_PLAN)
 !define OFF_SIP_URI_UM_DIAL_PLAN(_alias,_label,_shape) ENTITY(_shape,black,sip_uri_um_dial_plan,_label,_alias,OFF SIP_URI_UM_DIAL_PLAN)
 !define OFF_SIP_URI_UM_DIAL_PLAN(_alias,_label,_shape,_color) ENTITY(_shape,_color,sip_uri_um_dial_plan,_label,_alias,OFF SIP_URI_UM_DIAL_PLAN)
-skinparam folderBackgroundColor<<OFF SIP_URI_UM_DIAL_PLAN>> White

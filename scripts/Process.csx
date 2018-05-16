@@ -95,7 +95,6 @@ public string ConvertToPuml(string pngPath)
     sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label) ENTITY(rectangle,black,{entityName},_label,_alias,OFF {entityNameUpper})");
     sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape) ENTITY(_shape,black,{entityName},_label,_alias,OFF {entityNameUpper})");
     sbImage.AppendLine($"!define OFF_{entityNameUpper}(_alias,_label,_shape,_color) ENTITY(_shape,_color,{entityName},_label,_alias,OFF {entityNameUpper})");
-    sbImage.Append($"skinparam folderBackgroundColor<<OFF {entityNameUpper}>> White");
 
     File.WriteAllText(pumlPath, sbImage.ToString());
     return pumlPath;

@@ -49,4 +49,3 @@ sprite $response_group_service [48x44/16] {
 !define OFF_RESPONSE_GROUP_SERVICE(_alias,_label) ENTITY(rectangle,black,response_group_service,_label,_alias,OFF RESPONSE_GROUP_SERVICE)
 !define OFF_RESPONSE_GROUP_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,response_group_service,_label,_alias,OFF RESPONSE_GROUP_SERVICE)
 !define OFF_RESPONSE_GROUP_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,response_group_service,_label,_alias,OFF RESPONSE_GROUP_SERVICE)
-skinparam folderBackgroundColor<<OFF RESPONSE_GROUP_SERVICE>> White

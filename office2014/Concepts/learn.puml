@@ -53,4 +53,3 @@ sprite $learn [47x48/16] {
 !define OFF_LEARN(_alias,_label) ENTITY(rectangle,black,learn,_label,_alias,OFF LEARN)
 !define OFF_LEARN(_alias,_label,_shape) ENTITY(_shape,black,learn,_label,_alias,OFF LEARN)
 !define OFF_LEARN(_alias,_label,_shape,_color) ENTITY(_shape,_color,learn,_label,_alias,OFF LEARN)
-skinparam folderBackgroundColor<<OFF LEARN>> White

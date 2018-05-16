@@ -53,4 +53,3 @@ sprite $cell_phone_generic [28x48/16] {
 !define OFF_CELL_PHONE_GENERIC(_alias,_label) ENTITY(rectangle,black,cell_phone_generic,_label,_alias,OFF CELL_PHONE_GENERIC)
 !define OFF_CELL_PHONE_GENERIC(_alias,_label,_shape) ENTITY(_shape,black,cell_phone_generic,_label,_alias,OFF CELL_PHONE_GENERIC)
 !define OFF_CELL_PHONE_GENERIC(_alias,_label,_shape,_color) ENTITY(_shape,_color,cell_phone_generic,_label,_alias,OFF CELL_PHONE_GENERIC)
-skinparam folderBackgroundColor<<OFF CELL_PHONE_GENERIC>> White

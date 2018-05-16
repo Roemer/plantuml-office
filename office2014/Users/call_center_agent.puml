@@ -53,4 +53,3 @@ sprite $call_center_agent [41x48/16] {
 !define OFF_CALL_CENTER_AGENT(_alias,_label) ENTITY(rectangle,black,call_center_agent,_label,_alias,OFF CALL_CENTER_AGENT)
 !define OFF_CALL_CENTER_AGENT(_alias,_label,_shape) ENTITY(_shape,black,call_center_agent,_label,_alias,OFF CALL_CENTER_AGENT)
 !define OFF_CALL_CENTER_AGENT(_alias,_label,_shape,_color) ENTITY(_shape,_color,call_center_agent,_label,_alias,OFF CALL_CENTER_AGENT)
-skinparam folderBackgroundColor<<OFF CALL_CENTER_AGENT>> White

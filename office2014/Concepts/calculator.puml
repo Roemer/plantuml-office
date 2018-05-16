@@ -53,4 +53,3 @@ sprite $calculator [34x48/16] {
 !define OFF_CALCULATOR(_alias,_label) ENTITY(rectangle,black,calculator,_label,_alias,OFF CALCULATOR)
 !define OFF_CALCULATOR(_alias,_label,_shape) ENTITY(_shape,black,calculator,_label,_alias,OFF CALCULATOR)
 !define OFF_CALCULATOR(_alias,_label,_shape,_color) ENTITY(_shape,_color,calculator,_label,_alias,OFF CALCULATOR)
-skinparam folderBackgroundColor<<OFF CALCULATOR>> White

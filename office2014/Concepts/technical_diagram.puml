@@ -53,4 +53,3 @@ sprite $technical_diagram [43x48/16] {
 !define OFF_TECHNICAL_DIAGRAM(_alias,_label) ENTITY(rectangle,black,technical_diagram,_label,_alias,OFF TECHNICAL_DIAGRAM)
 !define OFF_TECHNICAL_DIAGRAM(_alias,_label,_shape) ENTITY(_shape,black,technical_diagram,_label,_alias,OFF TECHNICAL_DIAGRAM)
 !define OFF_TECHNICAL_DIAGRAM(_alias,_label,_shape,_color) ENTITY(_shape,_color,technical_diagram,_label,_alias,OFF TECHNICAL_DIAGRAM)
-skinparam folderBackgroundColor<<OFF TECHNICAL_DIAGRAM>> White

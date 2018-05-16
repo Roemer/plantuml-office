@@ -51,4 +51,3 @@ sprite $users_ghosted [48x46/16] {
 !define OFF_USERS_GHOSTED(_alias,_label) ENTITY(rectangle,black,users_ghosted,_label,_alias,OFF USERS_GHOSTED)
 !define OFF_USERS_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,users_ghosted,_label,_alias,OFF USERS_GHOSTED)
 !define OFF_USERS_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,users_ghosted,_label,_alias,OFF USERS_GHOSTED)
-skinparam folderBackgroundColor<<OFF USERS_GHOSTED>> White

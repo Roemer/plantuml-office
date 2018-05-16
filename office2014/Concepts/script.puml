@@ -50,4 +50,3 @@ sprite $script [48x45/16] {
 !define OFF_SCRIPT(_alias,_label) ENTITY(rectangle,black,script,_label,_alias,OFF SCRIPT)
 !define OFF_SCRIPT(_alias,_label,_shape) ENTITY(_shape,black,script,_label,_alias,OFF SCRIPT)
 !define OFF_SCRIPT(_alias,_label,_shape,_color) ENTITY(_shape,_color,script,_label,_alias,OFF SCRIPT)
-skinparam folderBackgroundColor<<OFF SCRIPT>> White

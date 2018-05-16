@@ -46,4 +46,3 @@ sprite $outlook_user [48x41/16] {
 !define OFF_OUTLOOK_USER(_alias,_label) ENTITY(rectangle,black,outlook_user,_label,_alias,OFF OUTLOOK_USER)
 !define OFF_OUTLOOK_USER(_alias,_label,_shape) ENTITY(_shape,black,outlook_user,_label,_alias,OFF OUTLOOK_USER)
 !define OFF_OUTLOOK_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,outlook_user,_label,_alias,OFF OUTLOOK_USER)
-skinparam folderBackgroundColor<<OFF OUTLOOK_USER>> White

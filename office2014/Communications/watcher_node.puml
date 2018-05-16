@@ -53,4 +53,3 @@ sprite $watcher_node [44x48/16] {
 !define OFF_WATCHER_NODE(_alias,_label) ENTITY(rectangle,black,watcher_node,_label,_alias,OFF WATCHER_NODE)
 !define OFF_WATCHER_NODE(_alias,_label,_shape) ENTITY(_shape,black,watcher_node,_label,_alias,OFF WATCHER_NODE)
 !define OFF_WATCHER_NODE(_alias,_label,_shape,_color) ENTITY(_shape,_color,watcher_node,_label,_alias,OFF WATCHER_NODE)
-skinparam folderBackgroundColor<<OFF WATCHER_NODE>> White

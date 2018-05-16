@@ -47,4 +47,3 @@ sprite $physical_host_farm_solid_blue [48x42/16] {
 !define OFF_PHYSICAL_HOST_FARM_SOLID_BLUE(_alias,_label) ENTITY(rectangle,black,physical_host_farm_solid_blue,_label,_alias,OFF PHYSICAL_HOST_FARM_SOLID_BLUE)
 !define OFF_PHYSICAL_HOST_FARM_SOLID_BLUE(_alias,_label,_shape) ENTITY(_shape,black,physical_host_farm_solid_blue,_label,_alias,OFF PHYSICAL_HOST_FARM_SOLID_BLUE)
 !define OFF_PHYSICAL_HOST_FARM_SOLID_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,physical_host_farm_solid_blue,_label,_alias,OFF PHYSICAL_HOST_FARM_SOLID_BLUE)
-skinparam folderBackgroundColor<<OFF PHYSICAL_HOST_FARM_SOLID_BLUE>> White

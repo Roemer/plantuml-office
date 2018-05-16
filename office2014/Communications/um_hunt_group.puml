@@ -44,4 +44,3 @@ sprite $um_hunt_group [48x39/16] {
 !define OFF_UM_HUNT_GROUP(_alias,_label) ENTITY(rectangle,black,um_hunt_group,_label,_alias,OFF UM_HUNT_GROUP)
 !define OFF_UM_HUNT_GROUP(_alias,_label,_shape) ENTITY(_shape,black,um_hunt_group,_label,_alias,OFF UM_HUNT_GROUP)
 !define OFF_UM_HUNT_GROUP(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_hunt_group,_label,_alias,OFF UM_HUNT_GROUP)
-skinparam folderBackgroundColor<<OFF UM_HUNT_GROUP>> White

@@ -46,4 +46,3 @@ sprite $view_form [48x41/16] {
 !define OFF_VIEW_FORM(_alias,_label) ENTITY(rectangle,black,view_form,_label,_alias,OFF VIEW_FORM)
 !define OFF_VIEW_FORM(_alias,_label,_shape) ENTITY(_shape,black,view_form,_label,_alias,OFF VIEW_FORM)
 !define OFF_VIEW_FORM(_alias,_label,_shape,_color) ENTITY(_shape,_color,view_form,_label,_alias,OFF VIEW_FORM)
-skinparam folderBackgroundColor<<OFF VIEW_FORM>> White

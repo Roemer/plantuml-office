@@ -47,4 +47,3 @@ sprite $blog_site [48x42/16] {
 !define OFF_BLOG_SITE(_alias,_label) ENTITY(rectangle,black,blog_site,_label,_alias,OFF BLOG_SITE)
 !define OFF_BLOG_SITE(_alias,_label,_shape) ENTITY(_shape,black,blog_site,_label,_alias,OFF BLOG_SITE)
 !define OFF_BLOG_SITE(_alias,_label,_shape,_color) ENTITY(_shape,_color,blog_site,_label,_alias,OFF BLOG_SITE)
-skinparam folderBackgroundColor<<OFF BLOG_SITE>> White

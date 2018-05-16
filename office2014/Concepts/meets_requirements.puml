@@ -50,4 +50,3 @@ sprite $meets_requirements [48x45/16] {
 !define OFF_MEETS_REQUIREMENTS(_alias,_label) ENTITY(rectangle,black,meets_requirements,_label,_alias,OFF MEETS_REQUIREMENTS)
 !define OFF_MEETS_REQUIREMENTS(_alias,_label,_shape) ENTITY(_shape,black,meets_requirements,_label,_alias,OFF MEETS_REQUIREMENTS)
 !define OFF_MEETS_REQUIREMENTS(_alias,_label,_shape,_color) ENTITY(_shape,_color,meets_requirements,_label,_alias,OFF MEETS_REQUIREMENTS)
-skinparam folderBackgroundColor<<OFF MEETS_REQUIREMENTS>> White

@@ -53,4 +53,3 @@ sprite $writer [44x48/16] {
 !define OFF_WRITER(_alias,_label) ENTITY(rectangle,black,writer,_label,_alias,OFF WRITER)
 !define OFF_WRITER(_alias,_label,_shape) ENTITY(_shape,black,writer,_label,_alias,OFF WRITER)
 !define OFF_WRITER(_alias,_label,_shape,_color) ENTITY(_shape,_color,writer,_label,_alias,OFF WRITER)
-skinparam folderBackgroundColor<<OFF WRITER>> White

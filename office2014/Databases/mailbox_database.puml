@@ -53,4 +53,3 @@ sprite $mailbox_database [46x48/16] {
 !define OFF_MAILBOX_DATABASE(_alias,_label) ENTITY(rectangle,black,mailbox_database,_label,_alias,OFF MAILBOX_DATABASE)
 !define OFF_MAILBOX_DATABASE(_alias,_label,_shape) ENTITY(_shape,black,mailbox_database,_label,_alias,OFF MAILBOX_DATABASE)
 !define OFF_MAILBOX_DATABASE(_alias,_label,_shape,_color) ENTITY(_shape,_color,mailbox_database,_label,_alias,OFF MAILBOX_DATABASE)
-skinparam folderBackgroundColor<<OFF MAILBOX_DATABASE>> White

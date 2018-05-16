@@ -35,4 +35,3 @@ sprite $lync_web_app_client [48x30/16] {
 !define OFF_LYNC_WEB_APP_CLIENT(_alias,_label) ENTITY(rectangle,black,lync_web_app_client,_label,_alias,OFF LYNC_WEB_APP_CLIENT)
 !define OFF_LYNC_WEB_APP_CLIENT(_alias,_label,_shape) ENTITY(_shape,black,lync_web_app_client,_label,_alias,OFF LYNC_WEB_APP_CLIENT)
 !define OFF_LYNC_WEB_APP_CLIENT(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_web_app_client,_label,_alias,OFF LYNC_WEB_APP_CLIENT)
-skinparam folderBackgroundColor<<OFF LYNC_WEB_APP_CLIENT>> White

@@ -53,4 +53,3 @@ sprite $input_output_filter [48x48/16] {
 !define OFF_INPUT_OUTPUT_FILTER(_alias,_label) ENTITY(rectangle,black,input_output_filter,_label,_alias,OFF INPUT_OUTPUT_FILTER)
 !define OFF_INPUT_OUTPUT_FILTER(_alias,_label,_shape) ENTITY(_shape,black,input_output_filter,_label,_alias,OFF INPUT_OUTPUT_FILTER)
 !define OFF_INPUT_OUTPUT_FILTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,input_output_filter,_label,_alias,OFF INPUT_OUTPUT_FILTER)
-skinparam folderBackgroundColor<<OFF INPUT_OUTPUT_FILTER>> White

@@ -53,4 +53,3 @@ sprite $settings_office_365 [48x48/16] {
 !define OFF_SETTINGS_OFFICE_365(_alias,_label) ENTITY(rectangle,black,settings_office_365,_label,_alias,OFF SETTINGS_OFFICE_365)
 !define OFF_SETTINGS_OFFICE_365(_alias,_label,_shape) ENTITY(_shape,black,settings_office_365,_label,_alias,OFF SETTINGS_OFFICE_365)
 !define OFF_SETTINGS_OFFICE_365(_alias,_label,_shape,_color) ENTITY(_shape,_color,settings_office_365,_label,_alias,OFF SETTINGS_OFFICE_365)
-skinparam folderBackgroundColor<<OFF SETTINGS_OFFICE_365>> White

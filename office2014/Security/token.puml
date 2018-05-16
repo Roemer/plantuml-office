@@ -53,4 +53,3 @@ sprite $token [39x48/16] {
 !define OFF_TOKEN(_alias,_label) ENTITY(rectangle,black,token,_label,_alias,OFF TOKEN)
 !define OFF_TOKEN(_alias,_label,_shape) ENTITY(_shape,black,token,_label,_alias,OFF TOKEN)
 !define OFF_TOKEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,token,_label,_alias,OFF TOKEN)
-skinparam folderBackgroundColor<<OFF TOKEN>> White

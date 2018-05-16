@@ -49,4 +49,3 @@ sprite $list_library [48x44/16] {
 !define OFF_LIST_LIBRARY(_alias,_label) ENTITY(rectangle,black,list_library,_label,_alias,OFF LIST_LIBRARY)
 !define OFF_LIST_LIBRARY(_alias,_label,_shape) ENTITY(_shape,black,list_library,_label,_alias,OFF LIST_LIBRARY)
 !define OFF_LIST_LIBRARY(_alias,_label,_shape,_color) ENTITY(_shape,_color,list_library,_label,_alias,OFF LIST_LIBRARY)
-skinparam folderBackgroundColor<<OFF LIST_LIBRARY>> White

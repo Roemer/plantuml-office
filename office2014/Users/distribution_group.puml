@@ -53,4 +53,3 @@ sprite $distribution_group [47x48/16] {
 !define OFF_DISTRIBUTION_GROUP(_alias,_label) ENTITY(rectangle,black,distribution_group,_label,_alias,OFF DISTRIBUTION_GROUP)
 !define OFF_DISTRIBUTION_GROUP(_alias,_label,_shape) ENTITY(_shape,black,distribution_group,_label,_alias,OFF DISTRIBUTION_GROUP)
 !define OFF_DISTRIBUTION_GROUP(_alias,_label,_shape,_color) ENTITY(_shape,_color,distribution_group,_label,_alias,OFF DISTRIBUTION_GROUP)
-skinparam folderBackgroundColor<<OFF DISTRIBUTION_GROUP>> White

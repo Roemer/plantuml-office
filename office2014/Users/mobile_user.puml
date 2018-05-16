@@ -50,4 +50,3 @@ sprite $mobile_user [48x45/16] {
 !define OFF_MOBILE_USER(_alias,_label) ENTITY(rectangle,black,mobile_user,_label,_alias,OFF MOBILE_USER)
 !define OFF_MOBILE_USER(_alias,_label,_shape) ENTITY(_shape,black,mobile_user,_label,_alias,OFF MOBILE_USER)
 !define OFF_MOBILE_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,mobile_user,_label,_alias,OFF MOBILE_USER)
-skinparam folderBackgroundColor<<OFF MOBILE_USER>> White

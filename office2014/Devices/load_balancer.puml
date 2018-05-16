@@ -37,4 +37,3 @@ sprite $load_balancer [48x32/16] {
 !define OFF_LOAD_BALANCER(_alias,_label) ENTITY(rectangle,black,load_balancer,_label,_alias,OFF LOAD_BALANCER)
 !define OFF_LOAD_BALANCER(_alias,_label,_shape) ENTITY(_shape,black,load_balancer,_label,_alias,OFF LOAD_BALANCER)
 !define OFF_LOAD_BALANCER(_alias,_label,_shape,_color) ENTITY(_shape,_color,load_balancer,_label,_alias,OFF LOAD_BALANCER)
-skinparam folderBackgroundColor<<OFF LOAD_BALANCER>> White

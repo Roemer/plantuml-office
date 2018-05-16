@@ -42,4 +42,3 @@ sprite $subsite_green [48x37/16] {
 !define OFF_SUBSITE_GREEN(_alias,_label) ENTITY(rectangle,black,subsite_green,_label,_alias,OFF SUBSITE_GREEN)
 !define OFF_SUBSITE_GREEN(_alias,_label,_shape) ENTITY(_shape,black,subsite_green,_label,_alias,OFF SUBSITE_GREEN)
 !define OFF_SUBSITE_GREEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,subsite_green,_label,_alias,OFF SUBSITE_GREEN)
-skinparam folderBackgroundColor<<OFF SUBSITE_GREEN>> White

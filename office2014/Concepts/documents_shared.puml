@@ -52,4 +52,3 @@ sprite $documents_shared [48x47/16] {
 !define OFF_DOCUMENTS_SHARED(_alias,_label) ENTITY(rectangle,black,documents_shared,_label,_alias,OFF DOCUMENTS_SHARED)
 !define OFF_DOCUMENTS_SHARED(_alias,_label,_shape) ENTITY(_shape,black,documents_shared,_label,_alias,OFF DOCUMENTS_SHARED)
 !define OFF_DOCUMENTS_SHARED(_alias,_label,_shape,_color) ENTITY(_shape,_color,documents_shared,_label,_alias,OFF DOCUMENTS_SHARED)
-skinparam folderBackgroundColor<<OFF DOCUMENTS_SHARED>> White

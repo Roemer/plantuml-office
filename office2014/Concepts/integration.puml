@@ -52,4 +52,3 @@ sprite $integration [48x47/16] {
 !define OFF_INTEGRATION(_alias,_label) ENTITY(rectangle,black,integration,_label,_alias,OFF INTEGRATION)
 !define OFF_INTEGRATION(_alias,_label,_shape) ENTITY(_shape,black,integration,_label,_alias,OFF INTEGRATION)
 !define OFF_INTEGRATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,integration,_label,_alias,OFF INTEGRATION)
-skinparam folderBackgroundColor<<OFF INTEGRATION>> White

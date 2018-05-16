@@ -53,4 +53,3 @@ sprite $app_part [48x48/16] {
 !define OFF_APP_PART(_alias,_label) ENTITY(rectangle,black,app_part,_label,_alias,OFF APP_PART)
 !define OFF_APP_PART(_alias,_label,_shape) ENTITY(_shape,black,app_part,_label,_alias,OFF APP_PART)
 !define OFF_APP_PART(_alias,_label,_shape,_color) ENTITY(_shape,_color,app_part,_label,_alias,OFF APP_PART)
-skinparam folderBackgroundColor<<OFF APP_PART>> White

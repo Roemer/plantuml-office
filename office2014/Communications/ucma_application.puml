@@ -42,4 +42,3 @@ sprite $ucma_application [48x37/16] {
 !define OFF_UCMA_APPLICATION(_alias,_label) ENTITY(rectangle,black,ucma_application,_label,_alias,OFF UCMA_APPLICATION)
 !define OFF_UCMA_APPLICATION(_alias,_label,_shape) ENTITY(_shape,black,ucma_application,_label,_alias,OFF UCMA_APPLICATION)
 !define OFF_UCMA_APPLICATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,ucma_application,_label,_alias,OFF UCMA_APPLICATION)
-skinparam folderBackgroundColor<<OFF UCMA_APPLICATION>> White

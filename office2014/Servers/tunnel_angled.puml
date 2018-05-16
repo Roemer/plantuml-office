@@ -36,4 +36,3 @@ sprite $tunnel_angled [48x31/16] {
 !define OFF_TUNNEL_ANGLED(_alias,_label) ENTITY(rectangle,black,tunnel_angled,_label,_alias,OFF TUNNEL_ANGLED)
 !define OFF_TUNNEL_ANGLED(_alias,_label,_shape) ENTITY(_shape,black,tunnel_angled,_label,_alias,OFF TUNNEL_ANGLED)
 !define OFF_TUNNEL_ANGLED(_alias,_label,_shape,_color) ENTITY(_shape,_color,tunnel_angled,_label,_alias,OFF TUNNEL_ANGLED)
-skinparam folderBackgroundColor<<OFF TUNNEL_ANGLED>> White

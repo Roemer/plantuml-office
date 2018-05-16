@@ -48,4 +48,3 @@ sprite $lync_storage_service [48x43/16] {
 !define OFF_LYNC_STORAGE_SERVICE(_alias,_label) ENTITY(rectangle,black,lync_storage_service,_label,_alias,OFF LYNC_STORAGE_SERVICE)
 !define OFF_LYNC_STORAGE_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,lync_storage_service,_label,_alias,OFF LYNC_STORAGE_SERVICE)
 !define OFF_LYNC_STORAGE_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_storage_service,_label,_alias,OFF LYNC_STORAGE_SERVICE)
-skinparam folderBackgroundColor<<OFF LYNC_STORAGE_SERVICE>> White

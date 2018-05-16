@@ -53,4 +53,3 @@ sprite $monitoring_sql_reporting_services [40x48/16] {
 !define OFF_MONITORING_SQL_REPORTING_SERVICES(_alias,_label) ENTITY(rectangle,black,monitoring_sql_reporting_services,_label,_alias,OFF MONITORING_SQL_REPORTING_SERVICES)
 !define OFF_MONITORING_SQL_REPORTING_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,monitoring_sql_reporting_services,_label,_alias,OFF MONITORING_SQL_REPORTING_SERVICES)
 !define OFF_MONITORING_SQL_REPORTING_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,monitoring_sql_reporting_services,_label,_alias,OFF MONITORING_SQL_REPORTING_SERVICES)
-skinparam folderBackgroundColor<<OFF MONITORING_SQL_REPORTING_SERVICES>> White

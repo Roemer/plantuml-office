@@ -53,4 +53,3 @@ sprite $globe_internet [48x48/16] {
 !define OFF_GLOBE_INTERNET(_alias,_label) ENTITY(rectangle,black,globe_internet,_label,_alias,OFF GLOBE_INTERNET)
 !define OFF_GLOBE_INTERNET(_alias,_label,_shape) ENTITY(_shape,black,globe_internet,_label,_alias,OFF GLOBE_INTERNET)
 !define OFF_GLOBE_INTERNET(_alias,_label,_shape,_color) ENTITY(_shape,_color,globe_internet,_label,_alias,OFF GLOBE_INTERNET)
-skinparam folderBackgroundColor<<OFF GLOBE_INTERNET>> White

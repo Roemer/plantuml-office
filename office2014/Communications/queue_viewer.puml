@@ -51,4 +51,3 @@ sprite $queue_viewer [48x46/16] {
 !define OFF_QUEUE_VIEWER(_alias,_label) ENTITY(rectangle,black,queue_viewer,_label,_alias,OFF QUEUE_VIEWER)
 !define OFF_QUEUE_VIEWER(_alias,_label,_shape) ENTITY(_shape,black,queue_viewer,_label,_alias,OFF QUEUE_VIEWER)
 !define OFF_QUEUE_VIEWER(_alias,_label,_shape,_color) ENTITY(_shape,_color,queue_viewer,_label,_alias,OFF QUEUE_VIEWER)
-skinparam folderBackgroundColor<<OFF QUEUE_VIEWER>> White

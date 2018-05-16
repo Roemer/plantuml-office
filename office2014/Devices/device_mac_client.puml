@@ -45,4 +45,3 @@ sprite $device_mac_client [48x40/16] {
 !define OFF_DEVICE_MAC_CLIENT(_alias,_label) ENTITY(rectangle,black,device_mac_client,_label,_alias,OFF DEVICE_MAC_CLIENT)
 !define OFF_DEVICE_MAC_CLIENT(_alias,_label,_shape) ENTITY(_shape,black,device_mac_client,_label,_alias,OFF DEVICE_MAC_CLIENT)
 !define OFF_DEVICE_MAC_CLIENT(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_mac_client,_label,_alias,OFF DEVICE_MAC_CLIENT)
-skinparam folderBackgroundColor<<OFF DEVICE_MAC_CLIENT>> White

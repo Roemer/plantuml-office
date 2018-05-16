@@ -42,4 +42,3 @@ sprite $application_generic [48x37/16] {
 !define OFF_APPLICATION_GENERIC(_alias,_label) ENTITY(rectangle,black,application_generic,_label,_alias,OFF APPLICATION_GENERIC)
 !define OFF_APPLICATION_GENERIC(_alias,_label,_shape) ENTITY(_shape,black,application_generic,_label,_alias,OFF APPLICATION_GENERIC)
 !define OFF_APPLICATION_GENERIC(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_generic,_label,_alias,OFF APPLICATION_GENERIC)
-skinparam folderBackgroundColor<<OFF APPLICATION_GENERIC>> White

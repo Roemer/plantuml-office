@@ -45,4 +45,3 @@ sprite $device_fax [48x40/16] {
 !define OFF_DEVICE_FAX(_alias,_label) ENTITY(rectangle,black,device_fax,_label,_alias,OFF DEVICE_FAX)
 !define OFF_DEVICE_FAX(_alias,_label,_shape) ENTITY(_shape,black,device_fax,_label,_alias,OFF DEVICE_FAX)
 !define OFF_DEVICE_FAX(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_fax,_label,_alias,OFF DEVICE_FAX)
-skinparam folderBackgroundColor<<OFF DEVICE_FAX>> White

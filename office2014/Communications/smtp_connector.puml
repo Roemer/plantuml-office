@@ -53,4 +53,3 @@ sprite $smtp_connector [46x48/16] {
 !define OFF_SMTP_CONNECTOR(_alias,_label) ENTITY(rectangle,black,smtp_connector,_label,_alias,OFF SMTP_CONNECTOR)
 !define OFF_SMTP_CONNECTOR(_alias,_label,_shape) ENTITY(_shape,black,smtp_connector,_label,_alias,OFF SMTP_CONNECTOR)
 !define OFF_SMTP_CONNECTOR(_alias,_label,_shape,_color) ENTITY(_shape,_color,smtp_connector,_label,_alias,OFF SMTP_CONNECTOR)
-skinparam folderBackgroundColor<<OFF SMTP_CONNECTOR>> White

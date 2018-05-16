@@ -53,4 +53,3 @@ sprite $bandwidth [48x48/16] {
 !define OFF_BANDWIDTH(_alias,_label) ENTITY(rectangle,black,bandwidth,_label,_alias,OFF BANDWIDTH)
 !define OFF_BANDWIDTH(_alias,_label,_shape) ENTITY(_shape,black,bandwidth,_label,_alias,OFF BANDWIDTH)
 !define OFF_BANDWIDTH(_alias,_label,_shape,_color) ENTITY(_shape,_color,bandwidth,_label,_alias,OFF BANDWIDTH)
-skinparam folderBackgroundColor<<OFF BANDWIDTH>> White

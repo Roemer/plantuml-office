@@ -40,4 +40,3 @@ sprite $whats_new [48x35/16] {
 !define OFF_WHATS_NEW(_alias,_label) ENTITY(rectangle,black,whats_new,_label,_alias,OFF WHATS_NEW)
 !define OFF_WHATS_NEW(_alias,_label,_shape) ENTITY(_shape,black,whats_new,_label,_alias,OFF WHATS_NEW)
 !define OFF_WHATS_NEW(_alias,_label,_shape,_color) ENTITY(_shape,_color,whats_new,_label,_alias,OFF WHATS_NEW)
-skinparam folderBackgroundColor<<OFF WHATS_NEW>> White

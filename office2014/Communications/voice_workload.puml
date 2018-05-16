@@ -47,4 +47,3 @@ sprite $voice_workload [48x42/16] {
 !define OFF_VOICE_WORKLOAD(_alias,_label) ENTITY(rectangle,black,voice_workload,_label,_alias,OFF VOICE_WORKLOAD)
 !define OFF_VOICE_WORKLOAD(_alias,_label,_shape) ENTITY(_shape,black,voice_workload,_label,_alias,OFF VOICE_WORKLOAD)
 !define OFF_VOICE_WORKLOAD(_alias,_label,_shape,_color) ENTITY(_shape,_color,voice_workload,_label,_alias,OFF VOICE_WORKLOAD)
-skinparam folderBackgroundColor<<OFF VOICE_WORKLOAD>> White

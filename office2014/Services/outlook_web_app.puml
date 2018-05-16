@@ -35,4 +35,3 @@ sprite $outlook_web_app [48x30/16] {
 !define OFF_OUTLOOK_WEB_APP(_alias,_label) ENTITY(rectangle,black,outlook_web_app,_label,_alias,OFF OUTLOOK_WEB_APP)
 !define OFF_OUTLOOK_WEB_APP(_alias,_label,_shape) ENTITY(_shape,black,outlook_web_app,_label,_alias,OFF OUTLOOK_WEB_APP)
 !define OFF_OUTLOOK_WEB_APP(_alias,_label,_shape,_color) ENTITY(_shape,_color,outlook_web_app,_label,_alias,OFF OUTLOOK_WEB_APP)
-skinparam folderBackgroundColor<<OFF OUTLOOK_WEB_APP>> White

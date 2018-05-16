@@ -53,4 +53,3 @@ sprite $pin [28x48/16] {
 !define OFF_PIN(_alias,_label) ENTITY(rectangle,black,pin,_label,_alias,OFF PIN)
 !define OFF_PIN(_alias,_label,_shape) ENTITY(_shape,black,pin,_label,_alias,OFF PIN)
 !define OFF_PIN(_alias,_label,_shape,_color) ENTITY(_shape,_color,pin,_label,_alias,OFF PIN)
-skinparam folderBackgroundColor<<OFF PIN>> White

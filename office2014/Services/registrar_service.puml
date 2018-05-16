@@ -50,4 +50,3 @@ sprite $registrar_service [48x45/16] {
 !define OFF_REGISTRAR_SERVICE(_alias,_label) ENTITY(rectangle,black,registrar_service,_label,_alias,OFF REGISTRAR_SERVICE)
 !define OFF_REGISTRAR_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,registrar_service,_label,_alias,OFF REGISTRAR_SERVICE)
 !define OFF_REGISTRAR_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,registrar_service,_label,_alias,OFF REGISTRAR_SERVICE)
-skinparam folderBackgroundColor<<OFF REGISTRAR_SERVICE>> White

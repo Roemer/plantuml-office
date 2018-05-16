@@ -45,4 +45,3 @@ sprite $access_services [48x40/16] {
 !define OFF_ACCESS_SERVICES(_alias,_label) ENTITY(rectangle,black,access_services,_label,_alias,OFF ACCESS_SERVICES)
 !define OFF_ACCESS_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,access_services,_label,_alias,OFF ACCESS_SERVICES)
 !define OFF_ACCESS_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,access_services,_label,_alias,OFF ACCESS_SERVICES)
-skinparam folderBackgroundColor<<OFF ACCESS_SERVICES>> White

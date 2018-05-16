@@ -51,4 +51,3 @@ sprite $exchange_2013_edge_transport_server [48x46/16] {
 !define OFF_EXCHANGE_2013_EDGE_TRANSPORT_SERVER(_alias,_label) ENTITY(rectangle,black,exchange_2013_edge_transport_server,_label,_alias,OFF EXCHANGE_2013_EDGE_TRANSPORT_SERVER)
 !define OFF_EXCHANGE_2013_EDGE_TRANSPORT_SERVER(_alias,_label,_shape) ENTITY(_shape,black,exchange_2013_edge_transport_server,_label,_alias,OFF EXCHANGE_2013_EDGE_TRANSPORT_SERVER)
 !define OFF_EXCHANGE_2013_EDGE_TRANSPORT_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,exchange_2013_edge_transport_server,_label,_alias,OFF EXCHANGE_2013_EDGE_TRANSPORT_SERVER)
-skinparam folderBackgroundColor<<OFF EXCHANGE_2013_EDGE_TRANSPORT_SERVER>> White

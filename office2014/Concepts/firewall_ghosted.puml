@@ -48,4 +48,3 @@ sprite $firewall_ghosted [48x43/16] {
 !define OFF_FIREWALL_GHOSTED(_alias,_label) ENTITY(rectangle,black,firewall_ghosted,_label,_alias,OFF FIREWALL_GHOSTED)
 !define OFF_FIREWALL_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,firewall_ghosted,_label,_alias,OFF FIREWALL_GHOSTED)
 !define OFF_FIREWALL_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,firewall_ghosted,_label,_alias,OFF FIREWALL_GHOSTED)
-skinparam folderBackgroundColor<<OFF FIREWALL_GHOSTED>> White

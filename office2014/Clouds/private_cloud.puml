@@ -35,4 +35,3 @@ sprite $private_cloud [48x30/16] {
 !define OFF_PRIVATE_CLOUD(_alias,_label) ENTITY(rectangle,black,private_cloud,_label,_alias,OFF PRIVATE_CLOUD)
 !define OFF_PRIVATE_CLOUD(_alias,_label,_shape) ENTITY(_shape,black,private_cloud,_label,_alias,OFF PRIVATE_CLOUD)
 !define OFF_PRIVATE_CLOUD(_alias,_label,_shape,_color) ENTITY(_shape,_color,private_cloud,_label,_alias,OFF PRIVATE_CLOUD)
-skinparam folderBackgroundColor<<OFF PRIVATE_CLOUD>> White

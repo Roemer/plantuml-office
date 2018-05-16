@@ -53,4 +53,3 @@ sprite $shadowed_router [48x48/16] {
 !define OFF_SHADOWED_ROUTER(_alias,_label) ENTITY(rectangle,black,shadowed_router,_label,_alias,OFF SHADOWED_ROUTER)
 !define OFF_SHADOWED_ROUTER(_alias,_label,_shape) ENTITY(_shape,black,shadowed_router,_label,_alias,OFF SHADOWED_ROUTER)
 !define OFF_SHADOWED_ROUTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,shadowed_router,_label,_alias,OFF SHADOWED_ROUTER)
-skinparam folderBackgroundColor<<OFF SHADOWED_ROUTER>> White

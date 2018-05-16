@@ -53,4 +53,3 @@ sprite $topology_builder [48x48/16] {
 !define OFF_TOPOLOGY_BUILDER(_alias,_label) ENTITY(rectangle,black,topology_builder,_label,_alias,OFF TOPOLOGY_BUILDER)
 !define OFF_TOPOLOGY_BUILDER(_alias,_label,_shape) ENTITY(_shape,black,topology_builder,_label,_alias,OFF TOPOLOGY_BUILDER)
 !define OFF_TOPOLOGY_BUILDER(_alias,_label,_shape,_color) ENTITY(_shape,_color,topology_builder,_label,_alias,OFF TOPOLOGY_BUILDER)
-skinparam folderBackgroundColor<<OFF TOPOLOGY_BUILDER>> White

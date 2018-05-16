@@ -53,4 +53,3 @@ sprite $application_server_orange [40x48/16] {
 !define OFF_APPLICATION_SERVER_ORANGE(_alias,_label) ENTITY(rectangle,black,application_server_orange,_label,_alias,OFF APPLICATION_SERVER_ORANGE)
 !define OFF_APPLICATION_SERVER_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,application_server_orange,_label,_alias,OFF APPLICATION_SERVER_ORANGE)
 !define OFF_APPLICATION_SERVER_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_server_orange,_label,_alias,OFF APPLICATION_SERVER_ORANGE)
-skinparam folderBackgroundColor<<OFF APPLICATION_SERVER_ORANGE>> White

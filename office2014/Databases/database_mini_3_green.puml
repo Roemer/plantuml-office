@@ -53,4 +53,3 @@ sprite $database_mini_3_green [31x48/16] {
 !define OFF_DATABASE_MINI_3_GREEN(_alias,_label) ENTITY(rectangle,black,database_mini_3_green,_label,_alias,OFF DATABASE_MINI_3_GREEN)
 !define OFF_DATABASE_MINI_3_GREEN(_alias,_label,_shape) ENTITY(_shape,black,database_mini_3_green,_label,_alias,OFF DATABASE_MINI_3_GREEN)
 !define OFF_DATABASE_MINI_3_GREEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_mini_3_green,_label,_alias,OFF DATABASE_MINI_3_GREEN)
-skinparam folderBackgroundColor<<OFF DATABASE_MINI_3_GREEN>> White

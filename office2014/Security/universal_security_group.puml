@@ -53,4 +53,3 @@ sprite $universal_security_group [48x48/16] {
 !define OFF_UNIVERSAL_SECURITY_GROUP(_alias,_label) ENTITY(rectangle,black,universal_security_group,_label,_alias,OFF UNIVERSAL_SECURITY_GROUP)
 !define OFF_UNIVERSAL_SECURITY_GROUP(_alias,_label,_shape) ENTITY(_shape,black,universal_security_group,_label,_alias,OFF UNIVERSAL_SECURITY_GROUP)
 !define OFF_UNIVERSAL_SECURITY_GROUP(_alias,_label,_shape,_color) ENTITY(_shape,_color,universal_security_group,_label,_alias,OFF UNIVERSAL_SECURITY_GROUP)
-skinparam folderBackgroundColor<<OFF UNIVERSAL_SECURITY_GROUP>> White

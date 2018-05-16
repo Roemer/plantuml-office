@@ -46,4 +46,3 @@ sprite $user_external [48x41/16] {
 !define OFF_USER_EXTERNAL(_alias,_label) ENTITY(rectangle,black,user_external,_label,_alias,OFF USER_EXTERNAL)
 !define OFF_USER_EXTERNAL(_alias,_label,_shape) ENTITY(_shape,black,user_external,_label,_alias,OFF USER_EXTERNAL)
 !define OFF_USER_EXTERNAL(_alias,_label,_shape,_color) ENTITY(_shape,_color,user_external,_label,_alias,OFF USER_EXTERNAL)
-skinparam folderBackgroundColor<<OFF USER_EXTERNAL>> White

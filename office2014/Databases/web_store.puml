@@ -53,4 +53,3 @@ sprite $web_store [44x48/16] {
 !define OFF_WEB_STORE(_alias,_label) ENTITY(rectangle,black,web_store,_label,_alias,OFF WEB_STORE)
 !define OFF_WEB_STORE(_alias,_label,_shape) ENTITY(_shape,black,web_store,_label,_alias,OFF WEB_STORE)
 !define OFF_WEB_STORE(_alias,_label,_shape,_color) ENTITY(_shape,_color,web_store,_label,_alias,OFF WEB_STORE)
-skinparam folderBackgroundColor<<OFF WEB_STORE>> White

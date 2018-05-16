@@ -53,4 +53,3 @@ sprite $install [42x48/16] {
 !define OFF_INSTALL(_alias,_label) ENTITY(rectangle,black,install,_label,_alias,OFF INSTALL)
 !define OFF_INSTALL(_alias,_label,_shape) ENTITY(_shape,black,install,_label,_alias,OFF INSTALL)
 !define OFF_INSTALL(_alias,_label,_shape,_color) ENTITY(_shape,_color,install,_label,_alias,OFF INSTALL)
-skinparam folderBackgroundColor<<OFF INSTALL>> White

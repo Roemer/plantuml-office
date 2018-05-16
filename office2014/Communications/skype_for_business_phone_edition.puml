@@ -34,4 +34,3 @@ sprite $skype_for_business_phone_edition [48x29/16] {
 !define OFF_SKYPE_FOR_BUSINESS_PHONE_EDITION(_alias,_label) ENTITY(rectangle,black,skype_for_business_phone_edition,_label,_alias,OFF SKYPE_FOR_BUSINESS_PHONE_EDITION)
 !define OFF_SKYPE_FOR_BUSINESS_PHONE_EDITION(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_phone_edition,_label,_alias,OFF SKYPE_FOR_BUSINESS_PHONE_EDITION)
 !define OFF_SKYPE_FOR_BUSINESS_PHONE_EDITION(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_phone_edition,_label,_alias,OFF SKYPE_FOR_BUSINESS_PHONE_EDITION)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_PHONE_EDITION>> White

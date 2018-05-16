@@ -49,4 +49,3 @@ sprite $shared_mailbox [48x44/16] {
 !define OFF_SHARED_MAILBOX(_alias,_label) ENTITY(rectangle,black,shared_mailbox,_label,_alias,OFF SHARED_MAILBOX)
 !define OFF_SHARED_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,shared_mailbox,_label,_alias,OFF SHARED_MAILBOX)
 !define OFF_SHARED_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,shared_mailbox,_label,_alias,OFF SHARED_MAILBOX)
-skinparam folderBackgroundColor<<OFF SHARED_MAILBOX>> White

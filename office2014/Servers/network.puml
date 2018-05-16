@@ -53,4 +53,3 @@ sprite $network [29x48/16] {
 !define OFF_NETWORK(_alias,_label) ENTITY(rectangle,black,network,_label,_alias,OFF NETWORK)
 !define OFF_NETWORK(_alias,_label,_shape) ENTITY(_shape,black,network,_label,_alias,OFF NETWORK)
 !define OFF_NETWORK(_alias,_label,_shape,_color) ENTITY(_shape,_color,network,_label,_alias,OFF NETWORK)
-skinparam folderBackgroundColor<<OFF NETWORK>> White

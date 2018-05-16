@@ -42,4 +42,3 @@ sprite $app_for_office [48x37/16] {
 !define OFF_APP_FOR_OFFICE(_alias,_label) ENTITY(rectangle,black,app_for_office,_label,_alias,OFF APP_FOR_OFFICE)
 !define OFF_APP_FOR_OFFICE(_alias,_label,_shape) ENTITY(_shape,black,app_for_office,_label,_alias,OFF APP_FOR_OFFICE)
 !define OFF_APP_FOR_OFFICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,app_for_office,_label,_alias,OFF APP_FOR_OFFICE)
-skinparam folderBackgroundColor<<OFF APP_FOR_OFFICE>> White

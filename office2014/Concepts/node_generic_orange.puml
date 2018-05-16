@@ -53,4 +53,3 @@ sprite $node_generic_orange [41x48/16] {
 !define OFF_NODE_GENERIC_ORANGE(_alias,_label) ENTITY(rectangle,black,node_generic_orange,_label,_alias,OFF NODE_GENERIC_ORANGE)
 !define OFF_NODE_GENERIC_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,node_generic_orange,_label,_alias,OFF NODE_GENERIC_ORANGE)
 !define OFF_NODE_GENERIC_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,node_generic_orange,_label,_alias,OFF NODE_GENERIC_ORANGE)
-skinparam folderBackgroundColor<<OFF NODE_GENERIC_ORANGE>> White

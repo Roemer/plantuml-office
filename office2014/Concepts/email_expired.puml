@@ -45,4 +45,3 @@ sprite $email_expired [48x40/16] {
 !define OFF_EMAIL_EXPIRED(_alias,_label) ENTITY(rectangle,black,email_expired,_label,_alias,OFF EMAIL_EXPIRED)
 !define OFF_EMAIL_EXPIRED(_alias,_label,_shape) ENTITY(_shape,black,email_expired,_label,_alias,OFF EMAIL_EXPIRED)
 !define OFF_EMAIL_EXPIRED(_alias,_label,_shape,_color) ENTITY(_shape,_color,email_expired,_label,_alias,OFF EMAIL_EXPIRED)
-skinparam folderBackgroundColor<<OFF EMAIL_EXPIRED>> White

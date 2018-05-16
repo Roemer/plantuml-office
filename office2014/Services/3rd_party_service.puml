@@ -53,4 +53,3 @@ sprite $3rd_party_service [47x48/16] {
 !define OFF_3RD_PARTY_SERVICE(_alias,_label) ENTITY(rectangle,black,3rd_party_service,_label,_alias,OFF 3RD_PARTY_SERVICE)
 !define OFF_3RD_PARTY_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,3rd_party_service,_label,_alias,OFF 3RD_PARTY_SERVICE)
 !define OFF_3RD_PARTY_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,3rd_party_service,_label,_alias,OFF 3RD_PARTY_SERVICE)
-skinparam folderBackgroundColor<<OFF 3RD_PARTY_SERVICE>> White

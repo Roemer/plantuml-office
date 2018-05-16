@@ -45,4 +45,3 @@ sprite $publish [48x40/16] {
 !define OFF_PUBLISH(_alias,_label) ENTITY(rectangle,black,publish,_label,_alias,OFF PUBLISH)
 !define OFF_PUBLISH(_alias,_label,_shape) ENTITY(_shape,black,publish,_label,_alias,OFF PUBLISH)
 !define OFF_PUBLISH(_alias,_label,_shape,_color) ENTITY(_shape,_color,publish,_label,_alias,OFF PUBLISH)
-skinparam folderBackgroundColor<<OFF PUBLISH>> White

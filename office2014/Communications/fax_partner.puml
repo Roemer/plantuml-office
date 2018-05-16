@@ -53,4 +53,3 @@ sprite $fax_partner [39x48/16] {
 !define OFF_FAX_PARTNER(_alias,_label) ENTITY(rectangle,black,fax_partner,_label,_alias,OFF FAX_PARTNER)
 !define OFF_FAX_PARTNER(_alias,_label,_shape) ENTITY(_shape,black,fax_partner,_label,_alias,OFF FAX_PARTNER)
 !define OFF_FAX_PARTNER(_alias,_label,_shape,_color) ENTITY(_shape,_color,fax_partner,_label,_alias,OFF FAX_PARTNER)
-skinparam folderBackgroundColor<<OFF FAX_PARTNER>> White

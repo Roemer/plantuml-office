@@ -47,4 +47,3 @@ sprite $application_web [48x42/16] {
 !define OFF_APPLICATION_WEB(_alias,_label) ENTITY(rectangle,black,application_web,_label,_alias,OFF APPLICATION_WEB)
 !define OFF_APPLICATION_WEB(_alias,_label,_shape) ENTITY(_shape,black,application_web,_label,_alias,OFF APPLICATION_WEB)
 !define OFF_APPLICATION_WEB(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_web,_label,_alias,OFF APPLICATION_WEB)
-skinparam folderBackgroundColor<<OFF APPLICATION_WEB>> White

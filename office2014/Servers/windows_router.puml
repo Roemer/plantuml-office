@@ -53,4 +53,3 @@ sprite $windows_router [42x48/16] {
 !define OFF_WINDOWS_ROUTER(_alias,_label) ENTITY(rectangle,black,windows_router,_label,_alias,OFF WINDOWS_ROUTER)
 !define OFF_WINDOWS_ROUTER(_alias,_label,_shape) ENTITY(_shape,black,windows_router,_label,_alias,OFF WINDOWS_ROUTER)
 !define OFF_WINDOWS_ROUTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,windows_router,_label,_alias,OFF WINDOWS_ROUTER)
-skinparam folderBackgroundColor<<OFF WINDOWS_ROUTER>> White

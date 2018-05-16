@@ -31,4 +31,3 @@ sprite $lync_room_system [48x26/16] {
 !define OFF_LYNC_ROOM_SYSTEM(_alias,_label) ENTITY(rectangle,black,lync_room_system,_label,_alias,OFF LYNC_ROOM_SYSTEM)
 !define OFF_LYNC_ROOM_SYSTEM(_alias,_label,_shape) ENTITY(_shape,black,lync_room_system,_label,_alias,OFF LYNC_ROOM_SYSTEM)
 !define OFF_LYNC_ROOM_SYSTEM(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_room_system,_label,_alias,OFF LYNC_ROOM_SYSTEM)
-skinparam folderBackgroundColor<<OFF LYNC_ROOM_SYSTEM>> White

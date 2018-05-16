@@ -37,4 +37,3 @@ sprite $ip_pbx [48x32/16] {
 !define OFF_IP_PBX(_alias,_label) ENTITY(rectangle,black,ip_pbx,_label,_alias,OFF IP_PBX)
 !define OFF_IP_PBX(_alias,_label,_shape) ENTITY(_shape,black,ip_pbx,_label,_alias,OFF IP_PBX)
 !define OFF_IP_PBX(_alias,_label,_shape,_color) ENTITY(_shape,_color,ip_pbx,_label,_alias,OFF IP_PBX)
-skinparam folderBackgroundColor<<OFF IP_PBX>> White

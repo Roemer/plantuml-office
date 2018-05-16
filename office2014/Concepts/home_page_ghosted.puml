@@ -44,4 +44,3 @@ sprite $home_page_ghosted [48x39/16] {
 !define OFF_HOME_PAGE_GHOSTED(_alias,_label) ENTITY(rectangle,black,home_page_ghosted,_label,_alias,OFF HOME_PAGE_GHOSTED)
 !define OFF_HOME_PAGE_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,home_page_ghosted,_label,_alias,OFF HOME_PAGE_GHOSTED)
 !define OFF_HOME_PAGE_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,home_page_ghosted,_label,_alias,OFF HOME_PAGE_GHOSTED)
-skinparam folderBackgroundColor<<OFF HOME_PAGE_GHOSTED>> White

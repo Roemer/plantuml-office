@@ -53,4 +53,3 @@ sprite $archive [31x48/16] {
 !define OFF_ARCHIVE(_alias,_label) ENTITY(rectangle,black,archive,_label,_alias,OFF ARCHIVE)
 !define OFF_ARCHIVE(_alias,_label,_shape) ENTITY(_shape,black,archive,_label,_alias,OFF ARCHIVE)
 !define OFF_ARCHIVE(_alias,_label,_shape,_color) ENTITY(_shape,_color,archive,_label,_alias,OFF ARCHIVE)
-skinparam folderBackgroundColor<<OFF ARCHIVE>> White

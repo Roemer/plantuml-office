@@ -50,4 +50,3 @@ sprite $web_conferencing [48x45/16] {
 !define OFF_WEB_CONFERENCING(_alias,_label) ENTITY(rectangle,black,web_conferencing,_label,_alias,OFF WEB_CONFERENCING)
 !define OFF_WEB_CONFERENCING(_alias,_label,_shape) ENTITY(_shape,black,web_conferencing,_label,_alias,OFF WEB_CONFERENCING)
 !define OFF_WEB_CONFERENCING(_alias,_label,_shape,_color) ENTITY(_shape,_color,web_conferencing,_label,_alias,OFF WEB_CONFERENCING)
-skinparam folderBackgroundColor<<OFF WEB_CONFERENCING>> White

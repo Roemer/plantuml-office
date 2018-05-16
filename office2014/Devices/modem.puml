@@ -36,4 +36,3 @@ sprite $modem [48x31/16] {
 !define OFF_MODEM(_alias,_label) ENTITY(rectangle,black,modem,_label,_alias,OFF MODEM)
 !define OFF_MODEM(_alias,_label,_shape) ENTITY(_shape,black,modem,_label,_alias,OFF MODEM)
 !define OFF_MODEM(_alias,_label,_shape,_color) ENTITY(_shape,_color,modem,_label,_alias,OFF MODEM)
-skinparam folderBackgroundColor<<OFF MODEM>> White

@@ -53,4 +53,3 @@ sprite $3rd_party_call_center_solution [46x48/16] {
 !define OFF_3RD_PARTY_CALL_CENTER_SOLUTION(_alias,_label) ENTITY(rectangle,black,3rd_party_call_center_solution,_label,_alias,OFF 3RD_PARTY_CALL_CENTER_SOLUTION)
 !define OFF_3RD_PARTY_CALL_CENTER_SOLUTION(_alias,_label,_shape) ENTITY(_shape,black,3rd_party_call_center_solution,_label,_alias,OFF 3RD_PARTY_CALL_CENTER_SOLUTION)
 !define OFF_3RD_PARTY_CALL_CENTER_SOLUTION(_alias,_label,_shape,_color) ENTITY(_shape,_color,3rd_party_call_center_solution,_label,_alias,OFF 3RD_PARTY_CALL_CENTER_SOLUTION)
-skinparam folderBackgroundColor<<OFF 3RD_PARTY_CALL_CENTER_SOLUTION>> White

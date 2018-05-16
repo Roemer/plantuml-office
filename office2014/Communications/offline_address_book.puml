@@ -48,4 +48,3 @@ sprite $offline_address_book [48x43/16] {
 !define OFF_OFFLINE_ADDRESS_BOOK(_alias,_label) ENTITY(rectangle,black,offline_address_book,_label,_alias,OFF OFFLINE_ADDRESS_BOOK)
 !define OFF_OFFLINE_ADDRESS_BOOK(_alias,_label,_shape) ENTITY(_shape,black,offline_address_book,_label,_alias,OFF OFFLINE_ADDRESS_BOOK)
 !define OFF_OFFLINE_ADDRESS_BOOK(_alias,_label,_shape,_color) ENTITY(_shape,_color,offline_address_book,_label,_alias,OFF OFFLINE_ADDRESS_BOOK)
-skinparam folderBackgroundColor<<OFF OFFLINE_ADDRESS_BOOK>> White

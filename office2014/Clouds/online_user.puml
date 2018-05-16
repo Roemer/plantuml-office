@@ -43,4 +43,3 @@ sprite $online_user [48x38/16] {
 !define OFF_ONLINE_USER(_alias,_label) ENTITY(rectangle,black,online_user,_label,_alias,OFF ONLINE_USER)
 !define OFF_ONLINE_USER(_alias,_label,_shape) ENTITY(_shape,black,online_user,_label,_alias,OFF ONLINE_USER)
 !define OFF_ONLINE_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,online_user,_label,_alias,OFF ONLINE_USER)
-skinparam folderBackgroundColor<<OFF ONLINE_USER>> White

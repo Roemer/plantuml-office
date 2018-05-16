@@ -49,4 +49,3 @@ sprite $hybrid [48x44/16] {
 !define OFF_HYBRID(_alias,_label) ENTITY(rectangle,black,hybrid,_label,_alias,OFF HYBRID)
 !define OFF_HYBRID(_alias,_label,_shape) ENTITY(_shape,black,hybrid,_label,_alias,OFF HYBRID)
 !define OFF_HYBRID(_alias,_label,_shape,_color) ENTITY(_shape,_color,hybrid,_label,_alias,OFF HYBRID)
-skinparam folderBackgroundColor<<OFF HYBRID>> White

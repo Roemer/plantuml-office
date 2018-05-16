@@ -53,4 +53,3 @@ sprite $application_store [44x48/16] {
 !define OFF_APPLICATION_STORE(_alias,_label) ENTITY(rectangle,black,application_store,_label,_alias,OFF APPLICATION_STORE)
 !define OFF_APPLICATION_STORE(_alias,_label,_shape) ENTITY(_shape,black,application_store,_label,_alias,OFF APPLICATION_STORE)
 !define OFF_APPLICATION_STORE(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_store,_label,_alias,OFF APPLICATION_STORE)
-skinparam folderBackgroundColor<<OFF APPLICATION_STORE>> White

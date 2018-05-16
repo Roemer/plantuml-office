@@ -53,4 +53,3 @@ sprite $backup_online [44x48/16] {
 !define OFF_BACKUP_ONLINE(_alias,_label) ENTITY(rectangle,black,backup_online,_label,_alias,OFF BACKUP_ONLINE)
 !define OFF_BACKUP_ONLINE(_alias,_label,_shape) ENTITY(_shape,black,backup_online,_label,_alias,OFF BACKUP_ONLINE)
 !define OFF_BACKUP_ONLINE(_alias,_label,_shape,_color) ENTITY(_shape,_color,backup_online,_label,_alias,OFF BACKUP_ONLINE)
-skinparam folderBackgroundColor<<OFF BACKUP_ONLINE>> White

@@ -53,4 +53,3 @@ sprite $database_cube_ghosted [42x48/16] {
 !define OFF_DATABASE_CUBE_GHOSTED(_alias,_label) ENTITY(rectangle,black,database_cube_ghosted,_label,_alias,OFF DATABASE_CUBE_GHOSTED)
 !define OFF_DATABASE_CUBE_GHOSTED(_alias,_label,_shape) ENTITY(_shape,black,database_cube_ghosted,_label,_alias,OFF DATABASE_CUBE_GHOSTED)
 !define OFF_DATABASE_CUBE_GHOSTED(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_cube_ghosted,_label,_alias,OFF DATABASE_CUBE_GHOSTED)
-skinparam folderBackgroundColor<<OFF DATABASE_CUBE_GHOSTED>> White

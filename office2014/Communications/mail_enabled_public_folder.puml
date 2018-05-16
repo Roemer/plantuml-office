@@ -48,4 +48,3 @@ sprite $mail_enabled_public_folder [48x43/16] {
 !define OFF_MAIL_ENABLED_PUBLIC_FOLDER(_alias,_label) ENTITY(rectangle,black,mail_enabled_public_folder,_label,_alias,OFF MAIL_ENABLED_PUBLIC_FOLDER)
 !define OFF_MAIL_ENABLED_PUBLIC_FOLDER(_alias,_label,_shape) ENTITY(_shape,black,mail_enabled_public_folder,_label,_alias,OFF MAIL_ENABLED_PUBLIC_FOLDER)
 !define OFF_MAIL_ENABLED_PUBLIC_FOLDER(_alias,_label,_shape,_color) ENTITY(_shape,_color,mail_enabled_public_folder,_label,_alias,OFF MAIL_ENABLED_PUBLIC_FOLDER)
-skinparam folderBackgroundColor<<OFF MAIL_ENABLED_PUBLIC_FOLDER>> White

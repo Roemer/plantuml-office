@@ -53,4 +53,3 @@ sprite $device_bluetooth [46x48/16] {
 !define OFF_DEVICE_BLUETOOTH(_alias,_label) ENTITY(rectangle,black,device_bluetooth,_label,_alias,OFF DEVICE_BLUETOOTH)
 !define OFF_DEVICE_BLUETOOTH(_alias,_label,_shape) ENTITY(_shape,black,device_bluetooth,_label,_alias,OFF DEVICE_BLUETOOTH)
 !define OFF_DEVICE_BLUETOOTH(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_bluetooth,_label,_alias,OFF DEVICE_BLUETOOTH)
-skinparam folderBackgroundColor<<OFF DEVICE_BLUETOOTH>> White

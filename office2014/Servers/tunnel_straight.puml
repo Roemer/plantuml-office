@@ -15,4 +15,3 @@ sprite $tunnel_straight [48x10/16] {
 !define OFF_TUNNEL_STRAIGHT(_alias,_label) ENTITY(rectangle,black,tunnel_straight,_label,_alias,OFF TUNNEL_STRAIGHT)
 !define OFF_TUNNEL_STRAIGHT(_alias,_label,_shape) ENTITY(_shape,black,tunnel_straight,_label,_alias,OFF TUNNEL_STRAIGHT)
 !define OFF_TUNNEL_STRAIGHT(_alias,_label,_shape,_color) ENTITY(_shape,_color,tunnel_straight,_label,_alias,OFF TUNNEL_STRAIGHT)
-skinparam folderBackgroundColor<<OFF TUNNEL_STRAIGHT>> White

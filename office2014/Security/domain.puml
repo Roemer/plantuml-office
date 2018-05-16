@@ -47,4 +47,3 @@ sprite $domain [48x42/16] {
 !define OFF_DOMAIN(_alias,_label) ENTITY(rectangle,black,domain,_label,_alias,OFF DOMAIN)
 !define OFF_DOMAIN(_alias,_label,_shape) ENTITY(_shape,black,domain,_label,_alias,OFF DOMAIN)
 !define OFF_DOMAIN(_alias,_label,_shape,_color) ENTITY(_shape,_color,domain,_label,_alias,OFF DOMAIN)
-skinparam folderBackgroundColor<<OFF DOMAIN>> White

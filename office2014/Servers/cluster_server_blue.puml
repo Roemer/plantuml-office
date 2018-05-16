@@ -53,4 +53,3 @@ sprite $cluster_server_blue [40x48/16] {
 !define OFF_CLUSTER_SERVER_BLUE(_alias,_label) ENTITY(rectangle,black,cluster_server_blue,_label,_alias,OFF CLUSTER_SERVER_BLUE)
 !define OFF_CLUSTER_SERVER_BLUE(_alias,_label,_shape) ENTITY(_shape,black,cluster_server_blue,_label,_alias,OFF CLUSTER_SERVER_BLUE)
 !define OFF_CLUSTER_SERVER_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,cluster_server_blue,_label,_alias,OFF CLUSTER_SERVER_BLUE)
-skinparam folderBackgroundColor<<OFF CLUSTER_SERVER_BLUE>> White

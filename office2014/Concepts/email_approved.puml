@@ -45,4 +45,3 @@ sprite $email_approved [48x40/16] {
 !define OFF_EMAIL_APPROVED(_alias,_label) ENTITY(rectangle,black,email_approved,_label,_alias,OFF EMAIL_APPROVED)
 !define OFF_EMAIL_APPROVED(_alias,_label,_shape) ENTITY(_shape,black,email_approved,_label,_alias,OFF EMAIL_APPROVED)
 !define OFF_EMAIL_APPROVED(_alias,_label,_shape,_color) ENTITY(_shape,_color,email_approved,_label,_alias,OFF EMAIL_APPROVED)
-skinparam folderBackgroundColor<<OFF EMAIL_APPROVED>> White

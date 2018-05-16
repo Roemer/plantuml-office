@@ -49,4 +49,3 @@ sprite $disconnected_mailbox [48x44/16] {
 !define OFF_DISCONNECTED_MAILBOX(_alias,_label) ENTITY(rectangle,black,disconnected_mailbox,_label,_alias,OFF DISCONNECTED_MAILBOX)
 !define OFF_DISCONNECTED_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,disconnected_mailbox,_label,_alias,OFF DISCONNECTED_MAILBOX)
 !define OFF_DISCONNECTED_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,disconnected_mailbox,_label,_alias,OFF DISCONNECTED_MAILBOX)
-skinparam folderBackgroundColor<<OFF DISCONNECTED_MAILBOX>> White

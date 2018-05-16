@@ -53,4 +53,3 @@ sprite $skype_for_business_back_end_server_mirror [43x48/16] {
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR(_alias,_label) ENTITY(rectangle,black,skype_for_business_back_end_server_mirror,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR)
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR(_alias,_label,_shape) ENTITY(_shape,black,skype_for_business_back_end_server_mirror,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR)
 !define OFF_SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR(_alias,_label,_shape,_color) ENTITY(_shape,_color,skype_for_business_back_end_server_mirror,_label,_alias,OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR)
-skinparam folderBackgroundColor<<OFF SKYPE_FOR_BUSINESS_BACK_END_SERVER_MIRROR>> White

@@ -53,4 +53,3 @@ sprite $trusted_application_pool [48x48/16] {
 !define OFF_TRUSTED_APPLICATION_POOL(_alias,_label) ENTITY(rectangle,black,trusted_application_pool,_label,_alias,OFF TRUSTED_APPLICATION_POOL)
 !define OFF_TRUSTED_APPLICATION_POOL(_alias,_label,_shape) ENTITY(_shape,black,trusted_application_pool,_label,_alias,OFF TRUSTED_APPLICATION_POOL)
 !define OFF_TRUSTED_APPLICATION_POOL(_alias,_label,_shape,_color) ENTITY(_shape,_color,trusted_application_pool,_label,_alias,OFF TRUSTED_APPLICATION_POOL)
-skinparam folderBackgroundColor<<OFF TRUSTED_APPLICATION_POOL>> White

@@ -53,4 +53,3 @@ sprite $lock_protected_orange [36x48/16] {
 !define OFF_LOCK_PROTECTED_ORANGE(_alias,_label) ENTITY(rectangle,black,lock_protected_orange,_label,_alias,OFF LOCK_PROTECTED_ORANGE)
 !define OFF_LOCK_PROTECTED_ORANGE(_alias,_label,_shape) ENTITY(_shape,black,lock_protected_orange,_label,_alias,OFF LOCK_PROTECTED_ORANGE)
 !define OFF_LOCK_PROTECTED_ORANGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,lock_protected_orange,_label,_alias,OFF LOCK_PROTECTED_ORANGE)
-skinparam folderBackgroundColor<<OFF LOCK_PROTECTED_ORANGE>> White

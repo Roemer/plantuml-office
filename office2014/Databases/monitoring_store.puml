@@ -52,4 +52,3 @@ sprite $monitoring_store [48x47/16] {
 !define OFF_MONITORING_STORE(_alias,_label) ENTITY(rectangle,black,monitoring_store,_label,_alias,OFF MONITORING_STORE)
 !define OFF_MONITORING_STORE(_alias,_label,_shape) ENTITY(_shape,black,monitoring_store,_label,_alias,OFF MONITORING_STORE)
 !define OFF_MONITORING_STORE(_alias,_label,_shape,_color) ENTITY(_shape,_color,monitoring_store,_label,_alias,OFF MONITORING_STORE)
-skinparam folderBackgroundColor<<OFF MONITORING_STORE>> White

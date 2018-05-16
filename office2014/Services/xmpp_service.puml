@@ -48,4 +48,3 @@ sprite $xmpp_service [48x43/16] {
 !define OFF_XMPP_SERVICE(_alias,_label) ENTITY(rectangle,black,xmpp_service,_label,_alias,OFF XMPP_SERVICE)
 !define OFF_XMPP_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,xmpp_service,_label,_alias,OFF XMPP_SERVICE)
 !define OFF_XMPP_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,xmpp_service,_label,_alias,OFF XMPP_SERVICE)
-skinparam folderBackgroundColor<<OFF XMPP_SERVICE>> White

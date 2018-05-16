@@ -48,4 +48,3 @@ sprite $site_shared [48x43/16] {
 !define OFF_SITE_SHARED(_alias,_label) ENTITY(rectangle,black,site_shared,_label,_alias,OFF SITE_SHARED)
 !define OFF_SITE_SHARED(_alias,_label,_shape) ENTITY(_shape,black,site_shared,_label,_alias,OFF SITE_SHARED)
 !define OFF_SITE_SHARED(_alias,_label,_shape,_color) ENTITY(_shape,_color,site_shared,_label,_alias,OFF SITE_SHARED)
-skinparam folderBackgroundColor<<OFF SITE_SHARED>> White

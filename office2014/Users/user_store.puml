@@ -53,4 +53,3 @@ sprite $user_store [44x48/16] {
 !define OFF_USER_STORE(_alias,_label) ENTITY(rectangle,black,user_store,_label,_alias,OFF USER_STORE)
 !define OFF_USER_STORE(_alias,_label,_shape) ENTITY(_shape,black,user_store,_label,_alias,OFF USER_STORE)
 !define OFF_USER_STORE(_alias,_label,_shape,_color) ENTITY(_shape,_color,user_store,_label,_alias,OFF USER_STORE)
-skinparam folderBackgroundColor<<OFF USER_STORE>> White

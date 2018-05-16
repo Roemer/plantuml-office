@@ -53,4 +53,3 @@ sprite $active_directory_federation_services_proxy [39x48/16] {
 !define OFF_ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY(_alias,_label) ENTITY(rectangle,black,active_directory_federation_services_proxy,_label,_alias,OFF ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY)
 !define OFF_ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY(_alias,_label,_shape) ENTITY(_shape,black,active_directory_federation_services_proxy,_label,_alias,OFF ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY)
 !define OFF_ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY(_alias,_label,_shape,_color) ENTITY(_shape,_color,active_directory_federation_services_proxy,_label,_alias,OFF ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY)
-skinparam folderBackgroundColor<<OFF ACTIVE_DIRECTORY_FEDERATION_SERVICES_PROXY>> White

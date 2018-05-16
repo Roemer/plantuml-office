@@ -51,4 +51,3 @@ sprite $local_move_request [48x46/16] {
 !define OFF_LOCAL_MOVE_REQUEST(_alias,_label) ENTITY(rectangle,black,local_move_request,_label,_alias,OFF LOCAL_MOVE_REQUEST)
 !define OFF_LOCAL_MOVE_REQUEST(_alias,_label,_shape) ENTITY(_shape,black,local_move_request,_label,_alias,OFF LOCAL_MOVE_REQUEST)
 !define OFF_LOCAL_MOVE_REQUEST(_alias,_label,_shape,_color) ENTITY(_shape,_color,local_move_request,_label,_alias,OFF LOCAL_MOVE_REQUEST)
-skinparam folderBackgroundColor<<OFF LOCAL_MOVE_REQUEST>> White

@@ -53,4 +53,3 @@ sprite $verification_service [46x48/16] {
 !define OFF_VERIFICATION_SERVICE(_alias,_label) ENTITY(rectangle,black,verification_service,_label,_alias,OFF VERIFICATION_SERVICE)
 !define OFF_VERIFICATION_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,verification_service,_label,_alias,OFF VERIFICATION_SERVICE)
 !define OFF_VERIFICATION_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,verification_service,_label,_alias,OFF VERIFICATION_SERVICE)
-skinparam folderBackgroundColor<<OFF VERIFICATION_SERVICE>> White

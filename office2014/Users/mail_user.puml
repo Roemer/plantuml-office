@@ -53,4 +53,3 @@ sprite $mail_user [47x48/16] {
 !define OFF_MAIL_USER(_alias,_label) ENTITY(rectangle,black,mail_user,_label,_alias,OFF MAIL_USER)
 !define OFF_MAIL_USER(_alias,_label,_shape) ENTITY(_shape,black,mail_user,_label,_alias,OFF MAIL_USER)
 !define OFF_MAIL_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,mail_user,_label,_alias,OFF MAIL_USER)
-skinparam folderBackgroundColor<<OFF MAIL_USER>> White

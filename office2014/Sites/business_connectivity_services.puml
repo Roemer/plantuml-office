@@ -53,4 +53,3 @@ sprite $business_connectivity_services [33x48/16] {
 !define OFF_BUSINESS_CONNECTIVITY_SERVICES(_alias,_label) ENTITY(rectangle,black,business_connectivity_services,_label,_alias,OFF BUSINESS_CONNECTIVITY_SERVICES)
 !define OFF_BUSINESS_CONNECTIVITY_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,business_connectivity_services,_label,_alias,OFF BUSINESS_CONNECTIVITY_SERVICES)
 !define OFF_BUSINESS_CONNECTIVITY_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,business_connectivity_services,_label,_alias,OFF BUSINESS_CONNECTIVITY_SERVICES)
-skinparam folderBackgroundColor<<OFF BUSINESS_CONNECTIVITY_SERVICES>> White

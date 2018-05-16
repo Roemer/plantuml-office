@@ -36,4 +36,3 @@ sprite $sms_gateway [48x31/16] {
 !define OFF_SMS_GATEWAY(_alias,_label) ENTITY(rectangle,black,sms_gateway,_label,_alias,OFF SMS_GATEWAY)
 !define OFF_SMS_GATEWAY(_alias,_label,_shape) ENTITY(_shape,black,sms_gateway,_label,_alias,OFF SMS_GATEWAY)
 !define OFF_SMS_GATEWAY(_alias,_label,_shape,_color) ENTITY(_shape,_color,sms_gateway,_label,_alias,OFF SMS_GATEWAY)
-skinparam folderBackgroundColor<<OFF SMS_GATEWAY>> White

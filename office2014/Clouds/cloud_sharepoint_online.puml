@@ -35,4 +35,3 @@ sprite $cloud_sharepoint_online [48x30/16] {
 !define OFF_CLOUD_SHAREPOINT_ONLINE(_alias,_label) ENTITY(rectangle,black,cloud_sharepoint_online,_label,_alias,OFF CLOUD_SHAREPOINT_ONLINE)
 !define OFF_CLOUD_SHAREPOINT_ONLINE(_alias,_label,_shape) ENTITY(_shape,black,cloud_sharepoint_online,_label,_alias,OFF CLOUD_SHAREPOINT_ONLINE)
 !define OFF_CLOUD_SHAREPOINT_ONLINE(_alias,_label,_shape,_color) ENTITY(_shape,_color,cloud_sharepoint_online,_label,_alias,OFF CLOUD_SHAREPOINT_ONLINE)
-skinparam folderBackgroundColor<<OFF CLOUD_SHAREPOINT_ONLINE>> White

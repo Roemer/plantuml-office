@@ -53,4 +53,3 @@ sprite $cell_phone_android_stand_alone [28x48/16] {
 !define OFF_CELL_PHONE_ANDROID_STAND_ALONE(_alias,_label) ENTITY(rectangle,black,cell_phone_android_stand_alone,_label,_alias,OFF CELL_PHONE_ANDROID_STAND_ALONE)
 !define OFF_CELL_PHONE_ANDROID_STAND_ALONE(_alias,_label,_shape) ENTITY(_shape,black,cell_phone_android_stand_alone,_label,_alias,OFF CELL_PHONE_ANDROID_STAND_ALONE)
 !define OFF_CELL_PHONE_ANDROID_STAND_ALONE(_alias,_label,_shape,_color) ENTITY(_shape,_color,cell_phone_android_stand_alone,_label,_alias,OFF CELL_PHONE_ANDROID_STAND_ALONE)
-skinparam folderBackgroundColor<<OFF CELL_PHONE_ANDROID_STAND_ALONE>> White

@@ -53,4 +53,3 @@ sprite $lab [44x48/16] {
 !define OFF_LAB(_alias,_label) ENTITY(rectangle,black,lab,_label,_alias,OFF LAB)
 !define OFF_LAB(_alias,_label,_shape) ENTITY(_shape,black,lab,_label,_alias,OFF LAB)
 !define OFF_LAB(_alias,_label,_shape,_color) ENTITY(_shape,_color,lab,_label,_alias,OFF LAB)
-skinparam folderBackgroundColor<<OFF LAB>> White

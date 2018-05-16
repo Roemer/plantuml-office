@@ -53,4 +53,3 @@ sprite $trusted_application_server [39x48/16] {
 !define OFF_TRUSTED_APPLICATION_SERVER(_alias,_label) ENTITY(rectangle,black,trusted_application_server,_label,_alias,OFF TRUSTED_APPLICATION_SERVER)
 !define OFF_TRUSTED_APPLICATION_SERVER(_alias,_label,_shape) ENTITY(_shape,black,trusted_application_server,_label,_alias,OFF TRUSTED_APPLICATION_SERVER)
 !define OFF_TRUSTED_APPLICATION_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,trusted_application_server,_label,_alias,OFF TRUSTED_APPLICATION_SERVER)
-skinparam folderBackgroundColor<<OFF TRUSTED_APPLICATION_SERVER>> White

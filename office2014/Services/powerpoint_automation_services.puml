@@ -45,4 +45,3 @@ sprite $powerpoint_automation_services [48x40/16] {
 !define OFF_POWERPOINT_AUTOMATION_SERVICES(_alias,_label) ENTITY(rectangle,black,powerpoint_automation_services,_label,_alias,OFF POWERPOINT_AUTOMATION_SERVICES)
 !define OFF_POWERPOINT_AUTOMATION_SERVICES(_alias,_label,_shape) ENTITY(_shape,black,powerpoint_automation_services,_label,_alias,OFF POWERPOINT_AUTOMATION_SERVICES)
 !define OFF_POWERPOINT_AUTOMATION_SERVICES(_alias,_label,_shape,_color) ENTITY(_shape,_color,powerpoint_automation_services,_label,_alias,OFF POWERPOINT_AUTOMATION_SERVICES)
-skinparam folderBackgroundColor<<OFF POWERPOINT_AUTOMATION_SERVICES>> White

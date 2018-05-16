@@ -41,4 +41,3 @@ sprite $csv_file [48x36/16] {
 !define OFF_CSV_FILE(_alias,_label) ENTITY(rectangle,black,csv_file,_label,_alias,OFF CSV_FILE)
 !define OFF_CSV_FILE(_alias,_label,_shape) ENTITY(_shape,black,csv_file,_label,_alias,OFF CSV_FILE)
 !define OFF_CSV_FILE(_alias,_label,_shape,_color) ENTITY(_shape,_color,csv_file,_label,_alias,OFF CSV_FILE)
-skinparam folderBackgroundColor<<OFF CSV_FILE>> White

@@ -53,4 +53,3 @@ sprite $web_part [42x48/16] {
 !define OFF_WEB_PART(_alias,_label) ENTITY(rectangle,black,web_part,_label,_alias,OFF WEB_PART)
 !define OFF_WEB_PART(_alias,_label,_shape) ENTITY(_shape,black,web_part,_label,_alias,OFF WEB_PART)
 !define OFF_WEB_PART(_alias,_label,_shape,_color) ENTITY(_shape,_color,web_part,_label,_alias,OFF WEB_PART)
-skinparam folderBackgroundColor<<OFF WEB_PART>> White

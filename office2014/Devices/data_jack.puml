@@ -53,4 +53,3 @@ sprite $data_jack [48x48/16] {
 !define OFF_DATA_JACK(_alias,_label) ENTITY(rectangle,black,data_jack,_label,_alias,OFF DATA_JACK)
 !define OFF_DATA_JACK(_alias,_label,_shape) ENTITY(_shape,black,data_jack,_label,_alias,OFF DATA_JACK)
 !define OFF_DATA_JACK(_alias,_label,_shape,_color) ENTITY(_shape,_color,data_jack,_label,_alias,OFF DATA_JACK)
-skinparam folderBackgroundColor<<OFF DATA_JACK>> White

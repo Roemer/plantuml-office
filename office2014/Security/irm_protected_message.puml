@@ -48,4 +48,3 @@ sprite $irm_protected_message [48x43/16] {
 !define OFF_IRM_PROTECTED_MESSAGE(_alias,_label) ENTITY(rectangle,black,irm_protected_message,_label,_alias,OFF IRM_PROTECTED_MESSAGE)
 !define OFF_IRM_PROTECTED_MESSAGE(_alias,_label,_shape) ENTITY(_shape,black,irm_protected_message,_label,_alias,OFF IRM_PROTECTED_MESSAGE)
 !define OFF_IRM_PROTECTED_MESSAGE(_alias,_label,_shape,_color) ENTITY(_shape,_color,irm_protected_message,_label,_alias,OFF IRM_PROTECTED_MESSAGE)
-skinparam folderBackgroundColor<<OFF IRM_PROTECTED_MESSAGE>> White

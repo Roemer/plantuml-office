@@ -33,4 +33,3 @@ sprite $lync_phone_edition [48x28/16] {
 !define OFF_LYNC_PHONE_EDITION(_alias,_label) ENTITY(rectangle,black,lync_phone_edition,_label,_alias,OFF LYNC_PHONE_EDITION)
 !define OFF_LYNC_PHONE_EDITION(_alias,_label,_shape) ENTITY(_shape,black,lync_phone_edition,_label,_alias,OFF LYNC_PHONE_EDITION)
 !define OFF_LYNC_PHONE_EDITION(_alias,_label,_shape,_color) ENTITY(_shape,_color,lync_phone_edition,_label,_alias,OFF LYNC_PHONE_EDITION)
-skinparam folderBackgroundColor<<OFF LYNC_PHONE_EDITION>> White

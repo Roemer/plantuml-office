@@ -53,4 +53,3 @@ sprite $federation_trust [46x48/16] {
 !define OFF_FEDERATION_TRUST(_alias,_label) ENTITY(rectangle,black,federation_trust,_label,_alias,OFF FEDERATION_TRUST)
 !define OFF_FEDERATION_TRUST(_alias,_label,_shape) ENTITY(_shape,black,federation_trust,_label,_alias,OFF FEDERATION_TRUST)
 !define OFF_FEDERATION_TRUST(_alias,_label,_shape,_color) ENTITY(_shape,_color,federation_trust,_label,_alias,OFF FEDERATION_TRUST)
-skinparam folderBackgroundColor<<OFF FEDERATION_TRUST>> White

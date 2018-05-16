@@ -53,4 +53,3 @@ sprite $telephone_extension_dial_plan [47x48/16] {
 !define OFF_TELEPHONE_EXTENSION_DIAL_PLAN(_alias,_label) ENTITY(rectangle,black,telephone_extension_dial_plan,_label,_alias,OFF TELEPHONE_EXTENSION_DIAL_PLAN)
 !define OFF_TELEPHONE_EXTENSION_DIAL_PLAN(_alias,_label,_shape) ENTITY(_shape,black,telephone_extension_dial_plan,_label,_alias,OFF TELEPHONE_EXTENSION_DIAL_PLAN)
 !define OFF_TELEPHONE_EXTENSION_DIAL_PLAN(_alias,_label,_shape,_color) ENTITY(_shape,_color,telephone_extension_dial_plan,_label,_alias,OFF TELEPHONE_EXTENSION_DIAL_PLAN)
-skinparam folderBackgroundColor<<OFF TELEPHONE_EXTENSION_DIAL_PLAN>> White

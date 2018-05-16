@@ -50,4 +50,3 @@ sprite $split_domain_user [48x45/16] {
 !define OFF_SPLIT_DOMAIN_USER(_alias,_label) ENTITY(rectangle,black,split_domain_user,_label,_alias,OFF SPLIT_DOMAIN_USER)
 !define OFF_SPLIT_DOMAIN_USER(_alias,_label,_shape) ENTITY(_shape,black,split_domain_user,_label,_alias,OFF SPLIT_DOMAIN_USER)
 !define OFF_SPLIT_DOMAIN_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,split_domain_user,_label,_alias,OFF SPLIT_DOMAIN_USER)
-skinparam folderBackgroundColor<<OFF SPLIT_DOMAIN_USER>> White

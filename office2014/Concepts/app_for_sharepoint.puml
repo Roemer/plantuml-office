@@ -42,4 +42,3 @@ sprite $app_for_sharepoint [48x37/16] {
 !define OFF_APP_FOR_SHAREPOINT(_alias,_label) ENTITY(rectangle,black,app_for_sharepoint,_label,_alias,OFF APP_FOR_SHAREPOINT)
 !define OFF_APP_FOR_SHAREPOINT(_alias,_label,_shape) ENTITY(_shape,black,app_for_sharepoint,_label,_alias,OFF APP_FOR_SHAREPOINT)
 !define OFF_APP_FOR_SHAREPOINT(_alias,_label,_shape,_color) ENTITY(_shape,_color,app_for_sharepoint,_label,_alias,OFF APP_FOR_SHAREPOINT)
-skinparam folderBackgroundColor<<OFF APP_FOR_SHAREPOINT>> White

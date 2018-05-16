@@ -53,4 +53,3 @@ sprite $moes [41x48/16] {
 !define OFF_MOES(_alias,_label) ENTITY(rectangle,black,moes,_label,_alias,OFF MOES)
 !define OFF_MOES(_alias,_label,_shape) ENTITY(_shape,black,moes,_label,_alias,OFF MOES)
 !define OFF_MOES(_alias,_label,_shape,_color) ENTITY(_shape,_color,moes,_label,_alias,OFF MOES)
-skinparam folderBackgroundColor<<OFF MOES>> White

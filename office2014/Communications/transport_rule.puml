@@ -53,4 +53,3 @@ sprite $transport_rule [46x48/16] {
 !define OFF_TRANSPORT_RULE(_alias,_label) ENTITY(rectangle,black,transport_rule,_label,_alias,OFF TRANSPORT_RULE)
 !define OFF_TRANSPORT_RULE(_alias,_label,_shape) ENTITY(_shape,black,transport_rule,_label,_alias,OFF TRANSPORT_RULE)
 !define OFF_TRANSPORT_RULE(_alias,_label,_shape,_color) ENTITY(_shape,_color,transport_rule,_label,_alias,OFF TRANSPORT_RULE)
-skinparam folderBackgroundColor<<OFF TRANSPORT_RULE>> White

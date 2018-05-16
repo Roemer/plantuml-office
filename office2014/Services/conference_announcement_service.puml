@@ -53,4 +53,3 @@ sprite $conference_announcement_service [48x48/16] {
 !define OFF_CONFERENCE_ANNOUNCEMENT_SERVICE(_alias,_label) ENTITY(rectangle,black,conference_announcement_service,_label,_alias,OFF CONFERENCE_ANNOUNCEMENT_SERVICE)
 !define OFF_CONFERENCE_ANNOUNCEMENT_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,conference_announcement_service,_label,_alias,OFF CONFERENCE_ANNOUNCEMENT_SERVICE)
 !define OFF_CONFERENCE_ANNOUNCEMENT_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,conference_announcement_service,_label,_alias,OFF CONFERENCE_ANNOUNCEMENT_SERVICE)
-skinparam folderBackgroundColor<<OFF CONFERENCE_ANNOUNCEMENT_SERVICE>> White

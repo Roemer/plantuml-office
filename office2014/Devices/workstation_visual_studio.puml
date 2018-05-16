@@ -53,4 +53,3 @@ sprite $workstation_visual_studio [43x48/16] {
 !define OFF_WORKSTATION_VISUAL_STUDIO(_alias,_label) ENTITY(rectangle,black,workstation_visual_studio,_label,_alias,OFF WORKSTATION_VISUAL_STUDIO)
 !define OFF_WORKSTATION_VISUAL_STUDIO(_alias,_label,_shape) ENTITY(_shape,black,workstation_visual_studio,_label,_alias,OFF WORKSTATION_VISUAL_STUDIO)
 !define OFF_WORKSTATION_VISUAL_STUDIO(_alias,_label,_shape,_color) ENTITY(_shape,_color,workstation_visual_studio,_label,_alias,OFF WORKSTATION_VISUAL_STUDIO)
-skinparam folderBackgroundColor<<OFF WORKSTATION_VISUAL_STUDIO>> White

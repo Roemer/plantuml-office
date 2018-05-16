@@ -47,4 +47,3 @@ sprite $active_directory [48x42/16] {
 !define OFF_ACTIVE_DIRECTORY(_alias,_label) ENTITY(rectangle,black,active_directory,_label,_alias,OFF ACTIVE_DIRECTORY)
 !define OFF_ACTIVE_DIRECTORY(_alias,_label,_shape) ENTITY(_shape,black,active_directory,_label,_alias,OFF ACTIVE_DIRECTORY)
 !define OFF_ACTIVE_DIRECTORY(_alias,_label,_shape,_color) ENTITY(_shape,_color,active_directory,_label,_alias,OFF ACTIVE_DIRECTORY)
-skinparam folderBackgroundColor<<OFF ACTIVE_DIRECTORY>> White

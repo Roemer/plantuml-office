@@ -41,4 +41,3 @@ sprite $contacts [48x36/16] {
 !define OFF_CONTACTS(_alias,_label) ENTITY(rectangle,black,contacts,_label,_alias,OFF CONTACTS)
 !define OFF_CONTACTS(_alias,_label,_shape) ENTITY(_shape,black,contacts,_label,_alias,OFF CONTACTS)
 !define OFF_CONTACTS(_alias,_label,_shape,_color) ENTITY(_shape,_color,contacts,_label,_alias,OFF CONTACTS)
-skinparam folderBackgroundColor<<OFF CONTACTS>> White

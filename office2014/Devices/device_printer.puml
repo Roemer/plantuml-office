@@ -45,4 +45,3 @@ sprite $device_printer [48x40/16] {
 !define OFF_DEVICE_PRINTER(_alias,_label) ENTITY(rectangle,black,device_printer,_label,_alias,OFF DEVICE_PRINTER)
 !define OFF_DEVICE_PRINTER(_alias,_label,_shape) ENTITY(_shape,black,device_printer,_label,_alias,OFF DEVICE_PRINTER)
 !define OFF_DEVICE_PRINTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_printer,_label,_alias,OFF DEVICE_PRINTER)
-skinparam folderBackgroundColor<<OFF DEVICE_PRINTER>> White

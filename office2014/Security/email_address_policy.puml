@@ -51,4 +51,3 @@ sprite $email_address_policy [48x46/16] {
 !define OFF_EMAIL_ADDRESS_POLICY(_alias,_label) ENTITY(rectangle,black,email_address_policy,_label,_alias,OFF EMAIL_ADDRESS_POLICY)
 !define OFF_EMAIL_ADDRESS_POLICY(_alias,_label,_shape) ENTITY(_shape,black,email_address_policy,_label,_alias,OFF EMAIL_ADDRESS_POLICY)
 !define OFF_EMAIL_ADDRESS_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,email_address_policy,_label,_alias,OFF EMAIL_ADDRESS_POLICY)
-skinparam folderBackgroundColor<<OFF EMAIL_ADDRESS_POLICY>> White

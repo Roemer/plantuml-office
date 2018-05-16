@@ -36,4 +36,3 @@ sprite $office_365_cloud [48x31/16] {
 !define OFF_OFFICE_365_CLOUD(_alias,_label) ENTITY(rectangle,black,office_365_cloud,_label,_alias,OFF OFFICE_365_CLOUD)
 !define OFF_OFFICE_365_CLOUD(_alias,_label,_shape) ENTITY(_shape,black,office_365_cloud,_label,_alias,OFF OFFICE_365_CLOUD)
 !define OFF_OFFICE_365_CLOUD(_alias,_label,_shape,_color) ENTITY(_shape,_color,office_365_cloud,_label,_alias,OFF OFFICE_365_CLOUD)
-skinparam folderBackgroundColor<<OFF OFFICE_365_CLOUD>> White

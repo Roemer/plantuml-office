@@ -51,4 +51,3 @@ sprite $um_enabled_mailbox [48x46/16] {
 !define OFF_UM_ENABLED_MAILBOX(_alias,_label) ENTITY(rectangle,black,um_enabled_mailbox,_label,_alias,OFF UM_ENABLED_MAILBOX)
 !define OFF_UM_ENABLED_MAILBOX(_alias,_label,_shape) ENTITY(_shape,black,um_enabled_mailbox,_label,_alias,OFF UM_ENABLED_MAILBOX)
 !define OFF_UM_ENABLED_MAILBOX(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_enabled_mailbox,_label,_alias,OFF UM_ENABLED_MAILBOX)
-skinparam folderBackgroundColor<<OFF UM_ENABLED_MAILBOX>> White

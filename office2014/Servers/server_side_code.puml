@@ -53,4 +53,3 @@ sprite $server_side_code [42x48/16] {
 !define OFF_SERVER_SIDE_CODE(_alias,_label) ENTITY(rectangle,black,server_side_code,_label,_alias,OFF SERVER_SIDE_CODE)
 !define OFF_SERVER_SIDE_CODE(_alias,_label,_shape) ENTITY(_shape,black,server_side_code,_label,_alias,OFF SERVER_SIDE_CODE)
 !define OFF_SERVER_SIDE_CODE(_alias,_label,_shape,_color) ENTITY(_shape,_color,server_side_code,_label,_alias,OFF SERVER_SIDE_CODE)
-skinparam folderBackgroundColor<<OFF SERVER_SIDE_CODE>> White

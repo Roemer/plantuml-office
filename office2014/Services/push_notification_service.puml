@@ -53,4 +53,3 @@ sprite $push_notification_service [41x48/16] {
 !define OFF_PUSH_NOTIFICATION_SERVICE(_alias,_label) ENTITY(rectangle,black,push_notification_service,_label,_alias,OFF PUSH_NOTIFICATION_SERVICE)
 !define OFF_PUSH_NOTIFICATION_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,push_notification_service,_label,_alias,OFF PUSH_NOTIFICATION_SERVICE)
 !define OFF_PUSH_NOTIFICATION_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,push_notification_service,_label,_alias,OFF PUSH_NOTIFICATION_SERVICE)
-skinparam folderBackgroundColor<<OFF PUSH_NOTIFICATION_SERVICE>> White

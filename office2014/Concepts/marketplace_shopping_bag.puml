@@ -53,4 +53,3 @@ sprite $marketplace_shopping_bag [38x48/16] {
 !define OFF_MARKETPLACE_SHOPPING_BAG(_alias,_label) ENTITY(rectangle,black,marketplace_shopping_bag,_label,_alias,OFF MARKETPLACE_SHOPPING_BAG)
 !define OFF_MARKETPLACE_SHOPPING_BAG(_alias,_label,_shape) ENTITY(_shape,black,marketplace_shopping_bag,_label,_alias,OFF MARKETPLACE_SHOPPING_BAG)
 !define OFF_MARKETPLACE_SHOPPING_BAG(_alias,_label,_shape,_color) ENTITY(_shape,_color,marketplace_shopping_bag,_label,_alias,OFF MARKETPLACE_SHOPPING_BAG)
-skinparam folderBackgroundColor<<OFF MARKETPLACE_SHOPPING_BAG>> White

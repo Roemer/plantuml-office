@@ -53,4 +53,3 @@ sprite $retention_policy [48x48/16] {
 !define OFF_RETENTION_POLICY(_alias,_label) ENTITY(rectangle,black,retention_policy,_label,_alias,OFF RETENTION_POLICY)
 !define OFF_RETENTION_POLICY(_alias,_label,_shape) ENTITY(_shape,black,retention_policy,_label,_alias,OFF RETENTION_POLICY)
 !define OFF_RETENTION_POLICY(_alias,_label,_shape,_color) ENTITY(_shape,_color,retention_policy,_label,_alias,OFF RETENTION_POLICY)
-skinparam folderBackgroundColor<<OFF RETENTION_POLICY>> White

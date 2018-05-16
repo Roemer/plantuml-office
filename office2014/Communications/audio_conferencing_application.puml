@@ -43,4 +43,3 @@ sprite $audio_conferencing_application [48x38/16] {
 !define OFF_AUDIO_CONFERENCING_APPLICATION(_alias,_label) ENTITY(rectangle,black,audio_conferencing_application,_label,_alias,OFF AUDIO_CONFERENCING_APPLICATION)
 !define OFF_AUDIO_CONFERENCING_APPLICATION(_alias,_label,_shape) ENTITY(_shape,black,audio_conferencing_application,_label,_alias,OFF AUDIO_CONFERENCING_APPLICATION)
 !define OFF_AUDIO_CONFERENCING_APPLICATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,audio_conferencing_application,_label,_alias,OFF AUDIO_CONFERENCING_APPLICATION)
-skinparam folderBackgroundColor<<OFF AUDIO_CONFERENCING_APPLICATION>> White

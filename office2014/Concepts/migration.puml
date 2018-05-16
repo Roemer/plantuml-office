@@ -34,4 +34,3 @@ sprite $migration [48x29/16] {
 !define OFF_MIGRATION(_alias,_label) ENTITY(rectangle,black,migration,_label,_alias,OFF MIGRATION)
 !define OFF_MIGRATION(_alias,_label,_shape) ENTITY(_shape,black,migration,_label,_alias,OFF MIGRATION)
 !define OFF_MIGRATION(_alias,_label,_shape,_color) ENTITY(_shape,_color,migration,_label,_alias,OFF MIGRATION)
-skinparam folderBackgroundColor<<OFF MIGRATION>> White

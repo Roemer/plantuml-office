@@ -53,4 +53,3 @@ sprite $file_key [44x48/16] {
 !define OFF_FILE_KEY(_alias,_label) ENTITY(rectangle,black,file_key,_label,_alias,OFF FILE_KEY)
 !define OFF_FILE_KEY(_alias,_label,_shape) ENTITY(_shape,black,file_key,_label,_alias,OFF FILE_KEY)
 !define OFF_FILE_KEY(_alias,_label,_shape,_color) ENTITY(_shape,_color,file_key,_label,_alias,OFF FILE_KEY)
-skinparam folderBackgroundColor<<OFF FILE_KEY>> White

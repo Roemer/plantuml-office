@@ -40,4 +40,3 @@ sprite $mainframe [48x35/16] {
 !define OFF_MAINFRAME(_alias,_label) ENTITY(rectangle,black,mainframe,_label,_alias,OFF MAINFRAME)
 !define OFF_MAINFRAME(_alias,_label,_shape) ENTITY(_shape,black,mainframe,_label,_alias,OFF MAINFRAME)
 !define OFF_MAINFRAME(_alias,_label,_shape,_color) ENTITY(_shape,_color,mainframe,_label,_alias,OFF MAINFRAME)
-skinparam folderBackgroundColor<<OFF MAINFRAME>> White

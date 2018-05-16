@@ -53,4 +53,3 @@ sprite $windows_server [45x48/16] {
 !define OFF_WINDOWS_SERVER(_alias,_label) ENTITY(rectangle,black,windows_server,_label,_alias,OFF WINDOWS_SERVER)
 !define OFF_WINDOWS_SERVER(_alias,_label,_shape) ENTITY(_shape,black,windows_server,_label,_alias,OFF WINDOWS_SERVER)
 !define OFF_WINDOWS_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,windows_server,_label,_alias,OFF WINDOWS_SERVER)
-skinparam folderBackgroundColor<<OFF WINDOWS_SERVER>> White

@@ -46,4 +46,3 @@ sprite $wiki_site [48x41/16] {
 !define OFF_WIKI_SITE(_alias,_label) ENTITY(rectangle,black,wiki_site,_label,_alias,OFF WIKI_SITE)
 !define OFF_WIKI_SITE(_alias,_label,_shape) ENTITY(_shape,black,wiki_site,_label,_alias,OFF WIKI_SITE)
 !define OFF_WIKI_SITE(_alias,_label,_shape,_color) ENTITY(_shape,_color,wiki_site,_label,_alias,OFF WIKI_SITE)
-skinparam folderBackgroundColor<<OFF WIKI_SITE>> White

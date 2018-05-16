@@ -53,4 +53,3 @@ sprite $unified_contact_store [46x48/16] {
 !define OFF_UNIFIED_CONTACT_STORE(_alias,_label) ENTITY(rectangle,black,unified_contact_store,_label,_alias,OFF UNIFIED_CONTACT_STORE)
 !define OFF_UNIFIED_CONTACT_STORE(_alias,_label,_shape) ENTITY(_shape,black,unified_contact_store,_label,_alias,OFF UNIFIED_CONTACT_STORE)
 !define OFF_UNIFIED_CONTACT_STORE(_alias,_label,_shape,_color) ENTITY(_shape,_color,unified_contact_store,_label,_alias,OFF UNIFIED_CONTACT_STORE)
-skinparam folderBackgroundColor<<OFF UNIFIED_CONTACT_STORE>> White

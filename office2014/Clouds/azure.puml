@@ -37,4 +37,3 @@ sprite $azure [48x32/16] {
 !define OFF_AZURE(_alias,_label) ENTITY(rectangle,black,azure,_label,_alias,OFF AZURE)
 !define OFF_AZURE(_alias,_label,_shape) ENTITY(_shape,black,azure,_label,_alias,OFF AZURE)
 !define OFF_AZURE(_alias,_label,_shape,_color) ENTITY(_shape,_color,azure,_label,_alias,OFF AZURE)
-skinparam folderBackgroundColor<<OFF AZURE>> White

@@ -47,4 +47,3 @@ sprite $video_workload [48x42/16] {
 !define OFF_VIDEO_WORKLOAD(_alias,_label) ENTITY(rectangle,black,video_workload,_label,_alias,OFF VIDEO_WORKLOAD)
 !define OFF_VIDEO_WORKLOAD(_alias,_label,_shape) ENTITY(_shape,black,video_workload,_label,_alias,OFF VIDEO_WORKLOAD)
 !define OFF_VIDEO_WORKLOAD(_alias,_label,_shape,_color) ENTITY(_shape,_color,video_workload,_label,_alias,OFF VIDEO_WORKLOAD)
-skinparam folderBackgroundColor<<OFF VIDEO_WORKLOAD>> White

@@ -42,4 +42,3 @@ sprite $application_hybrid [48x37/16] {
 !define OFF_APPLICATION_HYBRID(_alias,_label) ENTITY(rectangle,black,application_hybrid,_label,_alias,OFF APPLICATION_HYBRID)
 !define OFF_APPLICATION_HYBRID(_alias,_label,_shape) ENTITY(_shape,black,application_hybrid,_label,_alias,OFF APPLICATION_HYBRID)
 !define OFF_APPLICATION_HYBRID(_alias,_label,_shape,_color) ENTITY(_shape,_color,application_hybrid,_label,_alias,OFF APPLICATION_HYBRID)
-skinparam folderBackgroundColor<<OFF APPLICATION_HYBRID>> White

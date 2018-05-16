@@ -53,4 +53,3 @@ sprite $on_premises_user [40x48/16] {
 !define OFF_ON_PREMISES_USER(_alias,_label) ENTITY(rectangle,black,on_premises_user,_label,_alias,OFF ON_PREMISES_USER)
 !define OFF_ON_PREMISES_USER(_alias,_label,_shape) ENTITY(_shape,black,on_premises_user,_label,_alias,OFF ON_PREMISES_USER)
 !define OFF_ON_PREMISES_USER(_alias,_label,_shape,_color) ENTITY(_shape,_color,on_premises_user,_label,_alias,OFF ON_PREMISES_USER)
-skinparam folderBackgroundColor<<OFF ON_PREMISES_USER>> White

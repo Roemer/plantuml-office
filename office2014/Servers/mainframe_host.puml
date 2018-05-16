@@ -50,4 +50,3 @@ sprite $mainframe_host [48x45/16] {
 !define OFF_MAINFRAME_HOST(_alias,_label) ENTITY(rectangle,black,mainframe_host,_label,_alias,OFF MAINFRAME_HOST)
 !define OFF_MAINFRAME_HOST(_alias,_label,_shape) ENTITY(_shape,black,mainframe_host,_label,_alias,OFF MAINFRAME_HOST)
 !define OFF_MAINFRAME_HOST(_alias,_label,_shape,_color) ENTITY(_shape,_color,mainframe_host,_label,_alias,OFF MAINFRAME_HOST)
-skinparam folderBackgroundColor<<OFF MAINFRAME_HOST>> White

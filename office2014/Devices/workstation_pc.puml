@@ -53,4 +53,3 @@ sprite $workstation_pc [43x48/16] {
 !define OFF_WORKSTATION_PC(_alias,_label) ENTITY(rectangle,black,workstation_pc,_label,_alias,OFF WORKSTATION_PC)
 !define OFF_WORKSTATION_PC(_alias,_label,_shape) ENTITY(_shape,black,workstation_pc,_label,_alias,OFF WORKSTATION_PC)
 !define OFF_WORKSTATION_PC(_alias,_label,_shape,_color) ENTITY(_shape,_color,workstation_pc,_label,_alias,OFF WORKSTATION_PC)
-skinparam folderBackgroundColor<<OFF WORKSTATION_PC>> White

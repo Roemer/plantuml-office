@@ -53,4 +53,3 @@ sprite $writing_pencil [48x48/16] {
 !define OFF_WRITING_PENCIL(_alias,_label) ENTITY(rectangle,black,writing_pencil,_label,_alias,OFF WRITING_PENCIL)
 !define OFF_WRITING_PENCIL(_alias,_label,_shape) ENTITY(_shape,black,writing_pencil,_label,_alias,OFF WRITING_PENCIL)
 !define OFF_WRITING_PENCIL(_alias,_label,_shape,_color) ENTITY(_shape,_color,writing_pencil,_label,_alias,OFF WRITING_PENCIL)
-skinparam folderBackgroundColor<<OFF WRITING_PENCIL>> White

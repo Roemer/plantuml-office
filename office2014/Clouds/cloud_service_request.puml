@@ -43,4 +43,3 @@ sprite $cloud_service_request [48x38/16] {
 !define OFF_CLOUD_SERVICE_REQUEST(_alias,_label) ENTITY(rectangle,black,cloud_service_request,_label,_alias,OFF CLOUD_SERVICE_REQUEST)
 !define OFF_CLOUD_SERVICE_REQUEST(_alias,_label,_shape) ENTITY(_shape,black,cloud_service_request,_label,_alias,OFF CLOUD_SERVICE_REQUEST)
 !define OFF_CLOUD_SERVICE_REQUEST(_alias,_label,_shape,_color) ENTITY(_shape,_color,cloud_service_request,_label,_alias,OFF CLOUD_SERVICE_REQUEST)
-skinparam folderBackgroundColor<<OFF CLOUD_SERVICE_REQUEST>> White

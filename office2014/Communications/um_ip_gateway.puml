@@ -37,4 +37,3 @@ sprite $um_ip_gateway [48x32/16] {
 !define OFF_UM_IP_GATEWAY(_alias,_label) ENTITY(rectangle,black,um_ip_gateway,_label,_alias,OFF UM_IP_GATEWAY)
 !define OFF_UM_IP_GATEWAY(_alias,_label,_shape) ENTITY(_shape,black,um_ip_gateway,_label,_alias,OFF UM_IP_GATEWAY)
 !define OFF_UM_IP_GATEWAY(_alias,_label,_shape,_color) ENTITY(_shape,_color,um_ip_gateway,_label,_alias,OFF UM_IP_GATEWAY)
-skinparam folderBackgroundColor<<OFF UM_IP_GATEWAY>> White

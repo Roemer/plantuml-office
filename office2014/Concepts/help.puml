@@ -53,4 +53,3 @@ sprite $help [48x48/16] {
 !define OFF_HELP(_alias,_label) ENTITY(rectangle,black,help,_label,_alias,OFF HELP)
 !define OFF_HELP(_alias,_label,_shape) ENTITY(_shape,black,help,_label,_alias,OFF HELP)
 !define OFF_HELP(_alias,_label,_shape,_color) ENTITY(_shape,_color,help,_label,_alias,OFF HELP)
-skinparam folderBackgroundColor<<OFF HELP>> White

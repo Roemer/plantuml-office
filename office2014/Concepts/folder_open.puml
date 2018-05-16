@@ -42,4 +42,3 @@ sprite $folder_open [48x37/16] {
 !define OFF_FOLDER_OPEN(_alias,_label) ENTITY(rectangle,black,folder_open,_label,_alias,OFF FOLDER_OPEN)
 !define OFF_FOLDER_OPEN(_alias,_label,_shape) ENTITY(_shape,black,folder_open,_label,_alias,OFF FOLDER_OPEN)
 !define OFF_FOLDER_OPEN(_alias,_label,_shape,_color) ENTITY(_shape,_color,folder_open,_label,_alias,OFF FOLDER_OPEN)
-skinparam folderBackgroundColor<<OFF FOLDER_OPEN>> White

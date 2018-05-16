@@ -53,4 +53,3 @@ sprite $search [48x48/16] {
 !define OFF_SEARCH(_alias,_label) ENTITY(rectangle,black,search,_label,_alias,OFF SEARCH)
 !define OFF_SEARCH(_alias,_label,_shape) ENTITY(_shape,black,search,_label,_alias,OFF SEARCH)
 !define OFF_SEARCH(_alias,_label,_shape,_color) ENTITY(_shape,_color,search,_label,_alias,OFF SEARCH)
-skinparam folderBackgroundColor<<OFF SEARCH>> White

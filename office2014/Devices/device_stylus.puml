@@ -53,4 +53,3 @@ sprite $device_stylus [48x48/16] {
 !define OFF_DEVICE_STYLUS(_alias,_label) ENTITY(rectangle,black,device_stylus,_label,_alias,OFF DEVICE_STYLUS)
 !define OFF_DEVICE_STYLUS(_alias,_label,_shape) ENTITY(_shape,black,device_stylus,_label,_alias,OFF DEVICE_STYLUS)
 !define OFF_DEVICE_STYLUS(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_stylus,_label,_alias,OFF DEVICE_STYLUS)
-skinparam folderBackgroundColor<<OFF DEVICE_STYLUS>> White

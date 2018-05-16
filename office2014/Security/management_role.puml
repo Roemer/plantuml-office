@@ -53,4 +53,3 @@ sprite $management_role [48x48/16] {
 !define OFF_MANAGEMENT_ROLE(_alias,_label) ENTITY(rectangle,black,management_role,_label,_alias,OFF MANAGEMENT_ROLE)
 !define OFF_MANAGEMENT_ROLE(_alias,_label,_shape) ENTITY(_shape,black,management_role,_label,_alias,OFF MANAGEMENT_ROLE)
 !define OFF_MANAGEMENT_ROLE(_alias,_label,_shape,_color) ENTITY(_shape,_color,management_role,_label,_alias,OFF MANAGEMENT_ROLE)
-skinparam folderBackgroundColor<<OFF MANAGEMENT_ROLE>> White

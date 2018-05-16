@@ -53,4 +53,3 @@ sprite $datacenter [48x48/16] {
 !define OFF_DATACENTER(_alias,_label) ENTITY(rectangle,black,datacenter,_label,_alias,OFF DATACENTER)
 !define OFF_DATACENTER(_alias,_label,_shape) ENTITY(_shape,black,datacenter,_label,_alias,OFF DATACENTER)
 !define OFF_DATACENTER(_alias,_label,_shape,_color) ENTITY(_shape,_color,datacenter,_label,_alias,OFF DATACENTER)
-skinparam folderBackgroundColor<<OFF DATACENTER>> White

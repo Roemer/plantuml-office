@@ -53,4 +53,3 @@ sprite $survivable_branch_appliance [31x48/16] {
 !define OFF_SURVIVABLE_BRANCH_APPLIANCE(_alias,_label) ENTITY(rectangle,black,survivable_branch_appliance,_label,_alias,OFF SURVIVABLE_BRANCH_APPLIANCE)
 !define OFF_SURVIVABLE_BRANCH_APPLIANCE(_alias,_label,_shape) ENTITY(_shape,black,survivable_branch_appliance,_label,_alias,OFF SURVIVABLE_BRANCH_APPLIANCE)
 !define OFF_SURVIVABLE_BRANCH_APPLIANCE(_alias,_label,_shape,_color) ENTITY(_shape,_color,survivable_branch_appliance,_label,_alias,OFF SURVIVABLE_BRANCH_APPLIANCE)
-skinparam folderBackgroundColor<<OFF SURVIVABLE_BRANCH_APPLIANCE>> White

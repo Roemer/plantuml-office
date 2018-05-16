@@ -53,4 +53,3 @@ sprite $database_public_folder [46x48/16] {
 !define OFF_DATABASE_PUBLIC_FOLDER(_alias,_label) ENTITY(rectangle,black,database_public_folder,_label,_alias,OFF DATABASE_PUBLIC_FOLDER)
 !define OFF_DATABASE_PUBLIC_FOLDER(_alias,_label,_shape) ENTITY(_shape,black,database_public_folder,_label,_alias,OFF DATABASE_PUBLIC_FOLDER)
 !define OFF_DATABASE_PUBLIC_FOLDER(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_public_folder,_label,_alias,OFF DATABASE_PUBLIC_FOLDER)
-skinparam folderBackgroundColor<<OFF DATABASE_PUBLIC_FOLDER>> White

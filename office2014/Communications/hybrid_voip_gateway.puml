@@ -37,4 +37,3 @@ sprite $hybrid_voip_gateway [48x32/16] {
 !define OFF_HYBRID_VOIP_GATEWAY(_alias,_label) ENTITY(rectangle,black,hybrid_voip_gateway,_label,_alias,OFF HYBRID_VOIP_GATEWAY)
 !define OFF_HYBRID_VOIP_GATEWAY(_alias,_label,_shape) ENTITY(_shape,black,hybrid_voip_gateway,_label,_alias,OFF HYBRID_VOIP_GATEWAY)
 !define OFF_HYBRID_VOIP_GATEWAY(_alias,_label,_shape,_color) ENTITY(_shape,_color,hybrid_voip_gateway,_label,_alias,OFF HYBRID_VOIP_GATEWAY)
-skinparam folderBackgroundColor<<OFF HYBRID_VOIP_GATEWAY>> White

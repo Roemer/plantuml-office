@@ -53,4 +53,3 @@ sprite $central_management_service [45x48/16] {
 !define OFF_CENTRAL_MANAGEMENT_SERVICE(_alias,_label) ENTITY(rectangle,black,central_management_service,_label,_alias,OFF CENTRAL_MANAGEMENT_SERVICE)
 !define OFF_CENTRAL_MANAGEMENT_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,central_management_service,_label,_alias,OFF CENTRAL_MANAGEMENT_SERVICE)
 !define OFF_CENTRAL_MANAGEMENT_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,central_management_service,_label,_alias,OFF CENTRAL_MANAGEMENT_SERVICE)
-skinparam folderBackgroundColor<<OFF CENTRAL_MANAGEMENT_SERVICE>> White

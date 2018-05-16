@@ -53,4 +53,3 @@ sprite $database_partition_2 [46x48/16] {
 !define OFF_DATABASE_PARTITION_2(_alias,_label) ENTITY(rectangle,black,database_partition_2,_label,_alias,OFF DATABASE_PARTITION_2)
 !define OFF_DATABASE_PARTITION_2(_alias,_label,_shape) ENTITY(_shape,black,database_partition_2,_label,_alias,OFF DATABASE_PARTITION_2)
 !define OFF_DATABASE_PARTITION_2(_alias,_label,_shape,_color) ENTITY(_shape,_color,database_partition_2,_label,_alias,OFF DATABASE_PARTITION_2)
-skinparam folderBackgroundColor<<OFF DATABASE_PARTITION_2>> White

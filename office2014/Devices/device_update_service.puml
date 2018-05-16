@@ -53,4 +53,3 @@ sprite $device_update_service [44x48/16] {
 !define OFF_DEVICE_UPDATE_SERVICE(_alias,_label) ENTITY(rectangle,black,device_update_service,_label,_alias,OFF DEVICE_UPDATE_SERVICE)
 !define OFF_DEVICE_UPDATE_SERVICE(_alias,_label,_shape) ENTITY(_shape,black,device_update_service,_label,_alias,OFF DEVICE_UPDATE_SERVICE)
 !define OFF_DEVICE_UPDATE_SERVICE(_alias,_label,_shape,_color) ENTITY(_shape,_color,device_update_service,_label,_alias,OFF DEVICE_UPDATE_SERVICE)
-skinparam folderBackgroundColor<<OFF DEVICE_UPDATE_SERVICE>> White

@@ -24,4 +24,3 @@ sprite $link [48x19/16] {
 !define OFF_LINK(_alias,_label) ENTITY(rectangle,black,link,_label,_alias,OFF LINK)
 !define OFF_LINK(_alias,_label,_shape) ENTITY(_shape,black,link,_label,_alias,OFF LINK)
 !define OFF_LINK(_alias,_label,_shape,_color) ENTITY(_shape,_color,link,_label,_alias,OFF LINK)
-skinparam folderBackgroundColor<<OFF LINK>> White

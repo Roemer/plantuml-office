@@ -53,4 +53,3 @@ sprite $virtual_application_server_blue [42x48/16] {
 !define OFF_VIRTUAL_APPLICATION_SERVER_BLUE(_alias,_label) ENTITY(rectangle,black,virtual_application_server_blue,_label,_alias,OFF VIRTUAL_APPLICATION_SERVER_BLUE)
 !define OFF_VIRTUAL_APPLICATION_SERVER_BLUE(_alias,_label,_shape) ENTITY(_shape,black,virtual_application_server_blue,_label,_alias,OFF VIRTUAL_APPLICATION_SERVER_BLUE)
 !define OFF_VIRTUAL_APPLICATION_SERVER_BLUE(_alias,_label,_shape,_color) ENTITY(_shape,_color,virtual_application_server_blue,_label,_alias,OFF VIRTUAL_APPLICATION_SERVER_BLUE)
-skinparam folderBackgroundColor<<OFF VIRTUAL_APPLICATION_SERVER_BLUE>> White

@@ -51,4 +51,3 @@ sprite $remote_move_request [48x46/16] {
 !define OFF_REMOTE_MOVE_REQUEST(_alias,_label) ENTITY(rectangle,black,remote_move_request,_label,_alias,OFF REMOTE_MOVE_REQUEST)
 !define OFF_REMOTE_MOVE_REQUEST(_alias,_label,_shape) ENTITY(_shape,black,remote_move_request,_label,_alias,OFF REMOTE_MOVE_REQUEST)
 !define OFF_REMOTE_MOVE_REQUEST(_alias,_label,_shape,_color) ENTITY(_shape,_color,remote_move_request,_label,_alias,OFF REMOTE_MOVE_REQUEST)
-skinparam folderBackgroundColor<<OFF REMOTE_MOVE_REQUEST>> White

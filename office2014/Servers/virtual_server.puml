@@ -53,4 +53,3 @@ sprite $virtual_server [27x48/16] {
 !define OFF_VIRTUAL_SERVER(_alias,_label) ENTITY(rectangle,black,virtual_server,_label,_alias,OFF VIRTUAL_SERVER)
 !define OFF_VIRTUAL_SERVER(_alias,_label,_shape) ENTITY(_shape,black,virtual_server,_label,_alias,OFF VIRTUAL_SERVER)
 !define OFF_VIRTUAL_SERVER(_alias,_label,_shape,_color) ENTITY(_shape,_color,virtual_server,_label,_alias,OFF VIRTUAL_SERVER)
-skinparam folderBackgroundColor<<OFF VIRTUAL_SERVER>> White

@@ -45,4 +45,3 @@ sprite $secure_messaging [48x40/16] {
 !define OFF_SECURE_MESSAGING(_alias,_label) ENTITY(rectangle,black,secure_messaging,_label,_alias,OFF SECURE_MESSAGING)
 !define OFF_SECURE_MESSAGING(_alias,_label,_shape) ENTITY(_shape,black,secure_messaging,_label,_alias,OFF SECURE_MESSAGING)
 !define OFF_SECURE_MESSAGING(_alias,_label,_shape,_color) ENTITY(_shape,_color,secure_messaging,_label,_alias,OFF SECURE_MESSAGING)
-skinparam folderBackgroundColor<<OFF SECURE_MESSAGING>> White
