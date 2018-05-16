@@ -2,7 +2,7 @@
 Office Icons for PlantUML
 
 ## Usage
-There are sprite (monchrome) and colored png icons available. Be aware that there are also sprites with a color in the name (due to automatically generating the files) which are the same as the non-colored ones. Use the png icons if you need the colored version. See the following example on how to use the sprites or the pngs.
+There are sprites (*.puml) and colored png icons available. Be aware that the sprites are all only monchrome even if they have a color in their name (due to automatically generating the files). You can either color the sprites with the macro (see examples below) or directly use the fully colored pngs. See the following examples on how to use the sprites, the pngs and the macros.
 
 Example of usage:
 ```
